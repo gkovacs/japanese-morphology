@@ -45,8 +45,9 @@ ICHIDAN_V_SUFFIX:
 '' NEG
 '' STEM
 '' TETA
-られ POTENTIAL
+られ POTENTIALONLY
 よ VOLITIONAL
+れ EBAONLY
 
 IKU_V_SUFFIX:
 く INF
@@ -146,7 +147,7 @@ DEDA:
 で End command
 だ End past
 だり End listing actions
-だら End conditional tara
+だら End tara conditional
 
 INF:
 '' End inf
@@ -157,15 +158,22 @@ STEM:
 ません End polite negative
 ませんでした End polite past negative
 
-POTENTIAL:
-'' ICHIDAN_V_SUFFIX potential
-
 VOLITIONAL:
 う End volitional
 
 NEG:
 ない End negative
 なかった End negative past
+
+POTENTIAL:
+'' POTENTIALONLY
+'' EBA
+
+POTENTIALONLY:
+'' ICHIDAN_V_SUFFIX potential
+
+EBA:
+ば End eba conditional
 
 End:
 '#' End None
