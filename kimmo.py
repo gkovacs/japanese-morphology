@@ -93,23 +93,31 @@ class KimmoRuleSet(yaml.YAMLObject):
     
     def _generate(self, pairs, state_list, morphology_state=None, word='',
     lexical=None, surface=None, features='', log=None):
+        feat = None
         if morphology_state:
             morph = self._morphology
             morphed = False
             for state, feat in morph.next_states(morphology_state, word):
                 if feat is not None:
-                    log.addFeature(feat)
+                    #log.addFeature(feat)
                     newfeat = combine_features(features, feat)
-                else: newfeat = features
-                for result in self._generate(pairs, state_list,
-                state, '', lexical, surface, newfeat, log):
+                else:
+                    newfeat = features
+                    #log.clearFeatures()
+                for result in self._generate(pairs, state_list, state, '', lexical, surface, newfeat, log):
+                    #log.clearFeatures()
+                    log.addFeature(feat)
                     yield result
                     morphed = True
-            if morphed: return
+                    #log.clearFeatures()
+            if morphed:
+                #log.clearFeatures()
+                return
             lexical_chars = list(morph.valid_lexical(morphology_state,
             word, self._pair_alphabet)) + list(self._null)
-        else: lexical_chars = None
-        
+        else:
+            #log.clearFeatures()
+            lexical_chars = None
         if lexical == '' or surface == '':
             if morphology_state is None or morphology_state.lower() == 'end':
                 # check that all rules are in accepting states
@@ -117,10 +125,15 @@ class KimmoRuleSet(yaml.YAMLObject):
                     rule = self._rules[r]
                     state = state_list[r]
                     if state not in rule.fsa().finals():
+                        log.clearFeatures()
                         return
                 if log:
                     log.succeed(pairs)
+                    #if feat is not None:
+                    #    log.addFeature(feat)
+                #log.clearFeatures()
                 yield pairs, features
+                #log.clearFeatures()
                 return
             
         next_pairs = [p for p in self._pair_alphabet if
@@ -129,8 +142,10 @@ class KimmoRuleSet(yaml.YAMLObject):
         for pair in next_pairs:
             if pair.input() == self._null and pair.output() == self._null:
                 print "Warning: The pair 0:0 would be an infinite loop. Ignoring it."
+                log.clearFeatures()
                 continue
             if lexical_chars is not None and pair.input() not in lexical_chars:
+                #log.clearLastFeature()
                 continue
             new_states = state_list[:]
             for r in range(len(self._rules)):
@@ -144,6 +159,8 @@ class KimmoRuleSet(yaml.YAMLObject):
             if log:
                 log.step(pairs, pair, self._rules, state_list, new_states,
                 morphology_state, newword)
+                #if feat:
+                #    log.addFeature(feat)
             fail = False
             for new_state in new_states:
                 if new_state is None or str(new_state) == '0'\
@@ -392,11 +409,16 @@ class TextTrace(object):
         specifies how much text will be output to the screen.
         """
         self.verbosity = verbosity
-        self.features = []
+        self.features = [[]]
     def addFeature(self, feat):
         if feat == None or feat == "":
             return
-        self.features.append(feat)
+        self.features[-1].append(feat)
+    #def clearFeatures(self):
+    #    self.features.append([])
+    #def clearLastFeature(self):
+    #    if len(self.features[-1]) > 0:
+    #        self.features[-1].pop()
     def reset(self): pass
     def step(self, pairs, curr, rules, prev_states, states,morphology_state, word):
         if (self.verbosity == 0):

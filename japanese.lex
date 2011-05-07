@@ -73,7 +73,7 @@ SU_V_SUFFIX:
 せ POTENTIAL
 そ VOLITIONAL
 
-MASU_V_SUFFIX
+MASU_V_SUFFIX:
 す INF
 さ NEG
 し STEM
@@ -156,6 +156,7 @@ STEM:
 '' End stem
 ま MASU_V_SUFFIX polite
 ません End polite negative
+ました End polite past
 ませんでした End polite past negative
 
 VOLITIONAL:
@@ -176,5 +177,5 @@ EBA:
 ば End eba conditional
 
 End:
-'#' End None
+'#' End SUCCESS
 

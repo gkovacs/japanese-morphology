@@ -24,8 +24,19 @@ for line in recfile:
         print line
         continue
     featurelog = TextTrace(0)
-    print listtostr(k.recognize(line, featurelog)), '<=', line
-    print " ".join(featurelog.features)
+    #print listtostr(k.recognize(line, featurelog)), '<=', line
+    k.recognize(line, featurelog)
+    print line,
+    success = False
+    for feat in featurelog.features:
+        if "SUCCESS" in feat:
+            success = True
+            feat.remove("SUCCESS")
+            print " ".join(feat[::-1]),
+    if not success:
+        print "[FAILURE]"
+    else:
+        print ""
     #print log
 
 recfile.close()
