@@ -1,11 +1,31 @@
 Begin: Root
-Root: NounRoot VerbRoot
+Root: NounRoot VerbRoot AdjRoot
 NounRoot: N_ROOT
 VerbRoot: ICHIDAN_V_ROOT SURU_V_ROOT KURU_V_ROOT IKU_V_ROOT KU_V_ROOT SU_V_ROOT U_V_ROOT GU_V_ROOT BU_V_ROOT TSU_V_ROOT MU_V_ROOT NU_V_ROOT RU_V_ROOT
+AdjRoot: I_ADJ_ROOT NA_ADJ_ROOT
 AfterNoun: N_SUFFIX
 
 N_ROOT:
 漢字 End Noun(kanji)
+
+I_ADJ_ROOT:
+恥ずかし I_ADJ_SUFFIX Adj(embarrasing)
+広 I_ADJ_SUFFIX Adj(spacious)
+
+NA_ADJ_ROOT:
+簡単 NA_ADJ_SUFFIX Adj(simple)
+きれい NA_ADJ_SUFFIX Adj(clean)
+好き NA_ADJ_SUFFIX Adj(like)
+
+I_ADJ_SUFFIX:
+い End
+かった End past
+
+NA_ADJ_SUFFIX:
+な End
+た End
+だった End past
+'' End
 
 ICHIDAN_V_ROOT:
 見 ICHIDAN_V_SUFFIX Verb(see)
