@@ -25,7 +25,7 @@ for line in recfile:
         continue
     featurelog = TextTrace(0)
     print listtostr(k.recognize(line, featurelog)), '<=', line
-    print "".join(featurelog.features)
+    print " ".join(featurelog.features)
     #print log
 
 recfile.close()

@@ -394,6 +394,8 @@ class TextTrace(object):
         self.verbosity = verbosity
         self.features = []
     def addFeature(self, feat):
+        if feat == None or feat == "":
+            return
         self.features.append(feat)
     def reset(self): pass
     def step(self, pairs, curr, rules, prev_states, states,morphology_state, word):

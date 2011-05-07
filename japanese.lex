@@ -42,73 +42,103 @@ RU_V_ROOT:
 
 ICHIDAN_V_SUFFIX:
 る INF
+'' NEG
 '' STEM
 '' TETA
+られ POTENTIAL
 
 IKU_V_SUFFIX:
 く INF
+か NEG
 き STEM
 っ TETA
+け POTENTIAL
 
 KU_V_SUFFIX:
 く INF
+か NEG
 き STEM
 い TETA
+け POTENTIAL
 
 SU_V_SUFFIX:
 す INF
+さ NEG
 し STEM
 し TETA
+せ POTENTIAL
 
 U_V_SUFFIX:
 う INF
+わ NEG
 い STEM
 っ TETA
+え POTENTIAL
 
 GU_V_SUFFIX:
 ぐ INF
+が NEG
 ぎ STEM
 い DEDA
+げ POTENTIAL
 
 BU_V_SUFFIX:
 ぶ INF
+ば NEG
 び STEM
 ん DEDA
+べ POTENTIAL
 
 TSU_V_SUFFIX:
 つ INF
+た NEG
 ち STEM
 っ TETA
+て POTENTIAL
 
 MU_V_SUFFIX:
 む INF
+ま NEG
 み STEM
 ん DEDA
+め POTENTIAL
 
 NU_V_SUFFIX:
 ぬ INF
+な NEG
 に STEM
 ん DEDA
+ね POTENTIAL
 
 RU_V_SUFFIX:
 る INF
+ら NEG
 り STEM
 っ TETA
+れ POTENTIAL
 
 TETA:
-て End | command
-た End | past
+て End command
+た End past
 
 DEDA:
-で End | command
-だ End | past
+で End command
+だ End past
 
 INF:
-'' End | inf
+'' End inf
 
 STEM:
-'' End | stem
-ま SU_V_SUFFIX | polite
+'' End stem
+ま SU_V_SUFFIX polite
+ません End polite negative
+
+POTENTIAL:
+'' ICHIDAN_V_SUFFIX potential
+
+NEG:
+ない End negative
+なかった End negative past
 
 End:
 '#' End None
