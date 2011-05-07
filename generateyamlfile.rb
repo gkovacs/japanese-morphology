@@ -1,4 +1,5 @@
-#!/usr/bin/ruby
+#!/usr/bin/ruby1.9
+# encoding: utf-8
 
 arabnum = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
@@ -10,7 +11,17 @@ hiragana = ["ぁ", "あ", "ぃ", "い", "ぅ", "う", "ぇ", "え", "ぉ", "お"
 
 katakana = []
 
-kanji = ["漢", "字", "見", "行", "話", "買", "歩", "泳", "遊", "待", "読", "死", "取", "来", "簡", "単", "広", "好", "恥"]
+kanji = []
+
+File.open("japanese.rec", "r") { |f|
+    while line = f.gets()
+        line.strip().each_char { |c|
+            if !hiragana.include?(c) and !katakana.include?(c) and !romaji.include?(c) and !kanji.include?(c)
+                kanji.push(c)
+            end
+        }
+    end
+}
 
 all = hiragana + katakana + romaji + kanji
 

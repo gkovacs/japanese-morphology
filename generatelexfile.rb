@@ -1,3 +1,26 @@
+#!/usr/bin/ruby1.9
+# encoding: utf-8
+
+nogenerate = ARGV.include?("nogenerate")
+
+nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony"}
+iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious"}
+naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like"}
+ichidanverbs = {"食べ" => "eat", "見" => "see"}
+suruverbs = {"結婚" => "get married", "卒業" => "graduate"}
+kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
+ikuverbs = {"連れて" => "take someone along", "持って" => "carry something away"}
+kuverbs = {"歩" => "walk"}
+suverbs = {"話" => "speak"}
+uverbs = {"買" => "buy"}
+guverbs = {"泳" => "swim"}
+buverbs = {"遊" => "play"}
+tsuverbs = {"持" => "wait"}
+muverbs = {"読" => "read"}
+nuverbs = {"死" => "die"}
+ruverbs = {"取" => "take"}
+
+generateddocument = <<EOSSTRING
 Begin: Root
 Root: NounRoot VerbRoot AdjRoot
 NounRoot: N_ROOT
@@ -6,17 +29,19 @@ AdjRoot: I_ADJ_ROOT NA_ADJ_ROOT
 AfterNoun: N_SUFFIX
 
 N_ROOT:
-漢字 End Noun(kanji)
-結婚式 End Noun(wedding ceremony)
+#{
+nouns.map {|k,v| k + " End Noun(" + v + ")"}.join("\n")
+}
 
 I_ADJ_ROOT:
-恥ずかし I_ADJ_SUFFIX Adj(embarrasing)
-広 I_ADJ_SUFFIX Adj(spacious)
+#{
+iadjs.map {|k,v| k + " I_ADJ_SUFFIX Adj(" + v + ")"}.join("\n")
+}
 
 NA_ADJ_ROOT:
-簡単 NA_ADJ_SUFFIX Adj(simple)
-きれい NA_ADJ_SUFFIX Adj(clean)
-好き NA_ADJ_SUFFIX Adj(like)
+#{
+naadjs.map {|k,v| k + " NA_ADJ_SUFFIX Adj(" + v + ")"}.join("\n")
+}
 
 I_ADJ_SUFFIX:
 い End
@@ -29,13 +54,15 @@ NA_ADJ_SUFFIX:
 '' End
 
 ICHIDAN_V_ROOT:
-食べ ICHIDAN_V_SUFFIX Verb(eat)
-見 ICHIDAN_V_SUFFIX Verb(see)
+#{
+ichidanverbs.map {|k,v| k + " ICHIDAN_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 SURU_V_ROOT:
 '' SURU_V_INTERM Verb(do)
-結婚 SURU_V_INTERM Verb(get married)
-卒業 SURU_V_INTERM Verb(graduate)
+#{
+suruverbs.map {|k,v| k + " SURU_V_INTERM Verb(" + v + ")"}.join("\n")
+}
 
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
@@ -45,8 +72,9 @@ SURU_V_INTERM:
 
 KURU_V_ROOT:
 '' KURU_V_INTERM Verb(come)
-連れて KURU_V_INTERM Verb(bring someone along)
-持って KURU_V_INTERM Verb(bring something)
+#{
+kuruverbs.map {|k,v| k + " KURU_V_INTERM Verb(" + v + ")"}.join("\n")
+}
 
 KURU_V_INTERM:
 来 ICHIDAN_V_SUFFIX
@@ -56,39 +84,58 @@ KURU_V_INTERM:
 
 IKU_V_ROOT:
 '' IKU_V_INTERM Verb(go)
-連れて IKU_V_INTERM Verb(take someone along)
-持って IKU_V_INTERM Verb(carry something away)
+#{
+ikuverbs.map {|k,v| k + " IKU_V_INTERM Verb(" + v + ")"}.join("\n")
+}
 
 IKU_V_INTERM:
 い IKU_V_SUFFIX
 行 IKU_V_SUFFIX
 
 KU_V_ROOT:
-歩 KU_V_SUFFIX Verb(walk)
+#{
+kuverbs.map {|k,v| k + " KU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 SU_V_ROOT:
-話 SU_V_SUFFIX Verb(speak)
+#{
+suverbs.map {|k,v| k + " SU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 U_V_ROOT:
-買 U_V_SUFFIX Verb(buy)
+#{
+uverbs.map {|k,v| k + " U_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 GU_V_ROOT:
-泳 GU_V_SUFFIX Verb(swim)
+#{
+guverbs.map {|k,v| k + " GU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 BU_V_ROOT:
-遊 BU_V_SUFFIX Verb(play)
+#{
+buverbs.map {|k,v| k + " BU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 TSU_V_ROOT:
-持 TSU_V_SUFFIX Verb(wait)
+#{
+tsuverbs.map {|k,v| k + " TSU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 MU_V_ROOT:
-読 MU_V_SUFFIX Verb(read)
+#{
+muverbs.map {|k,v| k + " MU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 NU_V_ROOT:
-死 NU_V_SUFFIX Verb(die)
+#{
+nuverbs.map {|k,v| k + " NU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 RU_V_ROOT:
-取 RU_V_SUFFIX Verb(take)
+#{
+ruverbs.map {|k,v| k + " RU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+}
 
 ICHIDAN_V_SUFFIX:
 る INF
@@ -251,3 +298,6 @@ EBA:
 
 End:
 '#' End SUCCESS
+EOSSTRING
+
+puts generateddocument
