@@ -46,6 +46,7 @@ ICHIDAN_V_SUFFIX:
 '' STEM
 '' TETA
 られ POTENTIAL
+よ VOLITIONAL
 
 IKU_V_SUFFIX:
 く INF
@@ -53,6 +54,7 @@ IKU_V_SUFFIX:
 き STEM
 っ TETA
 け POTENTIAL
+こ VOLITIONAL
 
 KU_V_SUFFIX:
 く INF
@@ -60,6 +62,7 @@ KU_V_SUFFIX:
 き STEM
 い TETA
 け POTENTIAL
+こ VOLITIONAL
 
 SU_V_SUFFIX:
 す INF
@@ -67,6 +70,15 @@ SU_V_SUFFIX:
 し STEM
 し TETA
 せ POTENTIAL
+そ VOLITIONAL
+
+MASU_V_SUFFIX
+す INF
+さ NEG
+し STEM
+し TETA
+せ POTENTIAL
+しよ VOLITIONAL
 
 U_V_SUFFIX:
 う INF
@@ -74,6 +86,7 @@ U_V_SUFFIX:
 い STEM
 っ TETA
 え POTENTIAL
+お VOLITIONAL
 
 GU_V_SUFFIX:
 ぐ INF
@@ -81,6 +94,7 @@ GU_V_SUFFIX:
 ぎ STEM
 い DEDA
 げ POTENTIAL
+ご VOLITIONAL
 
 BU_V_SUFFIX:
 ぶ INF
@@ -88,6 +102,7 @@ BU_V_SUFFIX:
 び STEM
 ん DEDA
 べ POTENTIAL
+ぼ VOLITIONAL
 
 TSU_V_SUFFIX:
 つ INF
@@ -95,6 +110,7 @@ TSU_V_SUFFIX:
 ち STEM
 っ TETA
 て POTENTIAL
+と VOLITIONAL
 
 MU_V_SUFFIX:
 む INF
@@ -102,6 +118,7 @@ MU_V_SUFFIX:
 み STEM
 ん DEDA
 め POTENTIAL
+も VOLITIONAL
 
 NU_V_SUFFIX:
 ぬ INF
@@ -109,6 +126,7 @@ NU_V_SUFFIX:
 に STEM
 ん DEDA
 ね POTENTIAL
+の VOLITIONAL
 
 RU_V_SUFFIX:
 る INF
@@ -116,25 +134,34 @@ RU_V_SUFFIX:
 り STEM
 っ TETA
 れ POTENTIAL
+ろ VOLITIONAL
 
 TETA:
 て End command
 た End past
+たり End listing actions
+たら End conditional tara
 
 DEDA:
 で End command
 だ End past
+だり End listing actions
+だら End conditional tara
 
 INF:
 '' End inf
 
 STEM:
 '' End stem
-ま SU_V_SUFFIX polite
+ま MASU_V_SUFFIX polite
 ません End polite negative
+ませんでした End polite past negative
 
 POTENTIAL:
 '' ICHIDAN_V_SUFFIX potential
+
+VOLITIONAL:
+う End volitional
 
 NEG:
 ない End negative
