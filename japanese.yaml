@@ -1,11 +1,11 @@
 # this is a comment at the top of my spanish.yaml file
 boundary: '#'
 lexicon: japanese.lex
-defaults: "ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ ゝ ゞ ゟ a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 行 く 見 た て 話 読 み で 泳 ば 来 恥 好 だ 広 漢 字 面 白 食 日 本 人 覚 開 強 卒 業 語 寝 買 飲 学 生 書 勉 は 方 降 寒 元 気 難 聞 夏 知 簡 単 貸 。 +:0 #"
+defaults: "ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ ゝ ゞ ゟ a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 行 く 見 た て 話 読 み で 泳 ば 来 恥 好 だ 広 漢 字 面 白 食 日 本 人 覚 開 強 卒 業 語 寝 買 飲 学 生 書 勉 は 方 降 寒 元 気 難 聞 夏 知 簡 単 貸 二 百 2 1 5 時 間 半 一 目 。 +:0 #"
 subsets:
  "ARABNUM": 0 1 2 3 4 5 6 7 8 9
  "HIRAGANA": ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ ゝ ゞ ゟ
- "@": "ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ ゝ ゞ ゟ a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 行 く 見 た て 話 読 み で 泳 ば 来 恥 好 だ 広 漢 字 面 白 食 日 本 人 覚 開 強 卒 業 語 寝 買 飲 学 生 書 勉 は 方 降 寒 元 気 難 聞 夏 知 簡 単 貸 。 + # 0"
+ "@": "ぁ あ ぃ い ぅ う ぇ え ぉ お か が き ぎ く ぐ け げ こ ご さ ざ し じ す ず せ ぜ そ ぞ た だ ち ぢ っ つ づ て で と ど な に ぬ ね の は ば ぱ ひ び ぴ ふ ぶ ぷ へ べ ぺ ほ ぼ ぽ ま み む め も ゃ や ゅ ゆ ょ よ ら り る れ ろ ゎ わ ゐ ゑ を ん ゔ ゕ ゖ ゝ ゞ ゟ a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 行 く 見 た て 話 読 み で 泳 ば 来 恥 好 だ 広 漢 字 面 白 食 日 本 人 覚 開 強 卒 業 語 寝 買 飲 学 生 書 勉 は 方 降 寒 元 気 難 聞 夏 知 簡 単 貸 二 百 2 1 5 時 間 半 一 目 。 + # 0"
 rules:
   norules:
    start:

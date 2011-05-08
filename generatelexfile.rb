@@ -3,6 +3,8 @@
 
 usedictionary = ARGV.include?("usedictionary")
 
+numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "〇" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
+counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "セント" => "cents", "歳" => "years of age", "回" => "times", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second"}
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "夏" => "summer"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively"}
@@ -144,6 +146,17 @@ File.open("edict2-utf8", "r") { |f|
 end
 
 generateddocument = <<EOSSTRING
+NUMBER:
+#{
+numbers.map {|k,v| k + " NUMBER_SUFFIX " + v}.join("\n")
+}
+
+COUNTER:
+'' End number
+#{
+counters.map {|k,v| k + " POSTCOUNTER " + v}.join("\n")
+}
+
 NOUN_ROOT:
 #{
 nouns.map {|k,v| k + " NOUN_SUFFIX Noun(" + v + ")"}.join("\n")
