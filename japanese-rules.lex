@@ -224,6 +224,12 @@ VERBTE:
 い ICHIDAN_V_SUFFIX ongoing action
 お KU_V_SUFFIX done in advance
 '' KURERU
+'' APOLOGY
+
+APOLOGY:
+すみません End sorry polite
+すみませんでした End sorry past polite
+ごめん End sorry
 
 KURERU:
 くれ ICHIDAN_V_SUFFIX give to me
@@ -310,6 +316,7 @@ PROBABLY:
 
 NAKU:
 ても YOI_ADJ not necessary
+て APOLOGY
 '' VERBTEWA
 
 VERBTEWA:
