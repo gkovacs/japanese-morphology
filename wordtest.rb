@@ -12,5 +12,5 @@ if !noregen
 end
 system("cat japanese-rules.lex japanese-dictionary.lex > japanese.lex")
 system("./generateyamlfile.rb > japanese.yaml")
-system("./japanesetest.py")
+system("./wordtest.py")
 

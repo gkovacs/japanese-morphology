@@ -23,6 +23,16 @@ File.open("japanese.rec", "r") { |f|
     end
 }
 
+File.open("japanese.sen", "r") { |f|
+    while line = f.gets()
+        line.strip().each_char { |c|
+            if !hiragana.include?(c) and !katakana.include?(c) and !romaji.include?(c) and !kanji.include?(c)
+                kanji.push(c)
+            end
+        }
+    end
+}
+
 all = hiragana + katakana + romaji + kanji
 
 generateddocument = <<EOSSTRING
