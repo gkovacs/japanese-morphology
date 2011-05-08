@@ -1,19 +1,29 @@
 Begin: Root
 Root: NounRoot VerbRoot AdjRoot
-NounRoot: N_ROOT
+NounRoot: NOUN_ROOT
 VerbRoot: ICHIDAN_V_ROOT SURU_V_ROOT KURU_V_ROOT ARU_V_ROOT IKU_V_ROOT KU_V_ROOT SU_V_ROOT U_V_ROOT GU_V_ROOT BU_V_ROOT TSU_V_ROOT MU_V_ROOT NU_V_ROOT RU_V_ROOT
 AdjRoot: I_ADJ_ROOT NA_ADJ_ROOT
-AfterNoun: N_SUFFIX
 
 I_ADJ_SUFFIX:
 い End
 かった End past
+'' SOU
+く NARU
 
 NA_ADJ_SUFFIX:
 な End
 た End
 だった End past
+です End polite
+でした End past polite
 '' End
+'' SOU
+に NARU
+
+NOUN_SUFFIX:
+'' End
+'' MITAI
+に NARU
 
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
@@ -165,19 +175,24 @@ RU_V_SUFFIX:
 ろ VOLITIONAL
 
 TETA:
-て End command
+て TE
 た End past
 たり End listing actions
 たら End conditional tara
 
 DEDA:
-で End command
+で TE
 だ End past
 だり End listing actions
 だら End tara conditional
 
+TE:
+'' End command
+い ICHIDAN_V_SUFFIX ongoing action
+
 INF:
 '' End inf
+の NOUN_SUFFIX the act of
 
 STEM:
 '' End stem
@@ -185,15 +200,28 @@ STEM:
 ません End polite negative
 ました End polite past
 ませんでした End polite past negative
+'' SOU
+
+SOU:
+そう NA_ADJ_SUFFIX seeming
+
+MITAI:
+みたい NA_ADJ_SUFFIX resembling
+
+NARU:
+な RU_V_SUFFIX become
 
 VOLITIONAL:
 う End volitional
 
 NEG:
-無い End negative
-無かった End negative past
-ない End negative
-なかった End negative past
+無 I_ADJ_SUFFIX negative
+な I_ADJ_SUFFIX negative
+ないで KUDASAI don't
+
+KUDASAI:
+ください End please
+下さい End please
 
 POTENTIAL:
 '' POTENTIALONLY

@@ -3,10 +3,10 @@
 
 usedictionary = ARGV.include?("usedictionary")
 
-nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony"}
-iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious"}
+nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language"}
+iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like"}
-ichidanverbs = {"食べ" => "eat", "見" => "see"}
+ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember"}
 suruverbs = {"結婚" => "get married", "卒業" => "graduate"}
 kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
 aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}
@@ -144,9 +144,9 @@ File.open("edict2-utf8", "r") { |f|
 end
 
 generateddocument = <<EOSSTRING
-N_ROOT:
+NOUN_ROOT:
 #{
-nouns.map {|k,v| k + " End Noun(" + v + ")"}.join("\n")
+nouns.map {|k,v| k + " NOUN_SUFFIX Noun(" + v + ")"}.join("\n")
 }
 
 I_ADJ_ROOT:

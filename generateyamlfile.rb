@@ -13,7 +13,7 @@ katakana = []
 
 kanji = []
 
-File.open("japanese.rec", "r") { |f|
+File.open("japanese-words.txt", "r") { |f|
     while line = f.gets()
         line.strip().each_char { |c|
             if !hiragana.include?(c) and !katakana.include?(c) and !romaji.include?(c) and !kanji.include?(c)
@@ -23,7 +23,7 @@ File.open("japanese.rec", "r") { |f|
     end
 }
 
-File.open("japanese.sen", "r") { |f|
+File.open("japanese-sentences.txt", "r") { |f|
     while line = f.gets()
         line.strip().each_char { |c|
             if !hiragana.include?(c) and !katakana.include?(c) and !romaji.include?(c) and !kanji.include?(c)
