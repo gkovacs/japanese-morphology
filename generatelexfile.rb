@@ -1,7 +1,7 @@
 #!/usr/bin/ruby1.9
 # encoding: utf-8
 
-nogenerate = ARGV.include?("nogenerate")
+usedictionary = ARGV.include?("usedictionary")
 
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious"}
@@ -20,14 +20,123 @@ muverbs = {"読" => "read"}
 nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take"}
 
-generateddocument = <<EOSSTRING
-Begin: Root
-Root: NounRoot VerbRoot AdjRoot
-NounRoot: N_ROOT
-VerbRoot: ICHIDAN_V_ROOT SURU_V_ROOT KURU_V_ROOT IKU_V_ROOT KU_V_ROOT SU_V_ROOT U_V_ROOT GU_V_ROOT BU_V_ROOT TSU_V_ROOT MU_V_ROOT NU_V_ROOT RU_V_ROOT
-AdjRoot: I_ADJ_ROOT NA_ADJ_ROOT
-AfterNoun: N_SUFFIX
+def extractparenthesis(sen)
+    haveparen = false
+    output = []
+    parenthesized = []
+    sen.each_char { |c|
+        if c == "("
+            haveparen = true
+            parenthesized.push([])
+        elsif c == ")"
+            haveparen = false
+        elsif haveparen
+            parenthesized[-1].push(c)
+        else
+            output.push(c)
+        end
+    }
+    parenthesized = parenthesized.map { |x| x.join("") }
+    parenthesized.delete("")
+    tags = []
+    parenthesized.each { |x|
+        x.split(",").each { |y|
+            tags.push(y)
+        }
+    }
+    return [output.join(""), tags]
+end
 
+if usedictionary
+File.open("edict2-utf8", "r") { |f|
+    while line = f.gets()
+        line = line.strip()
+        if line[0..2] == "？？？"
+            next
+        end
+        line,tags = extractparenthesis(line)
+        readings = []
+        if !line.include?("[")
+            kanji = ""
+            kana = line[0 .. line.index("/") - 1 ] 
+        else
+	        kanji = line[0 .. line.index("[") - 1].strip()
+	        kana = line[line.index("[")+1 .. line.index("]")-1].strip()
+        end
+        english = line[line.index("/")+1 .. line.length].strip()
+        english = english.split("/")[0]
+        kanji.split(";").each { |x|
+            readings.push(x.strip())
+        }
+        kana.split(";").each { |x|
+            readings.push(x.strip())
+        }
+        readings.delete("")
+        if readings.length == 0
+            next
+        end
+        if english.length == 0
+            next
+        end
+        if tags.include?("v5k")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                kuverbs[x] = english
+            }
+        end
+        if tags.include?("v5s")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                suverbs[x] = english
+            }
+        end
+        if tags.include?("v5u")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                uverbs[x] = english
+            }
+        end
+        if tags.include?("v5b")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                buverbs[x] = english
+            }
+        end
+        if tags.include?("v5t")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                tsuverbs[x] = english
+            }
+        end
+        if tags.include?("v5m")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                muverbs[x] = english
+            }
+        end
+        if tags.include?("v5n")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                nuverbs[x] = english
+            }
+        end
+        if tags.include?("v5r")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                ruverbs[x] = english
+            }
+        end
+        if tags.include?("v5g")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                guverbs[x] = english
+            }
+        end
+    end
+}
+end
+
+generateddocument = <<EOSSTRING
 N_ROOT:
 #{
 nouns.map {|k,v| k + " End Noun(" + v + ")"}.join("\n")
@@ -43,16 +152,6 @@ NA_ADJ_ROOT:
 naadjs.map {|k,v| k + " NA_ADJ_SUFFIX Adj(" + v + ")"}.join("\n")
 }
 
-I_ADJ_SUFFIX:
-い End
-かった End past
-
-NA_ADJ_SUFFIX:
-な End
-た End
-だった End past
-'' End
-
 ICHIDAN_V_ROOT:
 #{
 ichidanverbs.map {|k,v| k + " ICHIDAN_V_SUFFIX Verb(" + v + ")"}.join("\n")
@@ -64,33 +163,17 @@ SURU_V_ROOT:
 suruverbs.map {|k,v| k + " SURU_V_INTERM Verb(" + v + ")"}.join("\n")
 }
 
-SURU_V_INTERM:
-す SURU_SU_V_SUFFIX
-し SURU_SHI_V_SUFFIX
-でき POTENTIALONLY
-出来 POTENTIALONLY
-
 KURU_V_ROOT:
 '' KURU_V_INTERM Verb(come)
 #{
 kuruverbs.map {|k,v| k + " KURU_V_INTERM Verb(" + v + ")"}.join("\n")
 }
 
-KURU_V_INTERM:
-来 ICHIDAN_V_SUFFIX
-く KURU_KU_V_SUFFIX
-こ KURU_KO_V_SUFFIX
-き KURU_KI_V_SUFFIX
-
 IKU_V_ROOT:
 '' IKU_V_INTERM Verb(go)
 #{
 ikuverbs.map {|k,v| k + " IKU_V_INTERM Verb(" + v + ")"}.join("\n")
 }
-
-IKU_V_INTERM:
-い IKU_V_SUFFIX
-行 IKU_V_SUFFIX
 
 KU_V_ROOT:
 #{
@@ -136,168 +219,7 @@ RU_V_ROOT:
 #{
 ruverbs.map {|k,v| k + " RU_V_SUFFIX Verb(" + v + ")"}.join("\n")
 }
-
-ICHIDAN_V_SUFFIX:
-る INF
-'' NEG
-'' STEM
-'' TETA
-られ POTENTIALONLY
-よ VOLITIONAL
-れ EBA
-
-SURU_SU_V_SUFFIX:
-る INF
-れ EBA
-
-SURU_SHI_V_SUFFIX:
-'' NEG
-'' STEM
-'' TETA
-よ VOLITIONAL
-
-KURU_KU_V_SUFFIX:
-る INF
-れ EBA
-
-KURU_KO_V_SUFFIX:
-'' NEG
-られ POTENTIALONLY
-よ VOLITIONAL
-
-KURU_KI_V_SUFFIX:
-'' STEM
-'' TETA
-
-IKU_V_SUFFIX:
-く INF
-か NEG
-き STEM
-っ TETA
-け POTENTIAL
-こ VOLITIONAL
-
-KU_V_SUFFIX:
-く INF
-か NEG
-き STEM
-い TETA
-け POTENTIAL
-こ VOLITIONAL
-
-SU_V_SUFFIX:
-す INF
-さ NEG
-し STEM
-し TETA
-せ POTENTIAL
-そ VOLITIONAL
-
-MASU_V_SUFFIX:
-す INF
-さ NEG
-し STEM
-し TETA
-せ POTENTIAL
-しょ VOLITIONAL
-
-U_V_SUFFIX:
-う INF
-わ NEG
-い STEM
-っ TETA
-え POTENTIAL
-お VOLITIONAL
-
-GU_V_SUFFIX:
-ぐ INF
-が NEG
-ぎ STEM
-い DEDA
-げ POTENTIAL
-ご VOLITIONAL
-
-BU_V_SUFFIX:
-ぶ INF
-ば NEG
-び STEM
-ん DEDA
-べ POTENTIAL
-ぼ VOLITIONAL
-
-TSU_V_SUFFIX:
-つ INF
-た NEG
-ち STEM
-っ TETA
-て POTENTIAL
-と VOLITIONAL
-
-MU_V_SUFFIX:
-む INF
-ま NEG
-み STEM
-ん DEDA
-め POTENTIAL
-も VOLITIONAL
-
-NU_V_SUFFIX:
-ぬ INF
-な NEG
-に STEM
-ん DEDA
-ね POTENTIAL
-の VOLITIONAL
-
-RU_V_SUFFIX:
-る INF
-ら NEG
-り STEM
-っ TETA
-れ POTENTIAL
-ろ VOLITIONAL
-
-TETA:
-て End command
-た End past
-たり End listing actions
-たら End conditional tara
-
-DEDA:
-で End command
-だ End past
-だり End listing actions
-だら End tara conditional
-
-INF:
-'' End inf
-
-STEM:
-'' End stem
-ま MASU_V_SUFFIX polite
-ません End polite negative
-ました End polite past
-ませんでした End polite past negative
-
-VOLITIONAL:
-う End volitional
-
-NEG:
-ない End negative
-なかった End negative past
-
-POTENTIAL:
-'' POTENTIALONLY
-'' EBA
-
-POTENTIALONLY:
-'' ICHIDAN_V_SUFFIX potential
-
-EBA:
-ば End eba conditional
-
-End:
-'#' End SUCCESS
 EOSSTRING
 
 puts generateddocument
+

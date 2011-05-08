@@ -5,19 +5,6 @@ VerbRoot: ICHIDAN_V_ROOT SURU_V_ROOT KURU_V_ROOT IKU_V_ROOT KU_V_ROOT SU_V_ROOT 
 AdjRoot: I_ADJ_ROOT NA_ADJ_ROOT
 AfterNoun: N_SUFFIX
 
-N_ROOT:
-漢字 End Noun(kanji)
-結婚式 End Noun(wedding ceremony)
-
-I_ADJ_ROOT:
-恥ずかし I_ADJ_SUFFIX Adj(embarrasing)
-広 I_ADJ_SUFFIX Adj(spacious)
-
-NA_ADJ_ROOT:
-簡単 NA_ADJ_SUFFIX Adj(simple)
-きれい NA_ADJ_SUFFIX Adj(clean)
-好き NA_ADJ_SUFFIX Adj(like)
-
 I_ADJ_SUFFIX:
 い End
 かった End past
@@ -28,25 +15,11 @@ NA_ADJ_SUFFIX:
 だった End past
 '' End
 
-ICHIDAN_V_ROOT:
-食べ ICHIDAN_V_SUFFIX Verb(eat)
-見 ICHIDAN_V_SUFFIX Verb(see)
-
-SURU_V_ROOT:
-'' SURU_V_INTERM Verb(do)
-結婚 SURU_V_INTERM Verb(get married)
-卒業 SURU_V_INTERM Verb(graduate)
-
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
 し SURU_SHI_V_SUFFIX
 でき POTENTIALONLY
 出来 POTENTIALONLY
-
-KURU_V_ROOT:
-'' KURU_V_INTERM Verb(come)
-連れて KURU_V_INTERM Verb(bring someone along)
-持って KURU_V_INTERM Verb(bring something)
 
 KURU_V_INTERM:
 来 ICHIDAN_V_SUFFIX
@@ -54,41 +27,9 @@ KURU_V_INTERM:
 こ KURU_KO_V_SUFFIX
 き KURU_KI_V_SUFFIX
 
-IKU_V_ROOT:
-'' IKU_V_INTERM Verb(go)
-連れて IKU_V_INTERM Verb(take someone along)
-持って IKU_V_INTERM Verb(carry something away)
-
 IKU_V_INTERM:
 い IKU_V_SUFFIX
 行 IKU_V_SUFFIX
-
-KU_V_ROOT:
-歩 KU_V_SUFFIX Verb(walk)
-
-SU_V_ROOT:
-話 SU_V_SUFFIX Verb(speak)
-
-U_V_ROOT:
-買 U_V_SUFFIX Verb(buy)
-
-GU_V_ROOT:
-泳 GU_V_SUFFIX Verb(swim)
-
-BU_V_ROOT:
-遊 BU_V_SUFFIX Verb(play)
-
-TSU_V_ROOT:
-持 TSU_V_SUFFIX Verb(wait)
-
-MU_V_ROOT:
-読 MU_V_SUFFIX Verb(read)
-
-NU_V_ROOT:
-死 NU_V_SUFFIX Verb(die)
-
-RU_V_ROOT:
-取 RU_V_SUFFIX Verb(take)
 
 ICHIDAN_V_SUFFIX:
 る INF
@@ -251,3 +192,4 @@ EBA:
 
 End:
 '#' End SUCCESS
+
