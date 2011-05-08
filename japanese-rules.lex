@@ -39,7 +39,7 @@ I_ADJ_INTERM:
 NEG_NAI:
 '' I_ADJ_INTERM
 い BETTERDO
-く NAKUTEWA
+く NAKU
 さ SOU
 
 NA_ADJ_SUFFIX:
@@ -303,7 +303,8 @@ PROBABLY:
 だろう End probably
 でしょう End probably polite
 
-NAKUTEWA:
+NAKU:
+てもい I_ADJ_SUFFIX not necessary
 '' VERBTEWA
 
 VERBTEWA:
