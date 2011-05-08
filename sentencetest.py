@@ -74,7 +74,7 @@ def segmentsentence(sentence):
 		if cv == None:
 			continue
 		cost = coveringcost(sentence, cv)
-		if cost < bestcost:
+		if cost < bestcost or (cost == bestcost and len(cv) < len(bestcovering)):
 			bestcost = cost
 			bestrange = x
 			bestcovering = cv

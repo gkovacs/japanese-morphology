@@ -9,7 +9,7 @@ nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => 
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind"}
 ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow", "遅れ" => "be late", "忘れ" => "foget"}
-suruverbs = {"結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive"}
+suruverbs = {"結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive", "注意" => "be careful"}
 kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
 aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}
 ikuverbs = {"連れて" => "take someone along", "持って" => "carry something away"}
