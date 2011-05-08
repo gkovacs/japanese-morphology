@@ -204,12 +204,23 @@ TE:
 '' End command
 み ICHIDAN_V_SUFFIX trying out
 い ICHIDAN_V_SUFFIX ongoing action
+'' KURERU
+
+KURERU:
+くれ ICHIDAN_V_SUFFIX give to me
+あげ ICHIDAN_V_SUFFIX give
+もら U_V_SUFFIX receive
 
 TA:
 '' VERBSHORTFORM past
 り End listing actions
-ら End conditional tara
+ら TARA
 '' BETTERDO
+
+TARA:
+'' End conditional tara
+どう End suggestion
+どうです End suggestion polite
 
 INF:
 '' VERBSHORTFORM inf
