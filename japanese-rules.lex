@@ -284,6 +284,7 @@ STEM:
 た I_ADJ_SUFFIX want
 たがってい ICHIDAN_V_SUFFIX appears to want
 すぎ ICHIDAN_V_SUFFIX excessive
+ながら End while
 
 SOU:
 そう NA_ADJ_SUFFIX seeming
