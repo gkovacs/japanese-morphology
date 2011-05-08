@@ -238,7 +238,8 @@ DESU:
 だった End past
 です End polite
 でした End past polite
-'' DESHOU
+'' PROBABLY
+'' POSSIBILITY
 
 NARU:
 な RU_V_SUFFIX become
@@ -258,10 +259,17 @@ I_ADJ_SHORTFORM:
 
 VERBSHORTFORM:
 '' SHORTFORM
-'' DESHOU
+'' PROBABLY
 '' NDESU
+'' POSSIBILITY
 
-DESHOU:
+POSSIBILITY:
+かもしれな NEG_NAI possibility
+かも知れな NEG_NAI possibility
+かもしれません End possibility polite
+かも知れません End possibility polite
+
+PROBABLY:
 だろう End probably
 でしょう End probably polite
 
@@ -296,8 +304,8 @@ POTENTIAL:
 '' EBA
 
 BETTERDO:
-ほうが YOI_ADJ_ROOT better do
-方が YOI_ADJ_ROOT better do
+ほうがい I_ADJ_SUFFIX better do
+方がい I_ADJ_SUFFIX better do
 
 POTENTIALONLY:
 '' ICHIDAN_V_SUFFIX potential
