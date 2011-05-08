@@ -9,6 +9,7 @@ naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like"}
 ichidanverbs = {"食べ" => "eat", "見" => "see"}
 suruverbs = {"結婚" => "get married", "卒業" => "graduate"}
 kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
+aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}
 ikuverbs = {"連れて" => "take someone along", "持って" => "carry something away"}
 kuverbs = {"歩" => "walk"}
 suverbs = {"話" => "speak"}
@@ -132,6 +133,12 @@ File.open("edict2-utf8", "r") { |f|
                 guverbs[x] = english
             }
         end
+        if tags.include?("v5r-i")
+            readings.each { |x|
+                x = x[0..x.length-3]
+                aruverbs[x] = english
+            }
+        end
     end
 }
 end
@@ -167,6 +174,12 @@ KURU_V_ROOT:
 '' KURU_V_INTERM Verb(come)
 #{
 kuruverbs.map {|k,v| k + " KURU_V_INTERM Verb(" + v + ")"}.join("\n")
+}
+
+ARU_V_ROOT:
+'' ARU_V_INTERM Verb(exist)
+#{
+aruverbs.map {|k,v| k + " IKU_V_INTERM Verb(" + v + ")"}.join("\n")
 }
 
 IKU_V_ROOT:
