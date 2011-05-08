@@ -5,17 +5,17 @@ usedictionary = ARGV.include?("usedictionary")
 
 numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "０" => "0", "１" => "1", "２" => "2", "３" => "3", "４" => "4", "５" => "5", "６" => "6", "７" => "7", "８" => "8", "９" => "9", "〇" => "0", "零" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
 counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "セント" => "cents", "歳" => "years of age", "回" => "times", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second"}
-nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "夏" => "summer"}
+nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "夏" => "summer", "予約" => "reservation"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively"}
 ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow"}
-suruverbs = {"結婚" => "get married", "卒業" => "graduate", "勉強" => "study"}
+suruverbs = {"結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve"}
 kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
 aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}
 ikuverbs = {"連れて" => "take someone along", "持って" => "carry something away"}
 kuverbs = {"歩" => "walk", "書" => "write", "聞" => "listen"}
 suverbs = {"話" => "speak", "貸" => "lend"}
-uverbs = {"買" => "buy"}
+uverbs = {"買" => "buy", "手伝" => "assist"}
 guverbs = {"泳" => "swim"}
 buverbs = {"遊" => "play"}
 tsuverbs = {"持" => "wait"}

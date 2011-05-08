@@ -222,6 +222,7 @@ TE:
 '' End command
 み ICHIDAN_V_SUFFIX trying out
 い ICHIDAN_V_SUFFIX ongoing action
+お KU_V_SUFFIX done in advance
 '' KURERU
 
 KURERU:
