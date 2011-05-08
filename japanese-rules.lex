@@ -12,10 +12,7 @@ I_ADJ_SUFFIX:
 
 NA_ADJ_SUFFIX:
 な End
-た End
-だった End past
-です End polite
-でした End past polite
+'' DESU
 '' End
 '' SOU
 に NARU
@@ -193,6 +190,7 @@ TE:
 INF:
 '' End inf
 の NOUN_SUFFIX the act of
+つもり DESU intend to
 
 STEM:
 '' End stem
@@ -207,6 +205,12 @@ SOU:
 
 MITAI:
 みたい NA_ADJ_SUFFIX resembling
+
+DESU:
+だ End
+だった End past
+です End polite
+でした End past polite
 
 NARU:
 な RU_V_SUFFIX become
