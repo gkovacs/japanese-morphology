@@ -189,7 +189,6 @@ TA:
 '' End past
 り End listing actions
 ら End conditional tara
-'' I_ADJ_SUFFIX want
 
 INF:
 '' End inf
@@ -203,6 +202,8 @@ STEM:
 ました End polite past
 ませんでした End polite past negative
 '' SOU
+た I_ADJ_SUFFIX want
+たがってい ICHIDAN_V_SUFFIX appears to want
 
 SOU:
 そう NA_ADJ_SUFFIX seeming

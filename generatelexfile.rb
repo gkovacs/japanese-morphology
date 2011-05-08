@@ -17,7 +17,7 @@ uverbs = {"買" => "buy"}
 guverbs = {"泳" => "swim"}
 buverbs = {"遊" => "play"}
 tsuverbs = {"持" => "wait"}
-muverbs = {"読" => "read"}
+muverbs = {"読" => "read", "飲" => "drink"}
 nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take"}
 
