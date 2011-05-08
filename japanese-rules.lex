@@ -5,14 +5,14 @@ VerbRoot: ICHIDAN_V_ROOT SURU_V_ROOT KURU_V_ROOT ARU_V_ROOT IKU_V_ROOT KU_V_ROOT
 AdjRoot: I_ADJ_ROOT NA_ADJ_ROOT
 
 I_ADJ_SUFFIX:
-い End
-かった End past
+い SHORTFORM
+かった SHORTFORM past
 '' SOU
 く NARU
 く NEG
 
 NA_ADJ_SUFFIX:
-な End
+な SHORTFORM
 '' DESU
 '' End
 '' SOU
@@ -23,6 +23,7 @@ NOUN_SUFFIX:
 '' MITAI
 に NARU
 で End via
+な NDESU
 
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
@@ -186,12 +187,12 @@ TE:
 い ICHIDAN_V_SUFFIX ongoing action
 
 TA:
-'' End past
+'' SHORTFORM past
 り End listing actions
 ら End conditional tara
 
 INF:
-'' End inf
+'' SHORTFORM inf
 の NOUN_SUFFIX the act of
 つもり DESU intend to
 
@@ -227,6 +228,15 @@ NEG:
 無 I_ADJ_SUFFIX negative
 な I_ADJ_SUFFIX negative
 ないで KUDASAI don't
+
+SHORTFORM:
+'' End
+'' NDESU
+
+NDESU:
+んだ End explanatory
+の End explanatory feminine
+んです End explanatory polite
 
 KUDASAI:
 ください End please
