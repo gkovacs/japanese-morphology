@@ -222,6 +222,7 @@ VERBDEDA:
 
 VERBTE:
 '' End command
+から End after
 み ICHIDAN_V_SUFFIX trying out
 い ICHIDAN_V_SUFFIX ongoing action
 お KU_V_SUFFIX done in advance
@@ -258,6 +259,7 @@ INF:
 '' VERBSHORTFORM inf
 の NOUN_SUFFIX the act of
 つもり NOUN_SUFFIX intend to
+前に End before
 
 STEM:
 '' End stem
