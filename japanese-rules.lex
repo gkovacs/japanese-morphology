@@ -304,7 +304,7 @@ PROBABLY:
 でしょう End probably polite
 
 NAKU:
-てもい I_ADJ_SUFFIX not necessary
+ても YOI_ADJ not necessary
 '' VERBTEWA
 
 VERBTEWA:
@@ -335,8 +335,8 @@ POTENTIAL:
 '' EBA
 
 BETTERDO:
-ほうがい I_ADJ_SUFFIX better do
-方がい I_ADJ_SUFFIX better do
+ほうが YOI_ADJ better do
+方が YOI_ADJ better do
 
 POTENTIALONLY:
 '' ICHIDAN_V_SUFFIX potential

@@ -163,9 +163,12 @@ nouns.map {|k,v| k + " NOUN_SUFFIX Noun(" + v + ")"}.join("\n")
 }
 
 YOI_ADJ_ROOT:
-いい I_ADJ_SHORTFORM Verb(good)
-よ YOI_ADJ_SUFFIX Verb(good)
-良 YOI_ADJ_SUFFIX Verb(good)
+'' YOI_ADJ Verb(good)
+
+YOI_ADJ:
+いい I_ADJ_SHORTFORM
+よ YOI_ADJ_SUFFIX
+良 YOI_ADJ_SUFFIX
 
 I_ADJ_ROOT:
 #{
