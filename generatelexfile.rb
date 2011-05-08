@@ -18,7 +18,7 @@ suverbs = {"話" => "speak", "貸" => "lend"}
 uverbs = {"買" => "buy", "手伝" => "assist"}
 guverbs = {"泳" => "swim"}
 buverbs = {"遊" => "play"}
-tsuverbs = {"持" => "wait"}
+tsuverbs = {"持" => "carry", "待" => "wait"}
 muverbs = {"読" => "read", "飲" => "drink"}
 nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take", "降" => "fall"}
