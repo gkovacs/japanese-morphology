@@ -16,7 +16,7 @@ def listtostr(l):
 		return l
 
 k = KimmoRuleSet.load('japanese.yaml')
-recfile = codecs.open('japanese.rec', encoding='utf-8')
+recfile = codecs.open('japanese-words.txt', encoding='utf-8')
 for line in recfile:
     line = line.strip()
     if not line: continue

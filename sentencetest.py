@@ -97,8 +97,7 @@ def segmentsentence(sentence):
 		curidx += 1
 	return glossed,bestcost
 
-def main():
-	sentence = sys.argv[1].strip().decode("utf-8")
+def analyzeSentence(sentence):
 	print "===SENTENCE===" + sentence
 	totalcost = 0
 	for fragment in splitbypunctuation(sentence):
@@ -107,6 +106,18 @@ def main():
 		for x in gloss:
 			print listtostr(x)
 	print "~~~COST~~~" + str(totalcost)
+	return totalcost
+
+def main():
+	if len(sys.argv) >= 2:
+		analyzeSentence(sys.argv[1].strip().decode("utf-8"))
+	else:
+		senfile = codecs.open('japanese-sentences.txt', encoding='utf-8')
+		for line in senfile:
+			line = line.strip()
+			if line == "":
+				continue
+			analyzeSentence(line)
 
 if __name__ == "__main__":
 	main()
