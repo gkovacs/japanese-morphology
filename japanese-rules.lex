@@ -44,8 +44,9 @@ NEG_NAI:
 
 NA_ADJ_SUFFIX:
 な SHORTFORM
+だ HERESAY
 な NDESU
-'' DESU
+'' NA_ADJ_DESU
 '' End
 '' SOU
 に NARU
@@ -56,8 +57,9 @@ NOUN_SUFFIX:
 に NARU
 で End via
 な NDESU
+だ HERESAY
 だ SHORTFORM
-'' DESU
+'' NOUN_DESU
 
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
@@ -255,7 +257,7 @@ TARA:
 INF:
 '' VERBSHORTFORM inf
 の NOUN_SUFFIX the act of
-つもり DESU intend to
+つもり NOUN_SUFFIX intend to
 
 STEM:
 '' End stem
@@ -271,14 +273,32 @@ STEM:
 SOU:
 そう NA_ADJ_SUFFIX seeming
 
+HERESAY:
+そうです End heresay polite
+そうだ End heresay
+
 MITAI:
 みたい NA_ADJ_SUFFIX resembling
 
-DESU:
+I_ADJ_DESU:
+'' DESU
+
+NA_ADJ_DESU:
+'' NA_ADJ_NOUN_DESU
+
+NOUN_DESU:
+'' NA_ADJ_NOUN_DESU
+
+NA_ADJ_NOUN_DESU:
 だ End
 だった End past
-です End polite
+だ HERESAY
+だった HERESAY past
 でした End past polite
+'' DESU
+
+DESU:
+です End polite
 '' PROBABLY
 '' POSSIBILITY
 
@@ -295,14 +315,16 @@ NEG:
 
 I_ADJ_SHORTFORM:
 '' SHORTFORM
-'' DESU
+'' I_ADJ_DESU
 '' NDESU
+'' HERESAY
 
 VERBSHORTFORM:
 '' SHORTFORM
 '' PROBABLY
 '' NDESU
 '' POSSIBILITY
+'' HERESAY
 
 POSSIBILITY:
 かもしれな NEG_NAI possibility
