@@ -11,6 +11,11 @@ I_ADJ_SUFFIX:
 く NARU
 く NEG
 
+NEG_VERB:
+'' I_ADJ_SUFFIX
+い BETTERDO
+く NAKUTEWA
+
 NA_ADJ_SUFFIX:
 な SHORTFORM
 '' DESU
@@ -177,12 +182,12 @@ RU_V_SUFFIX:
 TETA:
 て TE
 た TA
-'' TEWA
+'' VERBTEWA
 
 DEDA:
 で TE
 だ TA
-'' DEWA
+'' VERBDEWA
 
 TE:
 '' End command
@@ -192,6 +197,7 @@ TA:
 '' SHORTFORM past
 り End listing actions
 ら End conditional tara
+'' BETTERDO
 
 INF:
 '' SHORTFORM inf
@@ -228,16 +234,18 @@ VOLITIONAL:
 う End volitional
 
 NEG:
-無 I_ADJ_SUFFIX negative
-な I_ADJ_SUFFIX negative
+無 NEG_VERB negative
+な NEG_VERB negative
 ないで KUDASAI don't
-なく TEWA
 
-TEWA:
+NAKUTEWA:
+'' VERBTEWA
+
+VERBTEWA:
 ては TEWAPASSED
 ちゃ TEWAPASSED
 
-DEWA:
+VERBDEWA:
 では TEWAPASSED
 じゃ TEWAPASSED
 
@@ -260,6 +268,10 @@ KUDASAI:
 POTENTIAL:
 '' POTENTIALONLY
 '' EBA
+
+BETTERDO:
+ほうがい I_ADJ_SUFFIX better do
+方がい I_ADJ_SUFFIX better do
 
 POTENTIALONLY:
 '' ICHIDAN_V_SUFFIX potential
