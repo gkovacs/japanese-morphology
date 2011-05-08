@@ -11,7 +11,7 @@ suruverbs = {"結婚" => "get married", "卒業" => "graduate", "勉強" => "stu
 kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
 aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}
 ikuverbs = {"連れて" => "take someone along", "持って" => "carry something away"}
-kuverbs = {"歩" => "walk", "書" => "write"}
+kuverbs = {"歩" => "walk", "書" => "write", "聞" => "listen"}
 suverbs = {"話" => "speak"}
 uverbs = {"買" => "buy"}
 guverbs = {"泳" => "swim"}

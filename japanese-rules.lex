@@ -202,6 +202,7 @@ DEDA:
 
 TE:
 '' End command
+み ICHIDAN_V_SUFFIX trying out
 い ICHIDAN_V_SUFFIX ongoing action
 
 TA:
@@ -295,8 +296,8 @@ POTENTIAL:
 '' EBA
 
 BETTERDO:
-ほうがい I_ADJ_SUFFIX better do
-方がい I_ADJ_SUFFIX better do
+ほうが YOI_ADJ_ROOT better do
+方が YOI_ADJ_ROOT better do
 
 POTENTIALONLY:
 '' ICHIDAN_V_SUFFIX potential
