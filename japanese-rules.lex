@@ -5,8 +5,8 @@ VerbRoot: ICHIDAN_V_ROOT SURU_V_ROOT KURU_V_ROOT ARU_V_ROOT IKU_V_ROOT KU_V_ROOT
 AdjRoot: I_ADJ_ROOT NA_ADJ_ROOT
 
 I_ADJ_SUFFIX:
-い SHORTFORM
-かった SHORTFORM past
+い ISHORTFORM
+かった ISHORTFORM past
 '' SOU
 く NARU
 く NEG
@@ -18,6 +18,7 @@ NEG_VERB:
 
 NA_ADJ_SUFFIX:
 な SHORTFORM
+な NDESU
 '' DESU
 '' End
 '' SOU
@@ -29,6 +30,8 @@ NOUN_SUFFIX:
 に NARU
 で End via
 な NDESU
+だ SHORTFORM
+'' DESU
 
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
@@ -194,13 +197,13 @@ TE:
 い ICHIDAN_V_SUFFIX ongoing action
 
 TA:
-'' SHORTFORM past
+'' VERBSHORTFORM past
 り End listing actions
 ら End conditional tara
 '' BETTERDO
 
 INF:
-'' SHORTFORM inf
+'' VERBSHORTFORM inf
 の NOUN_SUFFIX the act of
 つもり DESU intend to
 
@@ -226,6 +229,7 @@ DESU:
 だった End past
 です End polite
 でした End past polite
+'' DESHOU
 
 NARU:
 な RU_V_SUFFIX become
@@ -237,6 +241,20 @@ NEG:
 無 NEG_VERB negative
 な NEG_VERB negative
 ないで KUDASAI don't
+
+ISHORTFORM:
+'' SHORTFORM
+'' DESU
+'' NDESU
+
+VERBSHORTFORM:
+'' SHORTFORM
+'' DESHOU
+'' NDESU
+
+DESHOU:
+だろう End probably
+でしょう End probably polite
 
 NAKUTEWA:
 '' VERBTEWA
@@ -254,7 +272,6 @@ TEWAPASSED:
 
 SHORTFORM:
 '' End
-'' NDESU
 
 NDESU:
 んだ End explanatory
