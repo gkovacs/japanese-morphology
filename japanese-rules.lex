@@ -205,6 +205,7 @@ STEM:
 '' SOU
 た I_ADJ_SUFFIX want
 たがってい ICHIDAN_V_SUFFIX appears to want
+すぎ ICHIDAN_V_SUFFIX excessive
 
 SOU:
 そう NA_ADJ_SUFFIX seeming
