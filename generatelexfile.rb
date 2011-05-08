@@ -4,7 +4,7 @@
 usedictionary = ARGV.include?("usedictionary")
 
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student"}
-iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold"}
+iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "良" => "good"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively"}
 ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open"}
 suruverbs = {"結婚" => "get married", "卒業" => "graduate", "勉強" => "study"}
@@ -148,6 +148,10 @@ NOUN_ROOT:
 #{
 nouns.map {|k,v| k + " NOUN_SUFFIX Noun(" + v + ")"}.join("\n")
 }
+
+YOI_ADJ_ROOT:
+いい I_ADJ_SHORTFORM Verb(good)
+よ YOI_ADJ_SUFFIX Verb(good)
 
 I_ADJ_ROOT:
 #{
