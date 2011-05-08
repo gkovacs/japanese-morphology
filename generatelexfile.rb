@@ -6,7 +6,7 @@ usedictionary = ARGV.include?("usedictionary")
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like"}
-ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember"}
+ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open"}
 suruverbs = {"結婚" => "get married", "卒業" => "graduate"}
 kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
 aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}

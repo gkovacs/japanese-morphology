@@ -9,6 +9,7 @@ I_ADJ_SUFFIX:
 かった End past
 '' SOU
 く NARU
+く NEG
 
 NA_ADJ_SUFFIX:
 な End
@@ -21,6 +22,7 @@ NOUN_SUFFIX:
 '' End
 '' MITAI
 に NARU
+で End via
 
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
@@ -173,19 +175,21 @@ RU_V_SUFFIX:
 
 TETA:
 て TE
-た End past
-たり End listing actions
-たら End conditional tara
+た TA
 
 DEDA:
 で TE
-だ End past
-だり End listing actions
-だら End tara conditional
+だ TA
 
 TE:
 '' End command
 い ICHIDAN_V_SUFFIX ongoing action
+
+TA:
+'' End past
+り End listing actions
+ら End conditional tara
+'' I_ADJ_SUFFIX want
 
 INF:
 '' End inf
