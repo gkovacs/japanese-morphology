@@ -177,10 +177,12 @@ RU_V_SUFFIX:
 TETA:
 て TE
 た TA
+'' TEWA
 
 DEDA:
 で TE
 だ TA
+'' DEWA
 
 TE:
 '' End command
@@ -229,6 +231,18 @@ NEG:
 無 I_ADJ_SUFFIX negative
 な I_ADJ_SUFFIX negative
 ないで KUDASAI don't
+なく TEWA
+
+TEWA:
+ては TEWAPASSED
+ちゃ TEWAPASSED
+
+DEWA:
+では TEWAPASSED
+じゃ TEWAPASSED
+
+TEWAPASSED:
+いけ ICHIDAN_V_SUFFIX allowed
 
 SHORTFORM:
 '' End
