@@ -4,15 +4,15 @@
 usedictionary = ARGV.include?("usedictionary")
 
 numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "０" => "0", "１" => "1", "２" => "2", "３" => "3", "４" => "4", "５" => "5", "６" => "6", "７" => "7", "８" => "8", "９" => "9", "〇" => "0", "零" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
-counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "セント" => "cents", "歳" => "years of age", "回" => "times", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second"}
+counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "セント" => "cents", "歳" => "years of age", "回" => "times", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second", "" => "number"}
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind"}
 ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow", "遅れ" => "be late", "忘れ" => "foget"}
-suruverbs = {"結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive", "注意" => "be careful"}
-kuruverbs = {"連れて" => "bring someone along", "持って" => "bring something"}
-aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}
-ikuverbs = {"連れて" => "take someone along", "持って" => "carry something away"}
+suruverbs = {"" => "do", "結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive", "注意" => "be careful"}
+kuruverbs = {"" => "come", "連れて" => "bring someone along", "持って" => "bring something"}
+aruverbs = {"" => "exist", "事が" => "has occurred", "ことが" => "has occurred"}
+ikuverbs = {"" => "go", "連れて" => "take someone along", "持って" => "carry something away"}
 kuverbs = {"歩" => "walk", "書" => "write", "聞" => "listen"}
 suverbs = {"話" => "speak", "貸" => "lend"}
 uverbs = {"買" => "buy", "手伝" => "assist", "歌" => "sing", "使" => "use"}
@@ -48,6 +48,63 @@ def extractparenthesis(sen)
         }
     }
     return [output.join(""), tags]
+end
+
+def genentries(entrydict, categoryname, nextcategory, descfn)
+	output = categoryname + ":\n" + entrydict.map{|k,v|
+		if k == ""
+			k = "''"
+		end
+		"#{k} #{nextcategory} #{descfn.(v)}"
+	}.join("\n")
+end
+
+def genentriesAlt(entrydict, categoryname, nextcategory, descfn)
+	return outputcategories(mktree(entrydict), categoryname, nextcategory, descfn)
+end
+
+def mktree(entries)
+	output = {}
+	entries.each {|k,v|
+		curdict = output
+		chararr = k.each_char.to_a
+		if chararr.length == 0
+			curdict[""] = v
+		else
+		chararr.each_index {|i|
+			c = chararr[i]
+			if !curdict.include?(c)
+				curdict[c] = {}
+			end
+			curdict = curdict[c]
+			if i == chararr.length - 1
+				curdict[""] = v
+			end
+		}
+		end
+	}
+	return output
+end
+
+def outputcategories(entries, categoryname, nextcategory, descfn)
+	childentries = []
+	othercategories = []
+	entries.each {|k,v|
+		if v.class() == "".class()
+			if k == ""
+				k = "''"
+			end
+			childentries.push("#{k} #{nextcategory} #{descfn.(v)}")
+		else
+			ncategory = outputcategories(v, categoryname+k, nextcategory, descfn)
+			othercategories.push(ncategory)
+			childentries.push("#{k} #{categoryname+k}")
+		end
+	}
+	output = categoryname + ":\n"
+	output += childentries.join("\n") + "\n\n"
+	output += othercategories.join()
+	return output
 end
 
 if usedictionary
@@ -146,20 +203,16 @@ File.open("edict2-utf8", "r") { |f|
 end
 
 generateddocument = <<EOSSTRING
-NUMBER:
 #{
-numbers.map {|k,v| k + " NUMBER_SUFFIX " + v}.join("\n")
+genentries(numbers, "NUMBER", "NUMBER_SUFFIX", -> v { v } )
 }
 
-COUNTER:
-'' End number
 #{
-counters.map {|k,v| k + " POSTCOUNTER " + v}.join("\n")
+genentries(counters, "COUNTER", "POSTCOUNTER", -> v { v } )
 }
 
-NOUN_ROOT:
 #{
-nouns.map {|k,v| k + " NOUN_SUFFIX Noun(" + v + ")"}.join("\n")
+genentries(nouns, "NOUN_ROOT", "NOUN_SUFFIX", -> v { "Noun(#{v})" } )
 }
 
 YOI_ADJ_ROOT:
@@ -170,88 +223,69 @@ YOI_ADJ:
 よ YOI_ADJ_SUFFIX
 良 YOI_ADJ_SUFFIX
 
-I_ADJ_ROOT:
+
 #{
-iadjs.map {|k,v| k + " I_ADJ_SUFFIX Adj(" + v + ")"}.join("\n")
+genentries(iadjs, "I_ADJ_ROOT", "I_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
 }
 
-NA_ADJ_ROOT:
 #{
-naadjs.map {|k,v| k + " NA_ADJ_SUFFIX Adj(" + v + ")"}.join("\n")
+genentries(naadjs, "NA_ADJ_ROOT", "NA_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
 }
 
-ICHIDAN_V_ROOT:
 #{
-ichidanverbs.map {|k,v| k + " ICHIDAN_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(ichidanverbs, "ICHIDAN_V_ROOT", "ICHIDAN_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-SURU_V_ROOT:
-'' SURU_V_INTERM Verb(do)
 #{
-suruverbs.map {|k,v| k + " SURU_V_INTERM Verb(" + v + ")"}.join("\n")
+genentries(suruverbs, "SURU_V_ROOT", "SURU_V_INTERM", -> v { "Verb(#{v})" } )
 }
 
-KURU_V_ROOT:
-'' KURU_V_INTERM Verb(come)
 #{
-kuruverbs.map {|k,v| k + " KURU_V_INTERM Verb(" + v + ")"}.join("\n")
+genentries(kuruverbs, "KURU_V_ROOT", "KURU_V_INTERM", -> v { "Verb(#{v})" } )
 }
 
-ARU_V_ROOT:
-'' ARU_V_INTERM Verb(exist)
 #{
-aruverbs.map {|k,v| k + " IKU_V_INTERM Verb(" + v + ")"}.join("\n")
+genentries(aruverbs, "ARU_V_ROOT", "ARU_V_INTERM", -> v { "Verb(#{v})" } )
 }
 
-IKU_V_ROOT:
-'' IKU_V_INTERM Verb(go)
 #{
-ikuverbs.map {|k,v| k + " IKU_V_INTERM Verb(" + v + ")"}.join("\n")
+genentries(ikuverbs, "IKU_V_ROOT", "IKU_V_INTERM", -> v { "Verb(#{v})" } )
 }
 
-KU_V_ROOT:
 #{
-kuverbs.map {|k,v| k + " KU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(kuverbs, "KU_V_ROOT", "KU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-SU_V_ROOT:
 #{
-suverbs.map {|k,v| k + " SU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(suverbs, "SU_V_ROOT", "SU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-U_V_ROOT:
 #{
-uverbs.map {|k,v| k + " U_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(uverbs, "U_V_ROOT", "U_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-GU_V_ROOT:
 #{
-guverbs.map {|k,v| k + " GU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(guverbs, "GU_V_ROOT", "GU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-BU_V_ROOT:
 #{
-buverbs.map {|k,v| k + " BU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(buverbs, "BU_V_ROOT", "BU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-TSU_V_ROOT:
 #{
-tsuverbs.map {|k,v| k + " TSU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(tsuverbs, "TSU_V_ROOT", "TSU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-MU_V_ROOT:
 #{
-muverbs.map {|k,v| k + " MU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(muverbs, "MU_V_ROOT", "MU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-NU_V_ROOT:
 #{
-nuverbs.map {|k,v| k + " NU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(nuverbs, "NU_V_ROOT", "NU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
-RU_V_ROOT:
 #{
-ruverbs.map {|k,v| k + " RU_V_SUFFIX Verb(" + v + ")"}.join("\n")
+genentries(ruverbs, "RU_V_ROOT", "RU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 EOSSTRING
 
