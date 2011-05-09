@@ -286,9 +286,14 @@ STEM:
 たがってい ICHIDAN_V_SUFFIX appears to want
 すぎ ICHIDAN_V_SUFFIX excessive
 ながら End while
+'' DIFFICULTY
 
 SOU:
 そう NA_ADJ_SUFFIX seeming
+
+DIFFICULTY:
+やす I_ADJ_SUFFIX easy
+にく I_ADJ_SUFFIX hard
 
 HERESAY:
 そうです End heresay polite

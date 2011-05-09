@@ -15,7 +15,7 @@ aruverbs = {"事が" => "has occurred", "ことが" => "has occurred"}
 ikuverbs = {"連れて" => "take someone along", "持って" => "carry something away"}
 kuverbs = {"歩" => "walk", "書" => "write", "聞" => "listen"}
 suverbs = {"話" => "speak", "貸" => "lend"}
-uverbs = {"買" => "buy", "手伝" => "assist", "歌" => "sing"}
+uverbs = {"買" => "buy", "手伝" => "assist", "歌" => "sing", "使" => "use"}
 guverbs = {"泳" => "swim"}
 buverbs = {"遊" => "play"}
 tsuverbs = {"持" => "carry", "待" => "wait"}
