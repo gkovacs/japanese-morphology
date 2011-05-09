@@ -246,12 +246,16 @@ VERBTE:
 '' End command
 から End after
 み ICHIDAN_V_SUFFIX trying out
-い ICHIDAN_V_SUFFIX ongoing action
+'' IRU
 お KU_V_SUFFIX done in advance
 '' KURERU
 '' APOLOGY
 '' HOSHI
 '' ARU_V_INTERM has been made
+
+IRU:
+い ICHIDAN_V_SUFFIX ongoing action or state
+おりま SU_V_SUFFIX ongoing action or state humble
 
 HOSHI:
 ほし I_ADJ_SUFFIX want someone to do
