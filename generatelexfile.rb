@@ -5,7 +5,7 @@ usedictionary = ARGV.include?("usedictionary")
 
 numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "０" => "0", "１" => "1", "２" => "2", "３" => "3", "４" => "4", "５" => "5", "６" => "6", "７" => "7", "８" => "8", "９" => "9", "〇" => "0", "零" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
 counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "セント" => "cents", "歳" => "years of age", "回" => "times", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second", "" => "number"}
-nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation", "東京" => "Tokyo", "魚" => "fish"}
+nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation", "東京" => "Tokyo", "魚" => "fish", "医者" => "doctor"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind"}
 ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow", "遅れ" => "be late", "忘れ" => "forget", "入れ" => "enter"}
@@ -22,6 +22,7 @@ tsuverbs = {"持" => "carry", "待" => "wait"}
 muverbs = {"読" => "read", "飲" => "drink"}
 nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take", "降" => "fall", "閉ま" => "close"}
+honverbs = {"下さ" => "give to me", "くださ" => "give to me", "いらっしゃ" => "go come or be", "ござ" => "exist"}
 
 def extractparenthesis(sen)
     haveparen = false
@@ -223,6 +224,8 @@ YOI_ADJ:
 よ YOI_ADJ_SUFFIX
 良 YOI_ADJ_SUFFIX
 
+EXPRESSION_ROOT:
+
 
 #{
 genentries(iadjs, "I_ADJ_ROOT", "I_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
@@ -286,6 +289,10 @@ genentries(nuverbs, "NU_V_ROOT", "NU_V_SUFFIX", -> v { "Verb(#{v})" } )
 
 #{
 genentries(ruverbs, "RU_V_ROOT", "RU_V_SUFFIX", -> v { "Verb(#{v})" } )
+}
+
+#{
+genentries(honverbs, "HON_V_ROOT", "HON_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 EOSSTRING
 
