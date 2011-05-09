@@ -241,7 +241,12 @@ VERBTE:
 お KU_V_SUFFIX done in advance
 '' KURERU
 '' APOLOGY
+'' HOSHI
 '' ARU_V_INTERM has been made
+
+HOSHI:
+ほし I_ADJ_SUFFIX want someone to do
+欲し I_ADJ_SUFFIX want someone to do
 
 APOLOGY:
 すみません End sorry polite
