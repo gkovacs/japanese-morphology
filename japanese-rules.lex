@@ -242,6 +242,7 @@ VERBTE:
 お KU_V_SUFFIX done in advance
 '' KURERU
 '' APOLOGY
+'' ARU_V_INTERM has been made
 
 APOLOGY:
 すみません End sorry polite
