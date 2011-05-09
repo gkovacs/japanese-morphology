@@ -287,6 +287,7 @@ STEM:
 すぎ ICHIDAN_V_SUFFIX excessive
 ながら End while
 '' DIFFICULTY
+なさい End command from superior
 
 SOU:
 そう NA_ADJ_SUFFIX seeming
@@ -348,6 +349,8 @@ I_ADJ_SHORTFORM:
 
 NOUN_NO_SHORTFORM:
 '' EXPECTATION
+ような End similar to
+ように End done in the same way
 
 VERBSHORTFORM:
 '' SHORTFORM
