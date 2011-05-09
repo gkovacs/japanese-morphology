@@ -9,13 +9,13 @@ nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => 
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind"}
 ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow", "遅れ" => "be late", "忘れ" => "forget", "入れ" => "enter"}
-suruverbs = {"" => "do", "結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive", "注意" => "be careful", "電話" => "make a phone call"}
+suruverbs = {"" => "do", "結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive", "注意" => "be careful", "電話" => "make a phone call", "説明" => "explain"}
 kuruverbs = {"" => "come", "連れて" => "bring someone along", "持って" => "bring something"}
 aruverbs = {"" => "exist", "事が" => "has occurred", "ことが" => "has occurred"}
 ikuverbs = {"" => "go", "連れて" => "take someone along", "持って" => "carry something away"}
 kuverbs = {"歩" => "walk", "書" => "write", "聞" => "listen"}
 suverbs = {"話" => "speak", "貸" => "lend"}
-uverbs = {"買" => "buy", "手伝" => "assist", "歌" => "sing", "使" => "use"}
+uverbs = {"買" => "buy", "手伝" => "assist", "歌" => "sing", "使" => "use", "会" => "meet"}
 guverbs = {"泳" => "swim"}
 buverbs = {"遊" => "play"}
 tsuverbs = {"持" => "carry", "待" => "wait"}
@@ -224,9 +224,6 @@ YOI_ADJ:
 よ YOI_ADJ_SUFFIX
 良 YOI_ADJ_SUFFIX
 
-EXPRESSION_ROOT:
-
-
 #{
 genentries(iadjs, "I_ADJ_ROOT", "I_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
 }
@@ -240,7 +237,15 @@ genentries(ichidanverbs, "ICHIDAN_V_ROOT", "ICHIDAN_V_SUFFIX", -> v { "Verb(#{v}
 }
 
 #{
+genentries(ichidanverbs, "ICHIDAN_V_ROOT_HONORIFIC", "ICHIDAN_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+}
+
+#{
 genentries(suruverbs, "SURU_V_ROOT", "SURU_V_INTERM", -> v { "Verb(#{v})" } )
+}
+
+#{
+genentries(suruverbs, "SURU_V_ROOT_HONORIFIC", "POST_HONORIFIC_SURU_VERB", -> v { "Verb(#{v})" } )
 }
 
 #{
@@ -260,7 +265,15 @@ genentries(kuverbs, "KU_V_ROOT", "KU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
 #{
+genentries(kuverbs, "KU_V_ROOT_HONORIFIC", "KU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+}
+
+#{
 genentries(suverbs, "SU_V_ROOT", "SU_V_SUFFIX", -> v { "Verb(#{v})" } )
+}
+
+#{
+genentries(suverbs, "SU_V_ROOT_HONORIFIC", "SU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
 }
 
 #{
@@ -268,7 +281,15 @@ genentries(uverbs, "U_V_ROOT", "U_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
 #{
+genentries(uverbs, "U_V_ROOT_HONORIFIC", "U_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+}
+
+#{
 genentries(guverbs, "GU_V_ROOT", "GU_V_SUFFIX", -> v { "Verb(#{v})" } )
+}
+
+#{
+genentries(guverbs, "GU_V_ROOT_HONORIFIC", "GU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
 }
 
 #{
@@ -276,7 +297,15 @@ genentries(buverbs, "BU_V_ROOT", "BU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
 #{
+genentries(buverbs, "BU_V_ROOT_HONORIFIC", "BU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+}
+
+#{
 genentries(tsuverbs, "TSU_V_ROOT", "TSU_V_SUFFIX", -> v { "Verb(#{v})" } )
+}
+
+#{
+genentries(tsuverbs, "TSU_V_ROOT_HONORIFIC", "TSU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
 }
 
 #{
@@ -284,11 +313,23 @@ genentries(muverbs, "MU_V_ROOT", "MU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
 #{
+genentries(muverbs, "MU_V_ROOT_HONORIFIC", "MU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+}
+
+#{
 genentries(nuverbs, "NU_V_ROOT", "NU_V_SUFFIX", -> v { "Verb(#{v})" } )
 }
 
 #{
+genentries(nuverbs, "NU_V_ROOT_HONORIFIC", "NU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+}
+
+#{
 genentries(ruverbs, "RU_V_ROOT", "RU_V_SUFFIX", -> v { "Verb(#{v})" } )
+}
+
+#{
+genentries(ruverbs, "RU_V_ROOT_HONORIFIC", "RU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
 }
 
 #{
