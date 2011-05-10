@@ -417,6 +417,7 @@ VOLITIONAL:
 NEG:
 無 NEG_NAI negative
 な NEG_NAI negative
+ないで End without
 ないで KUDASAI don't
 
 NA_ADJ_SHORTFORM:
