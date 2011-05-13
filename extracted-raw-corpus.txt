@@ -57,7 +57,6 @@
 弱点 弱点 Noun
 が が Particle
 ある ある Verb
-===BANNED:Ｗｅｂ Ｗｅｂ 名詞 KN001_Keitai_1-1-13-01
 ===SENTENCE:KN001_Keitai_1-1-13-02
 誕生日割りなど
 ===WORDS:KN001_Keitai_1-1-13-02
@@ -322,7 +321,6 @@
 が が Particle
 必要です 必要だ IAdjective
 が が Particle
-===BANNED:ｍｉｘｉ ｍｉｘｉ 名詞 KN001_Keitai_1-1-23-01
 ===SENTENCE:KN001_Keitai_1-1-24-01
 （私はそこまではしませんが）
 ===WORDS:KN001_Keitai_1-1-24-01
@@ -494,7 +492,6 @@
 よる よる Verb
 私設 私設 Noun
 ページ ページ Noun
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｐｒｅｐａｉｄｆａｎ．ｃｏｍ／ ｈｔｔｐ：／／ｗｗｗ．ｐｒｅｐａｉｄｆａｎ．ｃｏｍ／ 名詞 KN001_Keitai_1-1-31-01
 ===SENTENCE:KN001_Keitai_1-1-4-01
 かつてはこのような話を友人に振っても、「携帯電話の料金は親が払っているから別に．．．」というにべもない答えが返ってくるばかりだったが、今日において、携帯電話が単なる中高生の「お遊び」的なツールから緊急時の連絡など実用的、現実的な利用目的として認知されるにつれ、さらにこのような傾向が強まることになるだろう。
 ===WORDS:KN001_Keitai_1-1-4-01
@@ -654,7 +651,6 @@
 ように ようだ AuxillaryVerb
 なって なる Suffix
 しまった しまう Suffix
-===BANNED:Ｊ−ＳＡ０６ Ｊ−ＳＡ０６ 名詞 KN001_Keitai_1-1-6-02
 ===SENTENCE:KN001_Keitai_1-1-7-01
 液晶切れだと思われるのだが修理するとその間の連絡が困るのでそして現実の使用の上ではそんなに困ることもないので、今のものを使いながら完璧に壊れる他の携帯を手に入れようと携帯電話に関する情報を仕入れ始めました。
 ===WORDS:KN001_Keitai_1-1-7-01
@@ -1109,7 +1105,6 @@
 を を Particle
 探索 探索 Noun
 できる できる Verb
-===BANNED:ニンテンドー○Ｓ ニンテンドー○Ｓ 名詞 KN001_Kyoto_1-1-25-02
 ===SENTENCE:KN001_Kyoto_1-1-26-01
 時雨ナビの無線機能をフルに使って、京都の空中散歩を楽しんだり、百人一首取りに参加したりできる。
 ===WORDS:KN001_Kyoto_1-1-26-01
@@ -1383,7 +1378,6 @@
 ===WORDS:KN001_Kyoto_1-1-36-02
 オフィシャル オフィシャルだ IAdjective
 サイト サイト Noun
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｓｈｉｇｕｒｅｄｅｎ．ｃｏｍ／ ｈｔｔｐ：／／ｗｗｗ．ｓｈｉｇｕｒｅｄｅｎ．ｃｏｍ／ 名詞 KN001_Kyoto_1-1-37-01
 ===SENTENCE:KN001_Kyoto_1-1-38-01
 純金製百人一首にサッカーボール
 ===WORDS:KN001_Kyoto_1-1-38-01
@@ -1398,7 +1392,6 @@
 ===WORDS:KN001_Kyoto_1-1-38-02
 産経 産経 Noun
 新聞 新聞 Noun
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｓａｎｋｅｉ．ｃｏ．ｊｐ／ｅｎａｋ／２００６／ｊｕｎ／ｋｉｊｉ／２７ｇｏｌｄｅｎＢａｌｌ．ｈｔｍｌ ｈｔｔｐ：／／ｗｗｗ．ｓａｎｋｅｉ．ｃｏ．ｊｐ／ｅｎａｋ／２００６／ｊｕｎ／ｋｉｊｉ／２７ｇｏｌｄｅｎＢａｌｌ．ｈｔｍｌ 名詞 KN001_Kyoto_1-1-39-01
 ===SENTENCE:KN001_Kyoto_1-1-4-01
 ８月に嵐山へドクターフィシュ体験で行った時に残念ながら閉館していたのでいつか行こうと思っていた場所である。
 ===WORDS:KN001_Kyoto_1-1-4-01
@@ -1531,8 +1524,6 @@
 西大路 西大路 Noun
 三 三 Noun
 条 条 Suffix
-===BANNED:ＪＲ ＪＲ 名詞 KN001_Kyoto_1-1-8-01
-===BANNED:ＪＲ ＪＲ 名詞 KN001_Kyoto_1-1-9-01
 ===SENTENCE:KN002_Keitai_1-1-1-01
 正しい選択
 ===WORDS:KN002_Keitai_1-1-1-01
@@ -1608,7 +1599,6 @@
 を を Particle
 し する Verb
 ました ます Suffix
-===BANNED:Ｇ’ｚ じーずわん Ｇ’ｚ KN002_Keitai_1-1-3-01
 ===SENTENCE:KN002_Keitai_1-1-4-01
 モノの扱いが雑な自分にとっては、精密機械である携帯はできるだけ頑丈なほうがいい、という発想からの選択でした。
 ===WORDS:KN002_Keitai_1-1-4-01
@@ -2060,7 +2050,6 @@
 略称 略称 Noun
 忘れた 忘れる Verb
 ・・・ ・・・ Special
-===BANNED:ａｕ ａｕ 名詞 KN003_Keitai_1-1-4-01
 ===SENTENCE:KN003_Keitai_1-1-5-01
 更にいうと、業界の話ではないけど、京大でのフォーマの電波状況が改善されて、本当に１歩入れば圏外だった法経本館でばっちり三本たつようになった。
 ===WORDS:KN003_Keitai_1-1-5-01
@@ -2416,9 +2405,6 @@
 が が Particle
 かかる かかる Verb
 んです んだ AuxillaryVerb
-===BANNED:ｍｐ３ ｍｐ３ 名詞 KN004_Keitai_1-1-10-01
-===BANNED:ＣＤ ＣＤ 名詞 KN004_Keitai_1-1-11-01
-===BANNED:ＲＷ ＲＷ 名詞 KN004_Keitai_1-1-12-01
 ===SENTENCE:KN004_Keitai_1-1-13-01
 何とかならないものか。
 ===WORDS:KN004_Keitai_1-1-13-01
@@ -2601,7 +2587,6 @@
 に に Particle
 なる なる Verb
 し し Particle
-===BANNED:ａｕ ａｕ 名詞 KN004_Keitai_1-1-9-01
 ===SENTENCE:KN004_Kyoto_1-1-1-01
 紅葉真っ盛りです
 ===WORDS:KN004_Kyoto_1-1-1-01
@@ -2649,7 +2634,6 @@
 なって なる Suffix
 きれいです きれいだ IAdjective
 ね ね Particle
-===BANNED:ＮＦ ＮＦ 名詞 KN004_Kyoto_1-1-3-01
 ===SENTENCE:KN004_Kyoto_1-1-4-01
 時間がとれたころには散っていた、なんてことにならなければいいのですが。
 ===WORDS:KN004_Kyoto_1-1-4-01
@@ -2891,7 +2875,6 @@
 わかり わかる Verb
 ませ ます Suffix
 ん ぬ AuxillaryVerb
-===BANNED:ＧＵＹ ＧＵＹ 名詞 KN005_Keitai_1-1-1-01
 ===SENTENCE:KN005_Keitai_1-1-10-01
 結局何も変わらんのちゃう？？
 ===WORDS:KN005_Keitai_1-1-10-01
@@ -3182,7 +3165,6 @@
 なんか なんか Adverb
 落ち着く 落ち着く Verb
 し し Particle
-===BANNED:Ｊ−ＰＨＯＮＥ Ｊ−ＰＨＯＮＥ 名詞 KN006_Keitai_1-1-1-01
 ===SENTENCE:KN006_Keitai_1-1-10-01
 なんと品切れ。
 ===WORDS:KN006_Keitai_1-1-10-01
@@ -3218,7 +3200,6 @@
 もちろん もちろん Adverb
 行き 行く Verb
 ました ます Suffix
-===BANNED:ｗ ｗ 特殊 KN006_Keitai_1-1-14-01
 ===SENTENCE:KN006_Keitai_1-1-15-01
 また５年間使い続けるぞい！
 ===WORDS:KN006_Keitai_1-1-15-01
@@ -3241,8 +3222,6 @@
 変 変 Noun
 を を Particle
 した する Verb
-===BANNED:Ｊ−ＰＨＯＮＥ Ｊ−ＰＨＯＮＥ 名詞 KN006_Keitai_1-1-3-01
-===BANNED:ｖｏｄａｆｏｎｅ ｖｏｄａｆｏｎｅ 名詞 KN006_Keitai_1-1-4-01
 ===SENTENCE:KN006_Keitai_1-1-5-01
 なんと５年もの間使い続けた。
 ===WORDS:KN006_Keitai_1-1-5-01
@@ -3319,7 +3298,6 @@
 に に Particle
 決めた 決める Verb
 ！！ ！！ Special
-===BANNED:ｓｏｆｔｂａｎｋ ｓｏｆｔｂａｎｋ 名詞 KN006_Keitai_1-1-8-02
 ===SENTENCE:KN006_Keitai_1-1-9-01
 と思ったら…
 ===WORDS:KN006_Keitai_1-1-9-01
@@ -4294,7 +4272,6 @@
 こと こと Noun
 が が Particle
 ある ある Verb
-===BANNED:ｖｏｄａｆｏｎｅ ｖｏｄａｆｏｎｅ 名詞 KN008_Keitai_1-1-13-01
 ===SENTENCE:KN008_Keitai_1-1-14-01
 要するにものすごく鬱陶しい。
 ===WORDS:KN008_Keitai_1-1-14-01
@@ -4551,7 +4528,6 @@
 が が Particle
 でき できる Verb
 ない ない Suffix
-===BANNED:ＪＲ ＪＲ 名詞 KN008_Kyoto_1-1-1-01
 ===SENTENCE:KN008_Kyoto_1-1-10-01
 条件反射なのか、僕の中に名状しがたい郷愁の気持ちが湧いてきた。
 ===WORDS:KN008_Kyoto_1-1-10-01
@@ -4678,8 +4654,6 @@
 は は Particle
 えらく えらい IAdjective
 小さい 小さい IAdjective
-===BANNED:ＪＲ ＪＲ 名詞 KN008_Kyoto_1-1-2-01
-===BANNED:ＢＧＭ ＢＧＭ 名詞 KN008_Kyoto_1-1-3-01
 ===SENTENCE:KN008_Kyoto_1-1-3-02
 寺社、仏閣、紅葉、森林
 ===WORDS:KN008_Kyoto_1-1-3-02
@@ -4799,8 +4773,6 @@
 と と Particle
 入って 入る Verb
 くる くる Suffix
-===BANNED:Ｍｙ Ｔｈｉｎｇｓ まいふぇいばっりとしんぐす KN008_Kyoto_1-1-9-01
-===BANNED:ｏｒ ｏｒ 名詞 KN009_Keitai_1-1-1-01
 ===SENTENCE:KN009_Keitai_1-1-10-01
 メールも面倒なときは、電話すぐかけるし、電話代がふくれあがって大変。。
 ===WORDS:KN009_Keitai_1-1-10-01
@@ -4977,7 +4949,6 @@
 とき とき Noun
 も も Particle
 ある ある Verb
-===BANNED:ｄｏｃｏｍｏ ｄｏｃｏｍｏ 名詞 KN009_Keitai_1-1-5-01
 ===SENTENCE:KN009_Keitai_1-1-6-01
 僕も一時期は３０００００パケットをかるーく超えてる時期はありました。
 ===WORDS:KN009_Keitai_1-1-6-01
@@ -5022,7 +4993,6 @@
 か か Particle
 する する Verb
 みたい みたいだ AuxillaryVerb
-===BANNED:ｉｍｏｄｅ ｉｍｏｄｅ 名詞 KN009_Keitai_1-1-9-01
 ===SENTENCE:KN009_Kyoto_1-1-1-01
 定番・清水寺
 ===WORDS:KN009_Kyoto_1-1-1-01
@@ -5820,7 +5790,6 @@
 が が Particle
 ある ある Verb
 のだ のだ AuxillaryVerb
-===BANNED:ｇ ｇ 接尾辞 KN012_Gourmet_1-1-8-01
 ===SENTENCE:KN012_Gourmet_1-1-9-01
 夕方には売切れてしまうので、欲しい人は早めの時間に買いに行ったほうがいい。
 ===WORDS:KN012_Gourmet_1-1-9-01
@@ -5878,7 +5847,6 @@
 行って 行く Verb
 き くる Suffix
 ました ます Suffix
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｈｏｔｐｅｐｐｅｒ．ｊｐ／Ａ＿２０１００／ｓｔｒＪ００００５６９３７．ｈｔｍｌ ｈｔｔｐ：／／ｗｗｗ．ｈｏｔｐｅｐｐｅｒ．ｊｐ／Ａ＿２０１００／ｓｔｒＪ００００５６９３７．ｈｔｍｌ 名詞 KN012_Gourmet_2-1-3-01
 ===SENTENCE:KN012_Gourmet_2-1-4-01
 居酒屋、と聞くと酒臭いおじさんばかりのイメージだったのですが、まったくそんなことはなく、うまい一品料理とオシャレなカクテルの、雰囲気のいい店なんですね。
 ===WORDS:KN012_Gourmet_2-1-4-01
@@ -5942,7 +5910,6 @@
 話し 話す Verb
 続け 続ける Verb
 ました ます Suffix
-===BANNED:ｗ ｗ 特殊 KN012_Gourmet_2-1-6-01
 ===SENTENCE:KN012_Gourmet_2-1-7-01
 やっぱり学生時代、いろんなひとといろんな話を飽きるほどしたいものです。
 ===WORDS:KN012_Gourmet_2-1-7-01
@@ -6268,7 +6235,6 @@
 に に Particle
 なって なる Verb
 ます ます Suffix
-===BANNED:Ｌ Ｌ 特殊 KN012_Gourmet_4-1-7-01
 ===SENTENCE:KN012_Gourmet_4-1-8-01
 ジェイムズキッチンも毎回クーポン券がもらえるのでお勧めですよ。
 ===WORDS:KN012_Gourmet_4-1-8-01
@@ -6733,7 +6699,6 @@
 です だ Decision
 けど けど Particle
 ☆ ☆ Special
-===BANNED:Ｆｏｏｄ Ｆｏｏｄ 名詞 KN012_Gourmet_6-1-23-01
 ===SENTENCE:KN012_Gourmet_6-1-23-02
 パンメインでカレーとか
 ===WORDS:KN012_Gourmet_6-1-23-02
@@ -6884,7 +6849,6 @@
 が が Particle
 あり ある Verb
 ます ます Suffix
-===BANNED:Ｆｏｏｄ Ｆｏｏｄ 名詞 KN012_Gourmet_6-1-7-01
 ===SENTENCE:KN012_Gourmet_6-1-8-01
 人が少ないからゆっくり本読んだり出来るけど、照明はお洒落でチョイ暗めです。
 ===WORDS:KN012_Gourmet_6-1-8-01
@@ -6919,7 +6883,6 @@
 側 側 Suffix
 に に Particle
 ある ある Verb
-===BANNED:ＨＰ ＨＰ 名詞 KN012_Gourmet_7-1-1-01
 ===SENTENCE:KN012_Gourmet_7-1-10-01
 三店舗行ったことがあるけど、支店こんなにあるんだーって感じ。
 ===WORDS:KN012_Gourmet_7-1-10-01
@@ -6936,7 +6899,6 @@
 んだー んだ AuxillaryVerb
 って って Particle
 感じ 感じ Noun
-===BANNED:ｃａｆｆｅ かふぇこすた ｃａｆｆｅ KN012_Gourmet_7-1-11-01
 ===SENTENCE:KN012_Gourmet_7-1-12-01
 一回友達とディナーしただけやけど。
 ===WORDS:KN012_Gourmet_7-1-12-01
@@ -6949,7 +6911,6 @@
 だけ だけ Particle
 や や Decision
 けど けど Particle
-===BANNED:Ｃａｆｅ＆Ｃａｆｅ Ｃａｆｅ＆Ｃａｆｅ Ｓｕｇａｒｙ KN012_Gourmet_7-1-13-01
 ===SENTENCE:KN012_Gourmet_7-1-14-01
 ホットペーパーを使ったら半額近くでディナー食べれた☆
 ===WORDS:KN012_Gourmet_7-1-14-01
@@ -6980,7 +6941,6 @@
 すごく すごい IAdjective
 素敵 素敵だ IAdjective
 （＞▽＜） （＞▽＜） Special
-===BANNED:ｎｅｕｔｏｒｏｎ ｎｅｕｔｏｒｏｎ 名詞 KN012_Gourmet_7-1-16-01
 ===SENTENCE:KN012_Gourmet_7-1-16-02
 ←多分違う
 ===WORDS:KN012_Gourmet_7-1-16-02
@@ -7012,8 +6972,6 @@
 そして そして Conjunction
 そして そして Conjunction
 ！！ ！！ Special
-===BANNED:ｃａｆｅ かふぇいんでぃぺんでんと ｃａｆｅ KN012_Gourmet_7-1-19-01
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｋｙｏｔｏ−ｔｖ．ｃｏｍ／ ｈｔｔｐ：／／ｗｗｗ．ｋｙｏｔｏ−ｔｖ．ｃｏｍ／ 名詞 KN012_Gourmet_7-1-2-01
 ===SENTENCE:KN012_Gourmet_7-1-20-01
 地下にあるんやけど、雰囲気めっちゃいい！
 ===WORDS:KN012_Gourmet_7-1-20-01
@@ -7026,7 +6984,6 @@
 めっちゃ めっちゃ Adverb
 いい いい IAdjective
 ！ ！ Special
-===BANNED:ｄｉｎｎｅｒ ｄｉｎｎｅｒ 名詞 KN012_Gourmet_7-1-21-01
 ===SENTENCE:KN012_Gourmet_7-1-22-01
 ここは料理も美味しいんです。
 ===WORDS:KN012_Gourmet_7-1-22-01
@@ -7054,7 +7011,6 @@
 み みる Suffix
 たい たい Suffix
 なー なー Particle
-===BANNED:ＤＥＭＯＤＥ ＤＥＭＯＤＥ 名詞 KN012_Gourmet_7-1-4-01
 ===SENTENCE:KN012_Gourmet_7-1-5-01
 カフェっていうよりか、晩御飯目当てで行ったんだけどね☆
 ===WORDS:KN012_Gourmet_7-1-5-01
@@ -7081,7 +7037,6 @@
 美味しい 美味しい IAdjective
 です だ Decision
 〓〓〓 〓〓〓 Special
-===BANNED:ＯＰＡ ＯＰＡ 名詞 KN012_Gourmet_7-1-7-01
 ===SENTENCE:KN012_Gourmet_7-1-8-01
 二階が特におしゃれでお勧め！
 ===WORDS:KN012_Gourmet_7-1-8-01
@@ -7093,7 +7048,6 @@
 お お Prefix
 勧め 勧める Verb
 ！ ！ Special
-===BANNED:ｂｏｏｇａｌｏｏ ぶーがるーかふぇ ｂｏｏｇａｌｏｏ KN012_Gourmet_7-1-9-01
 ===SENTENCE:KN012_Gourmet_8-1-1-01
 ■■■
 ===WORDS:KN012_Gourmet_8-1-1-01
@@ -7712,10 +7666,6 @@
 始まる 始まる Verb
 と と Particle
 か か Particle
-===BANNED:ｄｏｃｏｍｏ ｄｏｃｏｍｏ 名詞 KN012_Keitai_1-1-3-01
-===BANNED:ＳｏｆｔＢａｎｋ ＳｏｆｔＢａｎｋ 名詞 KN012_Keitai_1-1-4-01
-===BANNED:ＳＣ ＳＣ 名詞 KN012_Keitai_1-1-5-01
-===BANNED:ＳｏｆｔＢａｎｋ ＳｏｆｔＢａｎｋ 名詞 KN012_Keitai_1-1-6-01
 ===SENTENCE:KN012_Keitai_1-1-7-01
 海外の機種は着歌が取れないなどの弊害が多々存在するので今回はやっぱり国産？
 ===WORDS:KN012_Keitai_1-1-7-01
@@ -7741,7 +7691,6 @@
 やっぱり やっぱり Adverb
 国産 国産 Noun
 ？ ？ Special
-===BANNED:８１０ＳＨ ８１０ＳＨ 名詞 KN012_Keitai_1-1-8-01
 ===SENTENCE:KN012_Keitai_1-1-9-01
 色はグリーン、ブルー、ライラックのどれか。
 ===WORDS:KN012_Keitai_1-1-9-01
@@ -8036,7 +7985,6 @@
 に に Particle
 なり なる Verb
 ました ます Suffix
-===BANNED:ＫＵＬＡＳＩＳ ＫＵＬＡＳＩＳ 名詞 KN012_Keitai_2-1-6-01
 ===SENTENCE:KN012_Keitai_2-1-7-01
 特に今の時期は教室変更などもあり、さっと見られないととても不便です。
 ===WORDS:KN012_Keitai_2-1-7-01
@@ -8175,7 +8123,6 @@
 びっくり びっくり Noun
 さ する Verb
 れた れる Suffix
-===BANNED:ｄｏｃｏｍｏ ｄｏｃｏｍｏ 名詞 KN012_Keitai_3-1-14-01
 ===SENTENCE:KN012_Keitai_3-1-15-01
 その時初めて自分の電池パックをまじまじ見たのですが、、なんと中年太りしてました。
 ===WORDS:KN012_Keitai_3-1-15-01
@@ -8256,7 +8203,6 @@
 ===WORDS:KN012_Keitai_3-1-18-02
 多分 多分 Adverb
 ？ ？ Special
-===BANNED:（ｖｖ）〓 （ｖｖ）〓 特殊 KN012_Keitai_3-1-19-01
 ===SENTENCE:KN012_Keitai_3-1-2-01
 今の携帯は１年半ほど前に買いました。
 ===WORDS:KN012_Keitai_3-1-2-01
@@ -8276,9 +8222,6 @@
 バイバイ
 ===WORDS:KN012_Keitai_3-1-20-01
 バイバイ バイバイ Interjection
-===BANNED:ＳＨ９０２ｉ ＳＨ９０２ｉ 名詞 KN012_Keitai_3-1-3-01
-===BANNED:ｉＰｏｄ ｉＰｏｄ 名詞 KN012_Keitai_3-1-4-01
-===BANNED:ｍｉｎｉＳＤ ｍｉｎｉＳＤ 名詞 KN012_Keitai_3-1-5-01
 ===SENTENCE:KN012_Keitai_3-1-6-01
 その時いそいで買ったのは、その後オーストラリアにホームステイに行く予定があったからです。
 ===WORDS:KN012_Keitai_3-1-6-01
@@ -8351,7 +8294,6 @@
 使って 使う Verb
 る る Suffix
 やつ やつ Noun
-===BANNED:ＧＢ ＧＢ 接尾辞 KN012_Keitai_4-1-10-01
 ===SENTENCE:KN012_Keitai_4-1-11-01
 音楽が２０００曲くらい入れられます。
 ===WORDS:KN012_Keitai_4-1-11-01
@@ -8397,7 +8339,6 @@
 見たら 見る Verb
 ええやん えい IAdjective
 って って Particle
-===BANNED:ｉｐｏｄ ｉｐｏｄ 名詞 KN012_Keitai_4-1-16-01
 ===SENTENCE:KN012_Keitai_4-1-17-01
 そんなこというけど、、その通りです。
 ===WORDS:KN012_Keitai_4-1-17-01
@@ -8607,8 +8548,6 @@
 見 見る Verb
 れ れる Suffix
 ます ます Suffix
-===BANNED:Ｓｏｎｙ Ｓｏｎｙ 名詞 KN012_Keitai_5-1-1-01
-===BANNED:ｓｏ９０２ｉｗｐ＋ ｓｏ９０２ｉｗｐ＋ 名詞 KN012_Keitai_5-1-2-01
 ===SENTENCE:KN012_Keitai_5-1-3-01
 小さすぎてボタンを押し辛いのである。
 ===WORDS:KN012_Keitai_5-1-3-01
@@ -10715,7 +10654,6 @@
 いる いる Suffix
 のだ のだ AuxillaryVerb
 そうだ そうだ AuxillaryVerb
-===BANNED:ｋｍ ｋｍ 接尾辞 KN012_Kyoto_08-1-2-01
 ===SENTENCE:KN012_Kyoto_08-1-20-01
 彼にはハナコとリンタロウというかわいい２人の子供がいた。
 ===WORDS:KN012_Kyoto_08-1-20-01
@@ -10812,7 +10750,6 @@
 が が Particle
 い いる Verb
 ない ない Suffix
-===BANNED:ｋｍ ｋｍ 接尾辞 KN012_Kyoto_08-1-5-01
 ===SENTENCE:KN012_Kyoto_08-1-6-01
 出店も店員のいないところが多い。
 ===WORDS:KN012_Kyoto_08-1-6-01
@@ -10825,7 +10762,6 @@
 ところ ところ Noun
 が が Particle
 多い 多い IAdjective
-===BANNED:ＧＲＥＡＴ ＧＲＥＡＴだ 形容詞 KN012_Kyoto_08-1-7-01
 ===SENTENCE:KN012_Kyoto_08-1-8-01
 着くとそこはまさしく絶景であった。
 ===WORDS:KN012_Kyoto_08-1-8-01
@@ -11522,7 +11458,6 @@
 感じ 感じる Verb
 ながら ながら Particle
 漕ぐ 漕ぐ Verb
-===BANNED:ａｍ ａｍ 名詞 KN012_Sports_1-1-105-01
 ===SENTENCE:KN012_Sports_1-1-106-01
 本当に気持ち良い。
 ===WORDS:KN012_Sports_1-1-106-01
@@ -12736,7 +12671,6 @@
 分 分 Suffix
 前 前 Suffix
 ・・・ ・・・ Special
-===BANNED:Ａ Ａ 特殊 KN012_Sports_2-1-21-01
 ===SENTENCE:KN012_Sports_2-1-22-01
 私たちはスタートした。
 ===WORDS:KN012_Sports_2-1-22-01
@@ -12833,7 +12767,6 @@
 あった あう Verb
 日 日 Noun
 だ だ Decision
-===BANNED:Ａ Ａ 特殊 KN012_Sports_2-1-30-01
 ===SENTENCE:KN012_Sports_2-1-31-01
 でも近畿大学はまだまだ喰らいついてくる。
 ===WORDS:KN012_Sports_2-1-31-01
@@ -13343,10 +13276,6 @@
 駄目 駄目だ IAdjective
 って って Particle
 こと こと Noun
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN013_Keitai_1-1-1-01
-===BANNED:Ｊ−ＰＨＯＮＥ Ｊ−ＰＨＯＮＥ 名詞 KN013_Keitai_1-1-2-01
-===BANNED:ＳｏｆｔＢａｎｋ ＳｏｆｔＢａｎｋ 名詞 KN013_Keitai_1-1-3-01
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN013_Keitai_1-1-4-01
 ===SENTENCE:KN013_Keitai_1-1-5-01
 結局それを知らせる必要があるわけで、メールを多く使う人の場合は要する労力がほとんど変わっていない。
 ===WORDS:KN013_Keitai_1-1-5-01
@@ -13418,7 +13347,6 @@
 が が Particle
 疑問 疑問 Noun
 だ だ Decision
-===BANNED:ｉＰｏｄ ｉＰｏｄ 名詞 KN013_Keitai_1-1-8-01
 ===SENTENCE:KN013_Keitai_1-1-9-01
 あれ目当てで移ってくる人とかどのくらいいるんだろうか…
 ===WORDS:KN013_Keitai_1-1-9-01
@@ -13566,7 +13494,6 @@
 人 人 Noun
 多 多い IAdjective
 すぎ すぎ Suffix
-===BANNED:ＮＦ ＮＦ 名詞 KN013_Kyoto_1-1-2-01
 ===SENTENCE:KN013_Kyoto_1-1-20-01
 日が暮れていたので竹林の中に入るとかなり暗くなっていた。
 ===WORDS:KN013_Kyoto_1-1-20-01
@@ -13829,7 +13756,6 @@
 は は Particle
 最大に 最大だ IAdjective
 設定 設定 Noun
-===BANNED:ｉＰｏｄ ｉＰｏｄ 名詞 KN015_Keitai_1-1-11-01
 ===SENTENCE:KN015_Keitai_1-1-12-01
 ゲームだって携帯機でやればいい。
 ===WORDS:KN015_Keitai_1-1-12-01
@@ -13882,8 +13808,6 @@
 ねぇ。
 ===WORDS:KN015_Keitai_1-1-16-01
 ねぇ ねぇ Interjection
-===BANNED:ｔｕ−ｋａ ｔｕ−ｋａ 名詞 KN015_Keitai_1-1-17-01
-===BANNED:ｖｏｄａ ｖｏｄａ 未定義語 KN015_Keitai_1-1-17-02
 ===SENTENCE:KN015_Keitai_1-1-18-01
 それがすっかりこの体たらく。
 ===WORDS:KN015_Keitai_1-1-18-01
@@ -13905,12 +13829,10 @@
 に に Particle
 遭う 遭う Verb
 んです んだ AuxillaryVerb
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN015_Keitai_1-1-2-01
 ===SENTENCE:KN015_Keitai_1-1-20-01
 閑話休題。
 ===WORDS:KN015_Keitai_1-1-20-01
 閑話休題 閑話休題 Noun
-===BANNED:ｉＰｏｄ ｉＰｏｄ 名詞 KN015_Keitai_1-1-21-01
 ===SENTENCE:KN015_Keitai_1-1-22-01
 インドとかに出荷するテレビって最大音量がものすごいらしいのでその技術を流用して。
 ===WORDS:KN015_Keitai_1-1-22-01
@@ -13974,7 +13896,6 @@
 か か Particle
 で で Particle
 偶然に 偶然だ IAdjective
-===BANNED:Ｐ．Ｓ． Ｐ．Ｓ． 名詞 KN015_Keitai_1-1-27-01
 ===SENTENCE:KN015_Keitai_1-1-28-01
 数年前、電車の中吊り広告で「僕たちは携帯電話を発明したと同時に、携帯電話の鳴らない淋しさも発明してしまった」みたいなのを見て実に納得した覚えがあります。
 ===WORDS:KN015_Keitai_1-1-28-01
@@ -14042,8 +13963,6 @@
 伴って 伴う Verb
 起こり 起こる Verb
 ます ます Suffix
-===BANNED:ｎ ｎ 特殊 KN015_Keitai_1-1-3-01
-===BANNED:ＳＰＡＭ ＳＰＡＭ 名詞 KN015_Keitai_1-1-30-01
 ===SENTENCE:KN015_Keitai_1-1-30-02
 しかも英語
 ===WORDS:KN015_Keitai_1-1-30-02
@@ -14067,7 +13986,6 @@
 ===WORDS:KN015_Keitai_1-1-4-01
 しかし しかし Conjunction
 ！ ！ Special
-===BANNED:ｂｕｔ ｂｕｔ 接続詞 KN015_Keitai_1-1-5-01
 ===SENTENCE:KN015_Keitai_1-1-6-01
 僕はこの風潮に異を唱えたいと思います。
 ===WORDS:KN015_Keitai_1-1-6-01
@@ -14329,7 +14247,6 @@
 の の Particle
 オマージュ オマージュ Noun
 です だ Decision
-===BANNED:ＯＰＡ ＯＰＡ 名詞 KN015_Kyoto_1-1-17-01
 ===SENTENCE:KN015_Kyoto_1-1-18-01
 メンズフロアとタワレコを利用します。
 ===WORDS:KN015_Kyoto_1-1-18-01
@@ -14340,8 +14257,6 @@
 利用 利用 Noun
 し する Verb
 ます ます Suffix
-===BANNED:Ｆ Ｆ 特殊 KN015_Kyoto_1-1-18-02
-===BANNED:Ｆ Ｆ 特殊 KN015_Kyoto_1-1-18-03
 ===SENTENCE:KN015_Kyoto_1-1-19-01
 俗に言う「丸井系」のブランドが多く入っています。
 ===WORDS:KN015_Kyoto_1-1-19-01
@@ -14385,7 +14300,6 @@
 でしょう だ Decision
 か か Particle
 ？ ？ Special
-===BANNED:Ｔ Ｔ 特殊 KN015_Kyoto_1-1-20-01
 ===SENTENCE:KN015_Kyoto_1-1-21-01
 粘着接客の餌食にならないように…。
 ===WORDS:KN015_Kyoto_1-1-21-01
@@ -14411,7 +14325,6 @@
 ===WORDS:KN015_Kyoto_1-1-22-02
 タワー タワー Noun
 レコード レコード Noun
-===BANNED:ＨＭＶ ＨＭＶ 名詞 KN015_Kyoto_1-1-23-01
 ===SENTENCE:KN015_Kyoto_1-1-23-02
 河原町ビブレ
 ===WORDS:KN015_Kyoto_1-1-23-02
@@ -14432,9 +14345,6 @@
 が が Particle
 多い 多い IAdjective
 です です AuxillaryVerb
-===BANNED:ＵＮＩＴＥＤ ＵＮＩＴＥＤ 名詞 KN015_Kyoto_1-1-26-01
-===BANNED:ＵＮＴＩＴＬＥＤ ＵＮＴＩＴＬＥＤ 名詞 KN015_Kyoto_1-1-27-01
-===BANNED:ａ−ｃｈｏ ａ−ｃｈｏ 名詞 KN015_Kyoto_1-1-28-01
 ===SENTENCE:KN015_Kyoto_1-1-29-01
 四条寺町にあるゲーセンです。
 ===WORDS:KN015_Kyoto_1-1-29-01
@@ -14460,7 +14370,6 @@
 が が Particle
 あり ある Verb
 ます ます Suffix
-===BANNED:Ｆ Ｆ 特殊 KN015_Kyoto_1-1-30-01
 ===SENTENCE:KN015_Kyoto_1-1-31-01
 通常は１プレイ１００円ですが、平日の午前中に限り２００円３プレイ、３００円５プレイのサービスを実施中です。
 ===WORDS:KN015_Kyoto_1-1-31-01
@@ -14516,8 +14425,6 @@
 ===WORDS:KN015_Kyoto_1-1-32-02
 偏見 偏見 Noun
 ？ ？ Special
-===BANNED:Ｆ Ｆ 特殊 KN015_Kyoto_1-1-33-01
-===BANNED:ＧＯＬＤ ＧＯＬＤ 名詞 KN015_Kyoto_1-1-34-01
 ===SENTENCE:KN015_Kyoto_1-1-35-01
 見かけたら生暖かい目で見守ってやってください。
 ===WORDS:KN015_Kyoto_1-1-35-01
@@ -15101,7 +15008,6 @@
 ===WORDS:KN015_Kyoto_1-1-7-01
 しかし しかし Conjunction
 ！ ！ Special
-===BANNED:ｂｕｔ ｂｕｔ 接続詞 KN015_Kyoto_1-1-8-01
 ===SENTENCE:KN015_Kyoto_1-1-9-01
 京都観光とははたしてそのような歴史を感じる場所のみが対象となっているのでしょうか？
 ===WORDS:KN015_Kyoto_1-1-9-01
@@ -15324,7 +15230,6 @@
 られ られる Suffix
 ない ない Suffix
 から から Particle
-===BANNED:Ｗ−ＺＥＲＯ３ Ｗ−ＺＥＲＯ３ 名詞 KN016_Keitai_1-1-21-01
 ===SENTENCE:KN016_Keitai_1-1-22-01
 携帯ならなおさらである。
 ===WORDS:KN016_Keitai_1-1-22-01
@@ -16137,7 +16042,6 @@
 ===WORDS:KN017_Kyoto_1-1-1-01
 晴明 晴明 Noun
 神社 神社 Noun
-===BANNED:Ｔシャツ Ｔシャツ 名詞 KN017_Kyoto_1-1-10-01
 ===SENTENCE:KN017_Kyoto_1-1-11-01
 あまりにも安倍晴明ブームに乗ろうというのが丸分かりであり、その商売っけは神社にあるだけに余計見苦しく見える。
 ===WORDS:KN017_Kyoto_1-1-11-01
@@ -18065,7 +17969,6 @@
 と と Particle
 思い 思う Verb
 ます ます Suffix
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN020_Keitai_1-1-1-01
 ===SENTENCE:KN020_Keitai_1-1-10-01
 ■の「¥０」という宣伝が法律に違反しているのではないかと公取委に聴取されたこともマスゴミで報道されてしまったし、これはもう■、だめかもわからんね。
 ===WORDS:KN020_Keitai_1-1-10-01
@@ -18112,8 +18015,6 @@
 わから わかる Verb
 ん ぬ AuxillaryVerb
 ね ね Particle
-===BANNED:＼（＾ｏ＾）／ ＼（＾ｏ＾）／ 特殊 KN020_Keitai_1-1-11-01
-===BANNED:＼（＾ｏ＾）／ ＼（＾ｏ＾）／ 特殊 KN020_Keitai_1-1-12-01
 ===SENTENCE:KN020_Keitai_1-1-2-01
 先週ついに番号ポータビリティなる制度が始まった。
 ===WORDS:KN020_Keitai_1-1-2-01
@@ -18125,7 +18026,6 @@
 制度 制度 Noun
 が が Particle
 始まった 始まる Verb
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN020_Keitai_1-1-3-01
 ===SENTENCE:KN020_Keitai_1-1-4-01
 そして最初の週末が終わった。
 ===WORDS:KN020_Keitai_1-1-4-01
@@ -18135,8 +18035,6 @@
 末 末 Suffix
 が が Particle
 終わった 終わる Verb
-===BANNED:Ｄｏｃｏｍｏ Ｄｏｃｏｍｏ 名詞 KN020_Keitai_1-1-5-01
-===BANNED:ｓｏｆｔｂａｎｋ ｓｏｆｔｂａｎｋ 名詞 KN020_Keitai_1-1-6-01
 ===SENTENCE:KN020_Keitai_1-1-6-02
 以下、■と表記する
 ===WORDS:KN020_Keitai_1-1-6-02
@@ -18158,7 +18056,6 @@
 怪しい 怪しい IAdjective
 数字 数字 Noun
 だ だ Decision
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN020_Keitai_1-1-8-01
 ===SENTENCE:KN020_Keitai_1-1-9-01
 その鯖落ちも、脱北したい人民を封じ込めるために■が意図的に国境封鎖したのではないかとさえ言われる始末。
 ===WORDS:KN020_Keitai_1-1-9-01
@@ -18503,7 +18400,6 @@
 と と Particle
 も も Particle
 思う 思う Verb
-===BANNED:ｗｉｔｈ ｗｉｔｈ 名詞 KN021_Kyoto_1-1-1-01
 ===SENTENCE:KN021_Kyoto_1-1-10-01
 これ以上素敵な都市って、日本にもそうないんじゃないかしらん？？
 ===WORDS:KN021_Kyoto_1-1-10-01
@@ -18521,7 +18417,6 @@
 ない ない Suffix
 かしらん かしらん Particle
 ？？ ？？ Special
-===BANNED:ＧＯ ＧＯ 名詞 KN021_Kyoto_1-1-2-01
 ===SENTENCE:KN021_Kyoto_1-1-3-01
 先に何も考えず、ルネのパフェを食べてしまったのが唯一の後悔である。
 ===WORDS:KN021_Kyoto_1-1-3-01
@@ -18639,7 +18534,6 @@
 と と Particle
 ぼんやり ぼんやり Adverb
 思う 思う Verb
-===BANNED:ＬＯＶＥな ＬＯＶＥだ 形容詞 KN021_Kyoto_1-1-8-01
 ===SENTENCE:KN021_Kyoto_1-1-9-01
 これからも、いっぱい京都を観光したいし、京都を満喫したい。
 ===WORDS:KN021_Kyoto_1-1-9-01
@@ -18753,7 +18647,6 @@
 ちょっと ちょっと Adverb
 驚き 驚く Verb
 ました ます Suffix
-===BANNED:ＳＩＭ ＳＩＭ 名詞 KN022_Keitai_1-1-15-01
 ===SENTENCE:KN022_Keitai_1-1-16-01
 泥棒はカードを取ってから、自分が直接に使うことができます。
 ===WORDS:KN022_Keitai_1-1-16-01
@@ -18798,7 +18691,6 @@
 られ られる Suffix
 ない ない Suffix
 でしょう だろう AuxillaryVerb
-===BANNED:Ｃ Ｃ 特殊 KN022_Keitai_1-1-19-01
 ===SENTENCE:KN022_Keitai_1-1-2-01
 私は中国からの留学生です。
 ===WORDS:KN022_Keitai_1-1-2-01
@@ -18824,7 +18716,6 @@
 送ったり 送る Verb
 し する Suffix
 ます ます Suffix
-===BANNED:Ｅ Ｅ 特殊 KN022_Keitai_1-1-21-01
 ===SENTENCE:KN022_Keitai_1-1-22-01
 日本では、学生なら、学割ができます。
 ===WORDS:KN022_Keitai_1-1-22-01
@@ -18972,8 +18863,6 @@
 比べ 比べる Verb
 ましょう ます Suffix
 か か Particle
-===BANNED:ＳＩＭ ＳＩＭ 名詞 KN022_Keitai_1-1-6-01
-===BANNED:ＣＤＭＡ ＣＤＭＡ 名詞 KN022_Keitai_1-1-7-01
 ===SENTENCE:KN022_Keitai_1-1-8-01
 中国の携帯は約５００元から５０００元です。
 ===WORDS:KN022_Keitai_1-1-8-01
@@ -19953,9 +19842,6 @@
 「 「 Special
 旅 旅 Noun
 」 」 Special
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN024_Keitai_1-1-1-01
-===BANNED:ＫＤＤＩ ＫＤＤＩ 名詞 KN024_Keitai_1-1-10-01
-===BANNED:ａｕ ａｕ 名詞 KN024_Keitai_1-1-10-02
 ===SENTENCE:KN024_Keitai_1-1-11-01
 （もし相手がツーカーやソフトバンクモバイルなら１分税込１８．９円になるが．）
 ===WORDS:KN024_Keitai_1-1-11-01
@@ -19979,7 +19865,6 @@
 が が Particle
 ． ． Special
 ） ） Special
-===BANNED:ＤｏＣｏＭｏ ＤｏＣｏＭｏ 名詞 KN024_Keitai_1-1-12-01
 ===SENTENCE:KN024_Keitai_1-1-13-01
 番号だけで判断して，頭に００３９をつけてかけると，１分税込２２．０５円の割高な料金となってしまうのである．
 ===WORDS:KN024_Keitai_1-1-13-01
@@ -20011,7 +19896,6 @@
 しまう しまう Suffix
 のである のだ AuxillaryVerb
 ． ． Special
-===BANNED:ＫＤＤＩ ＫＤＤＩ 名詞 KN024_Keitai_1-1-14-01
 ===SENTENCE:KN024_Keitai_1-1-15-01
 自己防衛としては，常に相手のメールアドレスを把握しておくこと位しか今のところないと思う．
 ===WORDS:KN024_Keitai_1-1-15-01
@@ -20064,7 +19948,6 @@
 だろう だ Decision
 か か Particle
 ． ． Special
-===BANNED:ＤｏＣｏＭｏ ＤｏＣｏＭｏ 名詞 KN024_Keitai_1-1-17-01
 ===SENTENCE:KN024_Keitai_1-1-18-01
 これで，相手が契約している携帯会社を気にせずに電話がかけられていいと思う．
 ===WORDS:KN024_Keitai_1-1-18-01
@@ -20092,7 +19975,6 @@
 と と Particle
 思う 思う Verb
 ． ． Special
-===BANNED:ＮＴＴ ＮＴＴ 名詞 KN024_Keitai_1-1-19-01
 ===SENTENCE:KN024_Keitai_1-1-2-01
 １０月２４日に，携帯電話番号を変えずに，契約会社を変更できるモバイル番号ポータビリティ制度が始まった．
 ===WORDS:KN024_Keitai_1-1-2-01
@@ -20157,7 +20039,6 @@
 あり ある Verb
 ます ます Suffix
 ． ． Special
-===BANNED:Ｇ Ｇ 特殊 KN024_Keitai_1-1-22-01
 ===SENTENCE:KN024_Keitai_1-1-23-01
 （この間架設電話の比率はどの層も減少している．）
 ===WORDS:KN024_Keitai_1-1-23-01
@@ -20177,8 +20058,6 @@
 いる いる Suffix
 ． ． Special
 ） ） Special
-===BANNED:ＰＨＳ ＰＨＳ 名詞 KN024_Keitai_1-1-24-01
-===BANNED:Ｗｉｌｌｃｏｍ Ｗｉｌｌｃｏｍ 名詞 KN024_Keitai_1-1-24-02
 ===SENTENCE:KN024_Keitai_1-1-25-01
 また，僕は携帯を持っていません．
 ===WORDS:KN024_Keitai_1-1-25-01
@@ -20229,7 +20108,6 @@
 サンキュー サンキュー Interjection
 ダイヤル ダイヤル Noun
 ００３９ ００３９ Noun
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｎｔｔ−ｗｅｓｔ．ｃｏ．ｊｐ／ｉｎｆｏ／ｓｕｐｐｏｒｔ／００３９＿ｃｈａｒｇｅ．ｈｔｍｌ ｈｔｔｐ：／／ｗｗｗ．ｎｔｔ−ｗｅｓｔ．ｃｏ．ｊｐ／ｉｎｆｏ／ｓｕｐｐｏｒｔ／００３９＿ｃｈａｒｇｅ．ｈｔｍｌ 名詞 KN024_Keitai_1-1-29-01
 ===SENTENCE:KN024_Keitai_1-1-3-01
 しかし，この制度は，少なくとも固定電話を使う人にとっては，問題があると思う．
 ===WORDS:KN024_Keitai_1-1-3-01
@@ -20262,10 +20140,6 @@
 携帯 携帯 Noun
 宛 宛 Suffix
 電話 電話 Noun
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｋｄｄｉ．ｃｏｍ／ｐｈｏｎｅ／ｄｅｎｗａ／ｋｅｉｔａｉ００７７ｋｅｉｔａｉ／ｉｎｄｅｘ．ｈｔｍｌ ｈｔｔｐ：／／ｗｗｗ．ｋｄｄｉ．ｃｏｍ／ｐｈｏｎｅ／ｄｅｎｗａ／ｋｅｉｔａｉ００７７ｋｅｉｔａｉ／ｉｎｄｅｘ．ｈｔｍｌ 名詞 KN024_Keitai_1-1-31-01
-===BANNED:ＮＴＴ ＮＴＴ 名詞 KN024_Keitai_1-1-32-01
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｎｔｔ−ｗｅｓｔ．ｃｏ．ｊｐ／ｔａｒｉｆｆ／ｙａｋｋａｎ／ｐｄｆ／ｗ０１．ｐｄｆ ｈｔｔｐ：／／ｗｗｗ．ｎｔｔ−ｗｅｓｔ．ｃｏ．ｊｐ／ｔａｒｉｆｆ／ｙａｋｋａｎ／ｐｄｆ／ｗ０１．ｐｄｆ 名詞 KN024_Keitai_1-1-33-01
-===BANNED:ｈｔｔｐ：／／ｗｗｗ．ｎｔｔ−ｗｅｓｔ．ｃｏ．ｊｐ／ｔａｒｉｆｆ／ｙａｋｋａｎ／ｐｄｆ／ｗ０１．ｐｄｆ ｈｔｔｐ：／／ｗｗｗ．ｎｔｔ−ｗｅｓｔ．ｃｏ．ｊｐ／ｔａｒｉｆｆ／ｙａｋｋａｎ／ｐｄｆ／ｗ０１．ｐｄｆ 名詞 KN024_Keitai_1-1-34-01
 ===SENTENCE:KN024_Keitai_1-1-4-01
 電気通信番号指定状況を用いて，電話番号から契約会社を調べても，実際の契約会社が１致しなくなったのである．
 ===WORDS:KN024_Keitai_1-1-4-01
@@ -20302,7 +20176,6 @@
 ===WORDS:KN024_Keitai_1-1-4-02
 ０８０ ０８０ Noun
 ０９０ ０９０ Noun
-===BANNED:ＮＴＴ ＮＴＴ 名詞 KN024_Keitai_1-1-5-01
 ===SENTENCE:KN024_Keitai_1-1-6-01
 ところが，携帯サービス毎で異なる料金を設定している会社があるため，固定電話から携帯にかける場合，番号から相手先の携帯契約会社を調べて，より割安な通話料を適用させるため，付加する識別番号を変えることも可能だった．
 ===WORDS:KN024_Keitai_1-1-6-01
@@ -20362,7 +20235,6 @@
 も も Particle
 可能だった 可能だ IAdjective
 ． ． Special
-===BANNED:ＤｏＣｏＭｏ ＤｏＣｏＭｏ 名詞 KN024_Keitai_1-1-6-02
 ===SENTENCE:KN024_Keitai_1-1-7-01
 しかし，今後はこのような対応が難しくなる．
 ===WORDS:KN024_Keitai_1-1-7-01
@@ -20441,8 +20313,6 @@
 する する Verb
 ． ． Special
 ） ） Special
-===BANNED:ＮＴＴ ＮＴＴ 名詞 KN024_Keitai_1-1-9-01
-===BANNED:ＮＴＴ ＮＴＴ 名詞 KN024_Keitai_1-1-9-02
 ===SENTENCE:KN024_Kyoto_1-1-1-01
 観光客と京都市交通局について
 ===WORDS:KN024_Kyoto_1-1-1-01
@@ -20485,7 +20355,6 @@
 併用 併用 Noun
 不可 不可 Noun
 ． ． Special
-===BANNED:ＫＡＮＳＡＩ ＫＡＮＳＡＩ 名詞 KN024_Kyoto_1-1-11-01
 ===SENTENCE:KN024_Kyoto_1-1-11-02
 ３０００円で３３００円使える
 ===WORDS:KN024_Kyoto_1-1-11-02
@@ -20576,7 +20445,6 @@
 で で Particle
 ６００ ６００ Noun
 円 円 Suffix
-===BANNED:ＫＡＮＳＡＩ ＫＡＮＳＡＩ 名詞 KN024_Kyoto_1-1-13-01
 ===SENTENCE:KN024_Kyoto_1-1-14-01
 京都市交通局の身勝手さは，観光客だけでなく，地元民にも迷惑をかけていると思います．
 ===WORDS:KN024_Kyoto_1-1-14-01
@@ -21415,7 +21283,6 @@
 です だ Decision
 ね ね Particle
 ・・・ ・・・ Special
-===BANNED:ＧＰＳ ＧＰＳ 名詞 KN025_Keitai_1-1-8-01
 ===SENTENCE:KN025_Keitai_1-1-9-01
 でも僕ならこの機能を使ってアリバイをでっち上げることによって誘拐の成功への道を進めることができると思いますよ。
 ===WORDS:KN025_Keitai_1-1-9-01
@@ -21687,12 +21554,6 @@
 と と Particle
 思い 思う Verb
 ます ます Suffix
-===BANNED:Ｖｏｄａｆｏｎｅ Ｖｏｄａｆｏｎｅ 名詞 KN026_Keitai_1-1-1-01
-===BANNED:ｊ−ｐｈｏｎｅ ｊ−ｐｈｏｎｅ 名詞 KN026_Keitai_1-1-10-01
-===BANNED:ｖｏｄａｆｏｎｅ ｖｏｄａｆｏｎｅ 名詞 KN026_Keitai_1-1-11-01
-===BANNED:ＡＵ ＡＵ 名詞 KN026_Keitai_1-1-12-01
-===BANNED:ｊ−ｐｈｏｎｅ ｊ−ｐｈｏｎｅ 名詞 KN026_Keitai_1-1-13-01
-===BANNED:ｓｏｆｔｂａｎｋ ｓｏｆｔｂａｎｋ 名詞 KN026_Keitai_1-1-14-01
 ===SENTENCE:KN026_Keitai_1-1-2-01
 携帯電話って、家族割引の制度とかがあって・・・大概家族全員が同じメーカーを使うじゃないですか？
 ===WORDS:KN026_Keitai_1-1-2-01
@@ -21721,7 +21582,6 @@
 です です AuxillaryVerb
 か か Particle
 ？ ？ Special
-===BANNED:ｊ−ｐｈｏｎｅ ｊ−ｐｈｏｎｅ 名詞 KN026_Keitai_1-1-3-01
 ===SENTENCE:KN026_Keitai_1-1-4-01
 もう、覚えてない人もいるかもしれないけど＾＾；
 ===WORDS:KN026_Keitai_1-1-4-01
@@ -21736,8 +21596,6 @@
 ない ない Suffix
 けど けど Particle
 ＾＾； ＾＾； Special
-===BANNED:ｖｏｄａｆｏｎｅ ｖｏｄａｆｏｎｅ 名詞 KN026_Keitai_1-1-5-01
-===BANNED:ｓｏｆｔｂａｎｋ ｓｏｆｔｂａｎｋ 名詞 KN026_Keitai_1-1-6-01
 ===SENTENCE:KN026_Keitai_1-1-7-01
 もう！！
 ===WORDS:KN026_Keitai_1-1-7-01
@@ -23225,7 +23083,6 @@
 ===SENTENCE:KN028_Kyoto_1-1-1-01
 
 ===WORDS:KN028_Kyoto_1-1-1-01
-===BANNED:ＵＳＪ ＵＳＪ 名詞 KN028_Kyoto_1-1-10-01
 ===SENTENCE:KN028_Kyoto_1-1-2-01
 僕は一度自転車で京都一周をしたことがある。
 ===WORDS:KN028_Kyoto_1-1-2-01
@@ -23748,7 +23605,6 @@
 思わ 思う Verb
 れ れる Suffix
 ます ます Suffix
-===BANNED:ＬＲＴ ＬＲＴ 名詞 KN029_Kyoto_1-1-2-01
 ===SENTENCE:KN029_Kyoto_1-1-3-01
 温暖化防止の会議をしておきながら、交通規制の問題やらなんやかんやで計画が一向に進まないのがすごく不満です。
 ===WORDS:KN029_Kyoto_1-1-3-01
@@ -23777,8 +23633,6 @@
 が が Particle
 すごく すごい IAdjective
 不満です 不満だ IAdjective
-===BANNED:ＬＲＴ ＬＲＴ 名詞 KN029_Kyoto_1-1-4-01
-===BANNED:ＬＲＴ ＬＲＴ 名詞 KN029_Kyoto_1-1-5-01
 ===SENTENCE:KN029_Kyoto_1-1-6-01
 もうひとつ、統一した景観保全をやってほしいです。
 ===WORDS:KN029_Kyoto_1-1-6-01
@@ -24181,7 +24035,6 @@
 もう もう Adverb
 すごい すごい IAdjective
 人だかり 人だかり Noun
-===BANNED:ｃｍ ｃｍ 接尾辞 KN030_Kyoto_1-1-16-01
 ===SENTENCE:KN030_Kyoto_1-1-17-01
 だ・か・ら・・・・
 ===WORDS:KN030_Kyoto_1-1-17-01
@@ -24794,8 +24647,6 @@
 送ら 送る Verb
 れて れる Suffix
 きた くる Suffix
-===BANNED:ＭＬ ＭＬ 名詞 KN033_Keitai_1-1-14-01
-===BANNED:ＭＬ ＭＬ 名詞 KN033_Keitai_1-1-15-01
 ===SENTENCE:KN033_Keitai_1-1-16-01
 こうしたことを避けたければ、返信機能を使わずに意見を募集した人のメアドを電話帳などで調べて、普通にメールを送ればよかったのである。
 ===WORDS:KN033_Keitai_1-1-16-01
@@ -24829,7 +24680,6 @@
 送れば 送る Verb
 よかった よい IAdjective
 のである のだ AuxillaryVerb
-===BANNED:ＭＬ ＭＬ 名詞 KN033_Keitai_1-1-17-01
 ===SENTENCE:KN033_Keitai_1-1-18-01
 なぜなら登録者全員が自分のメアドを知っているとは限らないからである。
 ===WORDS:KN033_Keitai_1-1-18-01
@@ -24968,8 +24818,6 @@
 の の Particle
 こと こと Noun
 である だ Decision
-===BANNED:ＭＬ ＭＬ 名詞 KN033_Keitai_1-1-6-01
-===BANNED:ＭＬ ＭＬ 名詞 KN033_Keitai_1-1-7-01
 ===SENTENCE:KN033_Keitai_1-1-8-01
 そういったわけで早速登録した。
 ===WORDS:KN033_Keitai_1-1-8-01
@@ -25193,8 +25041,6 @@
 月 月 Suffix
 ２４ ２４ Noun
 日 日 Suffix
-===BANNED:ＫＤＤＩ ＫＤＤＩ 名詞 KN034_Keitai_1-1-3-01
-===BANNED:ＮＹ ＮＹ 名詞 KN034_Keitai_1-1-4-01
 ===SENTENCE:KN034_Keitai_1-1-5-01
 …というわけで、２４日は休みと決め込んでのんびり寝坊を楽しんでいたわけだが、午前９時頃、大量の株価通知メールに叩き起こされた。
 ===WORDS:KN034_Keitai_1-1-5-01
@@ -25226,7 +25072,6 @@
 に に Particle
 叩き起こさ 叩き起こす Verb
 れた れる Suffix
-===BANNED:ＫＤＤＩ ＫＤＤＩ 名詞 KN034_Keitai_1-1-6-01
 ===SENTENCE:KN034_Keitai_1-1-7-01
 チャンスを逃してしまった、残念。
 ===WORDS:KN034_Keitai_1-1-7-01
@@ -25744,8 +25589,6 @@
 涼し 涼しい IAdjective
 さ さ Suffix
 である だ Decision
-===BANNED:ＷＩＬＬＣＯＭ ＷＩＬＬＣＯＭ 名詞 KN036_Keitai_1-1-1-01
-===BANNED:ＷＩＬＬＣＯＭ ＷＩＬＬＣＯＭ 名詞 KN036_Keitai_1-1-10-01
 ===SENTENCE:KN036_Keitai_1-1-11-01
 そして、何よりもほかのキャリアに良く見受けられる、コンテンツにおける不可解な束縛がかなり低いこと。
 ===WORDS:KN036_Keitai_1-1-11-01
@@ -25768,7 +25611,6 @@
 かなり かなり Adverb
 低い 低い IAdjective
 こと こと Noun
-===BANNED:Ｊａｖａ Ｊａｖａ 名詞 KN036_Keitai_1-1-12-01
 ===SENTENCE:KN036_Keitai_1-1-13-01
 しかも、アプリケーションに関してはキャリアの認証を通らなくても使えるのがいいところだ。
 ===WORDS:KN036_Keitai_1-1-13-01
@@ -25790,8 +25632,6 @@
 いい いい IAdjective
 ところ ところ Noun
 だ だ Decision
-===BANNED:ＷＩＬＬＣＯＭ ＷＩＬＬＣＯＭ 名詞 KN036_Keitai_1-1-14-01
-===BANNED:ＷＩＬＬＣＯＭ ＷＩＬＬＣＯＭ 名詞 KN036_Keitai_1-1-2-01
 ===SENTENCE:KN036_Keitai_1-1-3-01
 何でと聞かれると、つい、「山の中じゃ音信不通になれるから」などと答えるが、ほかにも魅力がある。
 ===WORDS:KN036_Keitai_1-1-3-01
@@ -25873,8 +25713,6 @@
 が が Particle
 低い 低い IAdjective
 こと こと Noun
-===BANNED:Ｗ−ＣＤＭＡ Ｗ−ＣＤＭＡ 名詞 KN036_Keitai_1-1-7-01
-===BANNED:ＳＡＲ ＳＡＲ 名詞 KN036_Keitai_1-1-8-01
 ===SENTENCE:KN036_Keitai_1-1-9-01
 とても安心して使えるものだというのだ。
 ===WORDS:KN036_Keitai_1-1-9-01
@@ -25894,7 +25732,6 @@
 ・ ・ Special
 京都 京都 Noun
 賛美 賛美 Noun
-===BANNED:ｈｔｔｐ：／／ｓａｍｐｌｅ．ｊｐ／ｓａｍｐｌｅ．ｈｔｍｌ ｈｔｔｐ：／／ｓａｍｐｌｅ．ｊｐ／ｓａｍｐｌｅ．ｈｔｍｌ 名詞 KN036_Kyoto_1-1-10-01
 ===SENTENCE:KN036_Kyoto_1-1-11-01
 ロハスな街、というのなら観光する目的地など要らない。
 ===WORDS:KN036_Kyoto_1-1-11-01
@@ -26246,7 +26083,6 @@
 機種 機種 Noun
 が が Particle
 少ない 少ない IAdjective
-===BANNED:ＷＸ３１０Ｋ ＷＸ３１０Ｋ 名詞 KN038_Keitai_1-1-11-01
 ===SENTENCE:KN038_Keitai_1-1-11-02
 いわゆる京ぽん２
 ===WORDS:KN038_Keitai_1-1-11-02
@@ -26494,7 +26330,6 @@
 視 視 Noun
 して する Verb
 なかった ない Suffix
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-22-01
 ===SENTENCE:KN038_Keitai_1-1-23-01
 （残念ながら逆に受信は出来ず「〓」になる。）
 ===WORDS:KN038_Keitai_1-1-23-01
@@ -26533,13 +26368,6 @@
 は は Particle
 一変 一変 Noun
 した する Verb
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-25-01
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-26-01
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-27-01
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-3-01
-===BANNED:３Ｇ ３Ｇ 名詞 KN038_Keitai_1-1-4-01
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-5-01
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-6-01
 ===SENTENCE:KN038_Keitai_1-1-7-01
 おまけに、わざわざ知り合いに登録変更という形で手を煩わす。
 ===WORDS:KN038_Keitai_1-1-7-01
@@ -26571,7 +26399,6 @@
 して する Verb
 は は Particle
 充分である 充分だ IAdjective
-===BANNED:Ｐ．Ｈ．Ｓ． Ｐ．Ｈ．Ｓ． 名詞 KN038_Keitai_1-1-9-01
 ===SENTENCE:KN038_Kyoto_1-1-1-01
 東福寺
 ===WORDS:KN038_Kyoto_1-1-1-01
@@ -26589,7 +26416,6 @@
 見 見る Verb
 に に Particle
 行った 行く Verb
-===BANNED:ＪＲ ＪＲ 名詞 KN038_Kyoto_1-1-3-01
 ===SENTENCE:KN038_Kyoto_1-1-4-01
 そんなことはさておき、この日も「おけいはん」になって東福寺へ。
 ===WORDS:KN038_Kyoto_1-1-4-01
@@ -26904,7 +26730,6 @@
 は は Particle
 短く 短い IAdjective
 そっけない そっけない IAdjective
-===BANNED:ＯＲＺ ＯＲＺ 特殊 KN039_Keitai_1-1-21-01
 ===SENTENCE:KN039_Keitai_1-1-22-01
 こんなことを考える私は、まだ完全には携帯に「携帯」されていないようだけれども、携帯電話が生活の一部、もしくは「なくなったら死ぬ」というような人は注意したほうがいい。
 ===WORDS:KN039_Keitai_1-1-22-01
@@ -30912,7 +30737,6 @@
 いた いる Suffix
 のに のだ AuxillaryVerb
 ・・・ ・・・ Special
-===BANNED:ＰＣ ＰＣ 名詞 KN207_Keitai_1-1-8-01
 ===SENTENCE:KN207_Keitai_1-1-9-01
 そこで考えたのですが、トラックボールを携帯電話に実装したらいいと思うのです。
 ===WORDS:KN207_Keitai_1-1-9-01
@@ -32429,7 +32253,6 @@
 って って Particle
 よ よ Particle
 」 」 Special
-===BANNED:Ｎｏ Ｎｏ 名詞 KN209_Keitai_1-1-37-01
 ===SENTENCE:KN209_Keitai_1-1-38-01
 携帯「ピリリリリ…」
 ===WORDS:KN209_Keitai_1-1-38-01
@@ -32662,7 +32485,6 @@
 と と Particle
 思い 思う Verb
 ます ます Suffix
-===BANNED:Ｈ２ Ｈ２ 名詞 KN209_Keitai_1-1-51-01
 ===SENTENCE:KN209_Keitai_1-1-52-01
 「待ってる時間もデートの内だから。」
 ===WORDS:KN209_Keitai_1-1-52-01
@@ -32871,7 +32693,6 @@
 が が Particle
 入ら 入る Verb
 ない ない Suffix
-===BANNED:ＦＩＦＡ ＦＩＦＡ 名詞 KN209_Sports_1-1-12-01
 ===SENTENCE:KN209_Sports_1-1-13-01
 なぜ高校球児が敗退すると泣けるのか。
 ===WORDS:KN209_Sports_1-1-13-01
@@ -33545,7 +33366,6 @@
 客 客 Noun
 が が Particle
 押し寄せる 押し寄せる Verb
-===BANNED:Ｕターン Ｕターン 名詞 KN210_Gourmet_1-1-7-01
 ===SENTENCE:KN210_Gourmet_1-1-8-01
 我々の目的は川床である。
 ===WORDS:KN210_Gourmet_1-1-8-01
@@ -34105,7 +33925,6 @@
 」 」 Special
 と と Particle
 言った 言う Verb
-===BANNED:ＴＯＥＩＣ ＴＯＥＩＣ 名詞 KN210_Sports_1-1-11-01
 ===SENTENCE:KN210_Sports_1-1-12-01
 ダラダラ夏休みを過ごすことなんて嫌だった。
 ===WORDS:KN210_Sports_1-1-12-01
@@ -34159,7 +33978,6 @@
 部 部 Noun
 に に Particle
 入った 入る Verb
-===BANNED:ＴＯＥＩＣ ＴＯＥＩＣ 名詞 KN210_Sports_1-1-15-01
 ===SENTENCE:KN210_Sports_1-1-16-01
 もちろんぼくにはできなかった。
 ===WORDS:KN210_Sports_1-1-16-01
@@ -34222,7 +34040,6 @@
 生活 生活 Noun
 が が Particle
 送れる 送れる Verb
-===BANNED:Ｋ Ｋ 特殊 KN210_Sports_1-1-2-01
 ===SENTENCE:KN210_Sports_1-1-20-01
 しかし夏休みは結局ずっと部活しかしていない。
 ===WORDS:KN210_Sports_1-1-20-01
@@ -34255,7 +34072,6 @@
 に に Particle
 割いて 割く Verb
 いる いる Suffix
-===BANNED:ＴＯＥＩＣ ＴＯＥＩＣ 名詞 KN210_Sports_1-1-22-01
 ===SENTENCE:KN210_Sports_1-1-23-01
 掲げたテーマに沿って夏休みを過ごしているとは言い難い。
 ===WORDS:KN210_Sports_1-1-23-01
@@ -34451,7 +34267,6 @@
 たい たい Suffix
 と と Particle
 思う 思う Verb
-===BANNED:ＴＯＥＩＣ ＴＯＥＩＣ 名詞 KN210_Sports_1-1-32-01
 ===SENTENCE:KN210_Sports_1-1-33-01
 でも現実的にそれは無理だから何かをしぶしぶ捨てる。
 ===WORDS:KN210_Sports_1-1-33-01
@@ -34525,8 +34340,6 @@
 映した 映す Verb
 もの もの Noun
 だ だ Decision
-===BANNED:Ｋ Ｋ 特殊 KN210_Sports_1-1-4-01
-===BANNED:Ｋ Ｋ 特殊 KN210_Sports_1-1-5-01
 ===SENTENCE:KN210_Sports_1-1-6-01
 彼女は卒業論文で「サルサ」について書きたいと思っていたため、サルサの流行している沖縄で現地調査をすることも旅行の大きな目的の一つであった。
 ===WORDS:KN210_Sports_1-1-6-01
@@ -36950,7 +36763,6 @@
 大切に 大切だ IAdjective
 しい する Verb
 や や Particle
-===BANNED:ｉ ｉ 特殊 KN212_Keitai_1-1-12-01
 ===SENTENCE:KN212_Keitai_1-1-13-01
 そんな、若者的発想から、かなり外れた奴です、うちは。。。
 ===WORDS:KN212_Keitai_1-1-13-01
@@ -37040,7 +36852,6 @@
 やっと やっと Adverb
 買い 買う Verb
 ました ます Suffix
-===BANNED:ＳＨ９０３ｉＴＶ ＳＨ９０３ｉＴＶ 名詞 KN212_Keitai_1-1-7-01
 ===SENTENCE:KN212_Keitai_1-1-8-01
 かなりかわいい。
 ===WORDS:KN212_Keitai_1-1-8-01
@@ -37403,10 +37214,6 @@
 スマートフォン
 ===WORDS:KN213_Keitai_1-1-1-01
 スマートフォン スマートフォン Noun
-===BANNED:ＭＰ３ ＭＰ３ 名詞 KN213_Keitai_1-1-10-01
-===BANNED:ＰＣ ＰＣ 名詞 KN213_Keitai_1-1-11-01
-===BANNED:ＰＣ ＰＣ 名詞 KN213_Keitai_1-1-12-01
-===BANNED:ＰＣ ＰＣ 名詞 KN213_Keitai_1-1-13-01
 ===SENTENCE:KN213_Keitai_1-1-14-01
 さて、このスマートフォンだが、ソフトバンクやドコモも発売している。
 ===WORDS:KN213_Keitai_1-1-14-01
@@ -37467,10 +37274,6 @@
 期待 期待 Noun
 して する Verb
 いる いる Suffix
-===BANNED:ＰＨＳ ＰＨＳ 名詞 KN213_Keitai_1-1-2-01
-===BANNED:ＯＳ ＯＳ 名詞 KN213_Keitai_1-1-3-01
-===BANNED:ＭＨｚ ＭＨｚ 接尾辞 KN213_Keitai_1-1-3-02
-===BANNED:ＰＤＡ ＰＤＡ 名詞 KN213_Keitai_1-1-4-01
 ===SENTENCE:KN213_Keitai_1-1-4-02
 いわゆる電子手帳
 ===WORDS:KN213_Keitai_1-1-4-02
@@ -37648,7 +37451,6 @@
 が が Particle
 続いて 続く Verb
 いる いる Suffix
-===BANNED:ｍｉｘｉ ｍｉｘｉ 名詞 KN213_Keitai_2-1-4-01
 ===SENTENCE:KN213_Keitai_2-1-5-01
 必要な連絡事項も一定数あるので、仕方ないといえば仕方ないのだが。
 ===WORDS:KN213_Keitai_2-1-5-01
@@ -37774,8 +37576,6 @@
 おそらく おそらく Adverb
 数 数 Noun
 倍 倍 Suffix
-===BANNED:ｋｍ ｋｍ 接尾辞 KN213_Sports_1-1-11-01
-===BANNED:ｋｍ ｋｍ 接尾辞 KN213_Sports_1-1-12-01
 ===SENTENCE:KN213_Sports_1-1-13-01
 しかし部品だウエアだとあれこれ買っているので、財布の中身も大幅にダイエットしている。
 ===WORDS:KN213_Sports_1-1-13-01
@@ -37826,7 +37626,6 @@
 マイ マイ Noun
 ブーム ブーム Noun
 だ だ Decision
-===BANNED:ｋｍ ｋｍ 接尾辞 KN213_Sports_1-1-3-01
 ===SENTENCE:KN213_Sports_1-1-4-01
 シンプルが故のダイレクト感は他のどんな乗り物よりも上で、純粋に乗ることそのものが楽しい。
 ===WORDS:KN213_Sports_1-1-4-01
@@ -37890,7 +37689,6 @@
 に に Particle
 行ったり 行く Verb
 する する Suffix
-===BANNED:ＪＲ ＪＲ 名詞 KN213_Sports_1-1-7-01
 ===SENTENCE:KN213_Sports_1-1-8-01
 普段街中では車の排気ガスにまみれて走っているが、サイクリングロードの空気はいい。
 ===WORDS:KN213_Sports_1-1-8-01
@@ -38244,7 +38042,6 @@
 押し 押し Noun
 心地 心地 Noun
 だった だ Decision
-===BANNED:ａｕ ａｕ 名詞 KN214_Keitai_2-1-3-01
 ===SENTENCE:KN214_Keitai_2-1-4-01
 ワンセグ非搭載、カメラの画質も普通などと非常にシンプルな構成なのだがこのダイヤルキーの形状は特に気に入っている。
 ===WORDS:KN214_Keitai_2-1-4-01
@@ -38663,7 +38460,6 @@
 電話 電話 Noun
 は は Particle
 便利です 便利だ IAdjective
-===BANNED:ＣＡＳＩＯ ＣＡＳＩＯ 名詞 KN215_Keitai_1-1-4-01
 ===SENTENCE:KN215_Keitai_1-1-5-01
 パソコンにも簡単に取り込むことができるので、デジカメを持っていなくても旅行記などをつくることができます。
 ===WORDS:KN215_Keitai_1-1-5-01
@@ -42316,7 +42112,6 @@
 ダイニング ダイニング Noun
 も も Particle
 多い 多い IAdjective
-===BANNED:ＫＡＩ ＫＡＩ 名詞 KN218_Gourmet_1-1-6-01
 ===SENTENCE:KN218_Gourmet_1-1-7-01
 おしゃれな料理が６０種ほど食べ放題で１０００円プラスで飲み放題も可能である。
 ===WORDS:KN218_Gourmet_1-1-7-01
@@ -42337,8 +42132,6 @@
 放題 放題 Suffix
 も も Particle
 可能である 可能だ IAdjective
-===BANNED:ｗ ｗ 特殊 KN218_Gourmet_1-1-7-02
-===BANNED:ＯＫ ＯＫだ 形容詞 KN218_Gourmet_1-1-8-01
 ===SENTENCE:KN218_Gourmet_1-1-9-01
 料理は一回に頼む分に制限があるが、どれもおいしく申し分ない。
 ===WORDS:KN218_Gourmet_1-1-9-01
@@ -42521,7 +42314,6 @@
 人 人 Noun
 も も Particle
 いる いる Verb
-===BANNED:ＭＰ３ ＭＰ３ 名詞 KN218_Keitai_1-1-7-01
 ===SENTENCE:KN218_Keitai_1-1-8-01
 ここで僕が思うのは、もう一度携帯に必要な機能というのを見直すべきではないだろうか？
 ===WORDS:KN218_Keitai_1-1-8-01
@@ -44771,7 +44563,6 @@
 』 』 Special
 を を Particle
 購入 購入 Noun
-===BANNED:ＯＫ ＯＫ 名詞 KN220_Gourmet_1-1-5-01
 ===SENTENCE:KN220_Gourmet_1-1-6-01
 料理のペの字も知らないうちは、とても重宝するだろうとのお察しである。
 ===WORDS:KN220_Gourmet_1-1-6-01
@@ -44996,7 +44787,6 @@
 変更 変更 Noun
 し する Verb
 ました ます Suffix
-===BANNED:ｇ ｇ 接尾辞 KN220_Gourmet_2-1-19-01
 ===SENTENCE:KN220_Gourmet_2-1-2-01
 ３時のおやつにホットケーキを作りました。
 ===WORDS:KN220_Gourmet_2-1-2-01
@@ -45728,7 +45518,6 @@
 条 条 Suffix
 です だ Decision
 」 」 Special
-===BANNED:Ｎｅｘｔ Ｎｅｘｔ 名詞 KN220_Kyoto_1-1-13-01
 ===SENTENCE:KN220_Kyoto_1-1-13-02
 ←勝手に命名
 ===WORDS:KN220_Kyoto_1-1-13-02
@@ -45806,7 +45595,6 @@
 です だ Decision
 よ よ Particle
 ？ ？ Special
-===BANNED:ＣＭ ＣＭ 名詞 KN220_Kyoto_1-1-18-01
 ===SENTENCE:KN220_Kyoto_1-1-18-02
 稲を収穫したりするやつ
 ===WORDS:KN220_Kyoto_1-1-18-02
@@ -45978,7 +45766,6 @@
 を を Particle
 遂げて 遂げる Verb
 いる いる Suffix
-===BANNED:ＣＤ ＣＤ 名詞 KN221_Keitai_1-1-10-01
 ===SENTENCE:KN221_Keitai_1-1-11-01
 また、海外に旅行した時でも携帯電話を使用できるようになり、大変便利である。
 ===WORDS:KN221_Keitai_1-1-11-01
@@ -46204,7 +45991,6 @@
 私 私 Noun
 は は Particle
 思う 思う Verb
-===BANNED:ｖｏｄａｆｏｎｅ ｖｏｄａｆｏｎｅ 名詞 KN221_Keitai_1-1-2-01
 ===SENTENCE:KN221_Keitai_1-1-3-01
 本当に最近の携帯電話は様々な機能が付いていてすごいなあと感心する。
 ===WORDS:KN221_Keitai_1-1-3-01
@@ -46453,7 +46239,6 @@
 感触 感触 Noun
 が が Particle
 くる くる Verb
-===BANNED:ｇ ｇ 接尾辞 KN222_Gourmet_1-1-7-01
 ===SENTENCE:KN222_Gourmet_1-1-7-02
 １０５０円
 ===WORDS:KN222_Gourmet_1-1-7-02
@@ -46523,8 +46308,6 @@
 まで まで Particle
 ついて つく Verb
 いる いる Suffix
-===BANNED:Ｚｅｒｏ Ｚｅｒｏ 名詞 KN222_Keitai_1-1-1-01
-===BANNED:Ｚｅｒｏ Ｚｅｒｏ 名詞 KN222_Keitai_1-1-2-01
 ===SENTENCE:KN222_Keitai_1-1-3-01
 このソフトは買った後に発売された機種にもアップデートで無料で対応してくれるのが特徴である。
 ===WORDS:KN222_Keitai_1-1-3-01
@@ -46598,7 +46381,6 @@
 こと こと Noun
 が が Particle
 できる できる Verb
-===BANNED:ＣＤ ＣＤ 名詞 KN222_Keitai_1-1-5-01
 ===SENTENCE:KN222_Keitai_1-1-6-01
 ４９８０円のソフトだが、今ソフマップ京都駅南店ではソースネクストのソフトを二本以上買うと２本目から５００円引きというキャンペーンをしているので、あなたもいかがですか？
 ===WORDS:KN222_Keitai_1-1-6-01
@@ -48113,8 +47895,6 @@
 店 店 Noun
 でした だ Decision
 ． ． Special
-===BANNED:Ｓａｌｏｎ Ｔｈｅ Ｃｌｉｅｎｔｅｌｅ KN227_Gourmet_2-1-13-01
-===BANNED:ＵＲＬ ＵＲＬ 名詞 KN227_Gourmet_2-1-13-02
 ===SENTENCE:KN227_Gourmet_2-1-2-01
 今週某日，授業がかなり早く終わりました．
 ===WORDS:KN227_Gourmet_2-1-2-01
@@ -48535,7 +48315,6 @@
 （ （ Special
 笑 笑 Special
 ） ） Special
-===BANNED:ＭＮＰ ＭＮＰ 名詞 KN227_Keitai_1-1-7-01
 ===SENTENCE:KN227_Keitai_1-1-8-01
 当時出ていた機種の中で，最薄をうたう機種があったのでそれを選びました．
 ===WORDS:KN227_Keitai_1-1-8-01
@@ -50128,7 +49907,6 @@
 る る Suffix
 の のだ AuxillaryVerb
 かも かも Particle
-===BANNED:ＪＵＤＯ ＪＵＤＯ 名詞 KN229_Sports_1-1-26-01
 ===SENTENCE:KN229_Sports_1-1-27-01
 具体的には井上、鈴木の負けた試合など。
 ===WORDS:KN229_Sports_1-1-27-01
@@ -50263,7 +50041,6 @@
 を を Particle
 目指して 目指す Verb
 いる いる Suffix
-===BANNED:ＪＵＤＯ ＪＵＤＯ 名詞 KN229_Sports_1-1-36-01
 ===SENTENCE:KN229_Sports_1-1-37-01
 鈴木の試合では鈴木の大外刈が決まったかのように見えたが、相手選手が横に切り返した。
 ===WORDS:KN229_Sports_1-1-37-01
@@ -50322,7 +50099,6 @@
 を を Particle
 振り返り 振り返る Verb
 ます ます Suffix
-===BANNED:ＪＵＤＯ ＪＵＤＯ 名詞 KN229_Sports_1-1-40-01
 ===SENTENCE:KN229_Sports_1-1-41-01
 らしい。
 ===WORDS:KN229_Sports_1-1-41-01
@@ -50425,7 +50201,6 @@
 と と Particle
 励まさ 励ます Verb
 れる れる Suffix
-===BANNED:ＪＵＤＯ ＪＵＤＯ 名詞 KN229_Sports_1-1-49-01
 ===SENTENCE:KN229_Sports_1-1-5-01
 男子
 ===WORDS:KN229_Sports_1-1-5-01
@@ -50839,7 +50614,6 @@
 考え 考える Verb
 られ られる Suffix
 ない ない Suffix
-===BANNED:ＱＯＬ ＱＯＬ 名詞 KN230_Gourmet_1-1-4-01
 ===SENTENCE:KN230_Gourmet_1-1-5-01
 昨晩、友人とフランス料理を食べる機会を設けた。
 ===WORDS:KN230_Gourmet_1-1-5-01
@@ -52491,7 +52265,6 @@
 こと こと Noun
 に に Particle
 なる なる Verb
-===BANNED:ｋｃａｌ ｋｃａｌ 接尾辞 KN235_Gourmet_2-1-11-01
 ===SENTENCE:KN235_Gourmet_2-1-12-01
 こんな事実に気づくと、「よし、昼飯をもちょっと質素にしよう」という更なる悪循環への第一歩を踏み出すことになるのであった。
 ===WORDS:KN235_Gourmet_2-1-12-01
@@ -52590,7 +52363,6 @@
 もの もの Noun
 は は Particle
 ない ない IAdjective
-===BANNED:Ｓ Ｓ 特殊 KN235_Gourmet_2-1-5-01
 ===SENTENCE:KN235_Gourmet_2-1-6-01
 そこでついつい足が勝手に時計台ショップに向かう。
 ===WORDS:KN235_Gourmet_2-1-6-01
@@ -52619,7 +52391,6 @@
 メロン メロン Noun
 パン パン Noun
 だ だ Decision
-===BANNED:ｋｃａｌ ｋｃａｌ 接尾辞 KN235_Gourmet_2-1-8-01
 ===SENTENCE:KN235_Gourmet_2-1-9-01
 糖分が脳に行き渡る感覚というのは快感で、結構ハマってしまう。
 ===WORDS:KN235_Gourmet_2-1-9-01
@@ -52724,7 +52495,6 @@
 哀れである。
 ===WORDS:KN235_Keitai_1-1-5-01
 哀れである 哀れだ IAdjective
-===BANNED:ＯＦＦ ＯＦＦ 名詞 KN235_Keitai_1-1-6-01
 ===SENTENCE:KN235_Keitai_1-1-7-01
 これは電源こそ入っているものの、携帯電話の方から電波を遮断して電池の消耗を遅らせるものらしい。
 ===WORDS:KN235_Keitai_1-1-7-01
@@ -53952,7 +53722,6 @@
 人 人 Noun
 人 人 Noun
 ！！！！！ ！！！！！ Special
-===BANNED:（ （ ´д｀）↓ KN237_Kyoto_1-1-13-01
 ===SENTENCE:KN237_Kyoto_1-1-14-01
 等持院やら竜安寺やら妙心寺やら。
 ===WORDS:KN237_Kyoto_1-1-14-01
@@ -54103,7 +53872,6 @@
 か か Particle
 な な Particle
 ？ ？ Special
-===BANNED:ヾ（＊ ヾ（＊ ´∀｀＊）ノ” KN237_Kyoto_1-1-6-01
 ===SENTENCE:KN237_Kyoto_1-1-7-01
 相変わらずトロいなー（笑）
 ===WORDS:KN237_Kyoto_1-1-7-01
@@ -54234,7 +54002,6 @@
 が が Particle
 あった ある Verb
 んです んだ AuxillaryVerb
-===BANNED:ヾ（＊ ヾ（＊ ´∀｀＊）ノ” KN237_Kyoto_2-1-6-01
 ===SENTENCE:KN237_Kyoto_2-1-7-01
 地方出身の友達が誘ってくれて、まぁ一回ぐらいは行っとこかーって気になったんです。
 ===WORDS:KN237_Kyoto_2-1-7-01
@@ -56494,7 +56261,6 @@
 で で Particle
 出来る 出来る Verb
 のだ のだ AuxillaryVerb
-===BANNED:ｏｒ ｏｒ 助詞 KN240_Gourmet_1-1-5-01
 ===SENTENCE:KN240_Gourmet_1-1-6-01
 お財布にやさしい上に、かなり美味しい。
 ===WORDS:KN240_Gourmet_1-1-6-01
@@ -59381,7 +59147,6 @@
 んです んだ AuxillaryVerb
 よ よ Particle
 ！！ ！！ Special
-===BANNED:Ｊ Ｊ 特殊 KN243_Sports_1-1-23-01
 ===SENTENCE:KN243_Sports_1-1-24-01
 しかも現日本代表やフランスリーグで活躍中の松井大輔もサンガ出身なのです！
 ===WORDS:KN243_Sports_1-1-24-01
@@ -59422,7 +59187,6 @@
 の のだ AuxillaryVerb
 って って Particle
 ？ ？ Special
-===BANNED:Ｊ Ｊ 特殊 KN243_Sports_1-1-27-01
 ===SENTENCE:KN243_Sports_1-1-28-01
 しかも今年は昇格できるかどうかの瀬戸際だし…
 ===WORDS:KN243_Sports_1-1-28-01
@@ -61079,7 +60843,6 @@
 行って 行く Verb
 しまった しまう Suffix
 のだろう のだ AuxillaryVerb
-===BANNED:Ｆ１ Ｆ１ 名詞 KN251_Gourmet_2-1-15-01
 ===SENTENCE:KN251_Gourmet_2-1-16-01
 今でも徹夜明けや飲み会の翌日、あまり食欲のないときには、あのすんなりと胃の中におさまってくれるタンメンが、無性に食べたくなる。
 ===WORDS:KN251_Gourmet_2-1-16-01
@@ -61327,7 +61090,6 @@
 なあ なあ Particle
 と と Particle
 思う 思う Verb
-===BANNED:ａｕ ａｕ 名詞 KN251_Keitai_1-1-2-01
 ===SENTENCE:KN251_Keitai_1-1-3-01
 この携帯電話に対してはおおむね満足しているけれど、操作する上でどうしても満足できないというか、納得いかないことがある。
 ===WORDS:KN251_Keitai_1-1-3-01
@@ -61481,7 +61243,6 @@
 は は Particle
 ０ ０ Noun
 番 番 Suffix
-===BANNED:ｗｅｂ ｗｅｂ 名詞 KN251_Keitai_1-1-7-01
 ===SENTENCE:KN251_Keitai_1-1-7-02
 ３番は「画面メモに保存」なので紛らわしい
 ===WORDS:KN251_Keitai_1-1-7-02
@@ -61639,7 +61400,6 @@
 は は Particle
 とても とても Adverb
 便利です 便利だ IAdjective
-===BANNED:Ｗ５３Ｓ Ｗ５３Ｓ 名詞 KN251_Keitai_2-1-13-01
 ===SENTENCE:KN251_Keitai_2-1-14-01
 ・ポケベル打ちができること。
 ===WORDS:KN251_Keitai_2-1-14-01
@@ -61709,8 +61469,6 @@
 さ する Verb
 れて れる Suffix
 ほしい ほしい IAdjective
-===BANNED:ｍｉｎｉ ｍｉｎｉだ 形容詞 KN251_Keitai_2-1-18-01
-===BANNED:ＭＤ ＭＤ 名詞 KN251_Keitai_2-1-19-01
 ===SENTENCE:KN251_Keitai_2-1-2-01
 現在使っている携帯電話は昨年１１月に買い換えたものなんですが、これを選ぶ時にはかなり時間をかけて検討しました。
 ===WORDS:KN251_Keitai_2-1-2-01
@@ -61883,7 +61641,6 @@
 が が Particle
 優秀である 優秀だ IAdjective
 こと こと Noun
-===BANNED:Ｗｎｎ Ｗｎｎ 名詞 KN251_Keitai_2-1-6-01
 ===SENTENCE:KN251_Keitai_2-1-7-01
 ちょっと難しい漢字だと変換できない。
 ===WORDS:KN251_Keitai_2-1-7-01
@@ -61935,7 +61692,6 @@
 し し Particle
 どうしても どうしても Adverb
 嫌でした 嫌だ IAdjective
-===BANNED:ＡＴＯＫ ＡＴＯＫ 名詞 KN251_Keitai_2-1-9-01
 ===SENTENCE:KN253_Gourmet_1-1-1-01
 産地で野菜を食べてみたい
 ===WORDS:KN253_Gourmet_1-1-1-01
@@ -62203,7 +61959,6 @@
 ます ます Suffix
 が が Particle
 ・・・ ・・・ Special
-===BANNED:ｏｒ ｏｒ 名詞 KN253_Keitai_1-1-11-01
 ===SENTENCE:KN253_Keitai_1-1-12-01
 他にもいろいろあるでしょう。
 ===WORDS:KN253_Keitai_1-1-12-01
@@ -63606,7 +63361,6 @@
 ===WORDS:KN255_Gourmet_1-1-1-01
 富小路 富小路 Noun
 通り 通り Suffix
-===BANNED:ＬｕＬｕ ＬｕＬｕ 名詞 KN255_Gourmet_1-1-10-01
 ===SENTENCE:KN255_Gourmet_1-1-11-01
 ここは小さな空間だけどかわいいインテリアが置いてあって素敵。
 ===WORDS:KN255_Gourmet_1-1-11-01
@@ -64637,7 +64391,6 @@
 ためし ためし Noun
 ぁれ ぁる Verb
 ★ ★ Special
-===BANNED:ＨＯＯＰ ＨＯＯＰ 名詞 KN257_Gourmet_1-1-2-01
 ===SENTENCE:KN257_Gourmet_1-1-3-01
 種類は豊富だし、なんと言ってもあっさり系が多ぃ！！！
 ===WORDS:KN257_Gourmet_1-1-3-01
@@ -64741,7 +64494,6 @@
 ===WORDS:KN257_Gourmet_2-1-1-01
 結婚 結婚 Noun
 式 式 Noun
-===BANNED:ＨＡＰＰＹに ＨＡＰＰＹだ 形容詞 KN257_Gourmet_2-1-10-01
 ===SENTENCE:KN257_Gourmet_2-1-11-01
 二人がずっと幸せでぁりますょうに♪
 ===WORDS:KN257_Gourmet_2-1-11-01
@@ -64872,9 +64624,6 @@
 ぃぃ ぃぃ IAdjective
 の の Particle
 ？？ ？？ Special
-===BANNED:ａｕ ａｕ 名詞 KN257_Keitai_1-1-2-01
-===BANNED:ａｕ ａｕ 名詞 KN257_Keitai_1-1-3-01
-===BANNED:ｄｏｃｏｍｏ ｄｏｃｏｍｏ 名詞 KN257_Keitai_1-1-4-01
 ===SENTENCE:KN257_Keitai_1-1-5-01
 このブログ読んでるぁなたはケータイ会社ドコですかぁ？？
 ===WORDS:KN257_Keitai_1-1-5-01
@@ -65064,7 +64813,6 @@
 スィーツ
 ===WORDS:KN258_Gourmet_1-1-1-01
 スィーツ スィーツ Noun
-===BANNED:ｏｒｚ ｏｒｚ 特殊 KN258_Gourmet_1-1-10-01
 ===SENTENCE:KN258_Gourmet_1-1-11-01
 誰か一緒にいこ〜！！
 ===WORDS:KN258_Gourmet_1-1-11-01
@@ -66664,7 +66412,6 @@
 で で Particle
 応募 応募 Noun
 できる できる Verb
-===BANNED:Ｃ Ｃ 特殊 KN260_Keitai_1-1-6-01
 ===SENTENCE:KN260_Keitai_1-1-7-01
 例えば前々から欲しかった漫画をブックオフで見つけたからそちらで買う必要は無い、といった内容の連絡はこれで済ましている。
 ===WORDS:KN260_Keitai_1-1-7-01
@@ -66896,4 +66643,3 @@
 お お Prefix
 薦め 薦める Verb
 である だ Decision
-===BANNED:===SENTENCE:KN001_Keitai_1-1-1-01   extracted.txt
