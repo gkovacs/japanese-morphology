@@ -70,7 +70,7 @@ def genentries(entrydict, categoryname, nextcategory, pos)
 		if k == ""
 			k = "''"
 		end
-		"#{k} #{nextcategory} POS:#{pos} BASE:#{k} DEF:#{v.sub(" ", "_")}"
+		"#{k} #{nextcategory} POS:#{pos};;BASE:#{k};;DEF:#{v}"
 	}.join("\n")
 end
 
@@ -79,7 +79,7 @@ def genentriesCustom(entrydict, categoryname, nextcategory, pos, basegen)
 		if k == ""
 			k = "''"
 		end
-		"#{k} #{nextcategory} POS:#{pos} BASE:#{basegen.(k)} DEF:#{v.sub(" ", "_")}"
+		"#{k} #{nextcategory} POS:#{pos};;BASE:#{basegen.(k)};;DEF:#{v}"
 	}.join("\n")
 end
 
@@ -88,7 +88,7 @@ def genentriesNobase(entrydict, categoryname, nextcategory, pos)
 		if k == ""
 			k = "''"
 		end
-		"#{k} #{nextcategory} POS:#{pos} DEF:#{v.sub(" ", "_")}"
+		"#{k} #{nextcategory} POS:#{pos};;DEF:#{v}"
 	}.join("\n")
 end
 
@@ -97,7 +97,7 @@ def genentriesManual(entrydict, categoryname, nextcategory, descfn)
 		if k == ""
 			k = "''"
 		end
-		"#{k} #{nextcategory} #{descfn.(v.sub(" ", "_"))}"
+		"#{k} #{nextcategory} #{descfn.(v)}"
 	}.join("\n")
 end
 
@@ -136,7 +136,7 @@ def outputcategories(entries, categoryname, nextcategory, descfn)
 			if k == ""
 				k = "''"
 			end
-			childentries.push("#{k} #{nextcategory} #{descfn.(v.sub(" ", "_"))}")
+			childentries.push("#{k} #{nextcategory} #{descfn.(v)}")
 		else
 			ncategory = outputcategories(v, categoryname+k, nextcategory, descfn)
 			othercategories.push(ncategory)

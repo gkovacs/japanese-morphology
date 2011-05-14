@@ -408,7 +408,8 @@ class TextTrace(object):
     def addFeature(self, feat):
         if feat == None or feat == "":
             return
-        self.features[-1].append(feat)
+        for x in feat.split(";;"):
+            self.features[-1].append(x)
     #def clearFeatures(self):
     #    self.features.append([])
     #def clearLastFeature(self):
