@@ -8,6 +8,7 @@ counters = {"つ" => "generic objects", "個" => "small objects", "人" => "peop
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation", "東京" => "Tokyo", "魚" => "fish", "医者" => "doctor"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind"}
+taruadjs = {"漫然" => "rambling", "堂々" => "magnificent", "愕然" => "astonishing", "唖然" => "dumbfounded", "颯爽" => "gallant", "黙々" => "silent", "依然" => "still"}
 ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow", "遅れ" => "be late", "忘れ" => "forget", "入れ" => "enter"}
 suruverbs = {"" => "do", "結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive", "注意" => "be careful", "電話" => "make a phone call", "説明" => "explain"}
 kuruverbs = {"" => "come", "連れて" => "bring someone along", "持って" => "bring something"}
@@ -230,6 +231,10 @@ genentries(iadjs, "I_ADJ_ROOT", "I_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
 
 #{
 genentries(naadjs, "NA_ADJ_ROOT", "NA_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
+}
+
+#{
+genentries(taruadjs, "I_ADJ_ROOT", "TARU_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
 }
 
 #{
