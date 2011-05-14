@@ -5,6 +5,10 @@ usedictionary = ARGV.include?("usedictionary")
 if usedictionary
 	ARGV.delete("usedictionary")
 end
+reduced = ARGV.include?("reduced")
+if reduced
+	ARGV.delete("reduced")
+end
 noregen = ARGV.include?("noregen")
 if noregen
 	ARGV.delete("noregen")
@@ -18,7 +22,9 @@ if ARGV.length > 0
 	passedword = ARGV[0]
 end
 if !noregen
-	if usedictionary
+	if reduced
+		system("./generatelexfile.rb usedictionary reduced > japanese-dictionary.lex")
+	elsif usedictionary
 		system("./generatelexfile.rb usedictionary > japanese-dictionary.lex")
 	else
 		system("./generatelexfile.rb > japanese-dictionary.lex")

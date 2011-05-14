@@ -2,10 +2,28 @@
 # encoding: utf-8
 
 usedictionary = ARGV.include?("usedictionary")
+$reduced = ARGV.include?("reduced")
 
 dictfile = "edict2-common-utf8"
+$corpuswords = {}
+if $reduced
+	File.open("corpus/corpus-allwords-base-pos.txt").each { |line|
+		spl = line.split(" ")
+		conjform = spl[0]
+		baseform = spl[1]
+		$corpuswords[conjform] = true
+		$corpuswords[baseform] = true
+	}
+end
 if ARGV.include?("allwords")
 	dictfile = "edict2-utf8"
+end
+
+def wordincluded(w)
+	if !$reduced
+		return true
+	end
+	return $corpuswords.include?(w)
 end
 
 numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "０" => "0", "１" => "1", "２" => "2", "３" => "3", "４" => "4", "５" => "5", "６" => "6", "７" => "7", "８" => "8", "９" => "9", "〇" => "0", "零" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
@@ -184,6 +202,9 @@ File.open(dictfile, "r") { |f|
         end
         if english.length == 0
             next
+        end
+        if !readings.map { |x| wordincluded(x) }.include?(true)
+        	next
         end
         if tags.include?("v1")
             readings.each { |x|
