@@ -108,6 +108,7 @@ class KimmoRuleSet(yaml.YAMLObject):
                     #log.clearFeatures()
                     log.addFeature(feat)
                     yield result
+                    return # only first result needed
                     morphed = True
                     #log.clearFeatures()
             if morphed:

@@ -3,6 +3,11 @@
 
 usedictionary = ARGV.include?("usedictionary")
 
+dictfile = "edict2-common-utf8"
+if ARGV.include?("allwords")
+	dictfile = "edict2-utf8"
+end
+
 numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "０" => "0", "１" => "1", "２" => "2", "３" => "3", "４" => "4", "５" => "5", "６" => "6", "７" => "7", "８" => "8", "９" => "9", "〇" => "0", "零" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
 counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "セント" => "cents", "歳" => "years of age", "回" => "times", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second", "" => "number"}
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation", "東京" => "Tokyo", "魚" => "fish", "医者" => "doctor"}
@@ -110,7 +115,7 @@ def outputcategories(entries, categoryname, nextcategory, descfn)
 end
 
 if usedictionary
-File.open("edict2-utf8", "r") { |f|
+File.open(dictfile, "r") { |f|
     while line = f.gets()
         line = line.strip()
         if line[0..2] == "？？？"
@@ -119,8 +124,8 @@ File.open("edict2-utf8", "r") { |f|
         line,tags = extractparenthesis(line)
         readings = []
         if !line.include?("[")
-            kanji = ""
-            kana = line[0 .. line.index("/") - 1 ] 
+            kanji = line[0 .. line.index("/") - 1 ] 
+            kana = ""
         else
 	        kanji = line[0 .. line.index("[") - 1].strip()
 	        kana = line[line.index("[")+1 .. line.index("]")-1].strip()
@@ -130,9 +135,9 @@ File.open("edict2-utf8", "r") { |f|
         kanji.split(";").each { |x|
             readings.push(x.strip())
         }
-        kana.split(";").each { |x|
-            readings.push(x.strip())
-        }
+        #kana.split(";").each { |x|
+        #    readings.push(x.strip())
+        #}
         readings.delete("")
         if readings.length == 0
             next

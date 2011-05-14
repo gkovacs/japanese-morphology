@@ -1,5 +1,5 @@
 Begin: Root
-Root: NounRoot VerbRoot AdjRoot
+Root: VerbRoot AdjRoot NounRoot
 NounRoot: NUMBER NOUN_ROOT
 
 VerbRoot: NonSuruVerbRoot SURU_V_ROOT HONORIFIC_REG_VERB
