@@ -14,7 +14,7 @@ nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => 
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind"}
 taruadjs = {"漫然" => "rambling", "堂々" => "magnificent", "愕然" => "astonishing", "唖然" => "dumbfounded", "颯爽" => "gallant", "黙々" => "silent", "依然" => "still"}
-ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow", "遅れ" => "be late", "忘れ" => "forget", "入れ" => "enter"}
+ichidanverbs = {"食べ" => "eat", "見" => "see", "覚え" => "remember", "寝" => "sleep", "開け" => "open", "借り" => "borrow", "遅れ" => "be late", "忘れ" => "forget", "入れ" => "put in"}
 suruverbs = {"" => "do", "結婚" => "get married", "卒業" => "graduate", "勉強" => "study", "予約" => "reserve", "運転" => "drive", "注意" => "be careful", "電話" => "make a phone call", "説明" => "explain"}
 kuruverbs = {"" => "come", "連れて" => "bring someone along", "持って" => "bring something"}
 aruverbs = {"" => "exist", "事が" => "has occurred", "ことが" => "has occurred"}
@@ -28,7 +28,11 @@ tsuverbs = {"持" => "carry", "待" => "wait", "立" => "stand"}
 muverbs = {"読" => "read", "飲" => "drink"}
 nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take", "降" => "fall", "閉ま" => "close"}
-honverbs = {"下さ" => "give to me", "くださ" => "give to me", "いらっしゃ" => "go come or be", "ござ" => "exist"}
+honverbs = {"下さ" => "give to me", "くださ" => "give to me", "いらっしゃ" => "go come or be", "ござ" => "exist", "なさ" => "do", "為さ" => "do", "おっしゃ" => "say", "仰" => "say", "仰有" => "say", "仰しゃ" => "say"}
+particles = {}
+auxiliary = {}
+prenounadjectival = {}
+adverbs = {}
 
 def extractparenthesis(sen)
     haveparen = false
@@ -135,15 +139,23 @@ File.open(dictfile, "r") { |f|
         kanji.split(";").each { |x|
             readings.push(x.strip())
         }
-        #kana.split(";").each { |x|
-        #    readings.push(x.strip())
-        #}
+        if tags.include?("uk") || tags.include?("ek")
+            kana.split(";").each { |x|
+                readings.push(x.strip())
+            }
+        end
         readings.delete("")
         if readings.length == 0
             next
         end
         if english.length == 0
             next
+        end
+        if tags.include?("v1")
+            readings.each { |x|
+                x = x[0..x.length-2]
+                ichidanverbs[x] = english
+            }
         end
         if tags.include?("v5k")
             readings.each { |x|
@@ -205,7 +217,38 @@ File.open(dictfile, "r") { |f|
                 aruverbs[x] = english
             }
         end
-        if tags.include?("n")
+        if tags.include?("vs-s")
+            readings.each { |x|
+                x = x[0..x.length-3]
+                suruverbs[x] = english
+            }
+        end
+        if tags.include?("prt")
+        	readings.each { |x|
+                particles[x] = english
+            }
+        end
+        if tags.include?("aux")
+        	readings.each { |x|
+                auxiliary[x] = english
+            }
+        end
+        if tags.include?("adj-pn")
+        	readings.each { |x|
+        		prenounadjectival[x] = english
+        	}
+        end
+        if tags.include?("adv")
+        	readings.each { |x|
+        		adverbs[x] = english
+        	}
+        end
+        if tags.include?("ctr")
+        	readings.each { |x|
+                counters[x] = english
+            }
+        end
+        if tags.include?("n") || tags.include?("pn")
         	readings.each { |x|
                 nouns[x] = english
             }
@@ -225,6 +268,22 @@ genentries(counters, "COUNTER", "POSTCOUNTER", -> v { v } )
 
 #{
 genentries(nouns, "NOUN_ROOT", "NOUN_SUFFIX", -> v { "Noun(#{v})" } )
+}
+
+#{
+genentries(particles, "PARTICLE_ROOT", "End", -> v { "Particle(#{v})" } )
+}
+
+#{
+genentries(auxiliary, "AUXILIARY_ROOT", "End", -> v { "Auxiliary(#{v})" } )
+}
+
+#{
+genentries(adverbs, "ADVERB_ROOT", "End", -> v { "Adverb(#{v})" } )
+}
+
+#{
+genentries(prenounadjectival, "PRENOUNADJECTIVAL_ROOT", "PRENOUNADJECTIVAL_SUFFIX", -> v { "PreNounAdjectival(#{v})" } )
 }
 
 YOI_ADJ_ROOT:
