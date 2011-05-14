@@ -12,7 +12,7 @@ end
 skip = false
 skippedchars = ["*", "+", "#", "’", "　"]
 words = []
-posMapping = {"名詞" => "Noun", "動詞" => "Verb", "形容詞" => "IAdjective", "指示詞" => "Demonstrative", "助動詞" => "AuxillaryVerb", "連体詞" => "PreNounAdjectival", "接尾辞" => "Suffix", "副詞" => "Adverb", "助詞" => "Particle", "判定詞" => "Decision", "接続詞" => "Conjunction", "特殊" => "Special", "接頭辞" => "Prefix", "感動詞" => "Interjection", "未定義語" => "Undefined"}
+posMapping = {"名詞" => "Noun", "動詞" => "Verb", "形容詞" => "Adjective", "指示詞" => "Demonstrative", "助動詞" => "AuxillaryVerb", "連体詞" => "PreNounAdjectival", "接尾辞" => "Suffix", "副詞" => "Adverb", "助詞" => "Particle", "判定詞" => "Decision", "接続詞" => "Conjunction", "特殊" => "Special", "接頭辞" => "Prefix", "感動詞" => "Interjection", "未定義語" => "Undefined"}
 bannedchars = romaji + ["д", "∀"]
 File.open(fileName).each { |line|
 	if line[0] == "［"
@@ -39,6 +39,17 @@ File.open(fileName).each { |line|
 	if epos == nil
 		puts "===ERROR:#{conjugated} #{baseform} #{pos} #{baseFileName}"
 		exit(0)
+	end
+	if epos == "Adjective"
+		if baseform[baseform.length-1] == "だ"
+			epos = "NaAdjective"
+		elsif baseform[baseform.length-1] == "い"
+			epos = "IAdjective"
+		elsif baseform[baseform.length-1] == "る"
+			epos = "TaruAdjective"
+		else
+			epos = "UnknownAdjective"
+		end
 	end
 	words.push([conjugated, baseform, epos])
 }
