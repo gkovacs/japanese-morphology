@@ -248,6 +248,16 @@ File.open(dictfile, "r") { |f|
                 counters[x] = english
             }
         end
+        if tags.include?("adj-i")
+        	readings.each { |x|
+                iadjs[x] = english
+            }
+        end
+        if tags.include?("adj-na")
+        	readings.each { |x|
+                naadjs[x] = english
+            }
+        end
         if tags.include?("n") || tags.include?("pn")
         	readings.each { |x|
                 nouns[x] = english
