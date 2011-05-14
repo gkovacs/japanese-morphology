@@ -11,7 +11,7 @@ sargs = sys.argv[:]
 wordcorpusfn = 'japanese-words.txt'
 if "corpus" in sargs:
 	sargs.remove("corpus")
-	wordcorpusfn = 'corpus/corpus-allwords.txt'
+	wordcorpusfn = 'corpus/corpus-allwords-base-pos.txt'
 passedword = ""
 if len(sargs) > 1:
 	passedword = sargs[1].decode("utf-8")
@@ -28,7 +28,7 @@ def recword(k, word):
 	featurelog = TextTrace(0)
 	#print listtostr(k.recognize(word, featurelog)), '<=', word
 	k.recognize(word, featurelog)
-	print word,
+	#print word,
 	success = False
 	baseform = ""
 	pos = ""
@@ -41,10 +41,15 @@ def recword(k, word):
 					baseform = z[5:]
 				if z[:4] == "POS:" and pos == "":
 					pos = z[4:]
+	if pos == "Number":
+		baseform = word
+		pos = "Noun"
 	if not success:
-		print "[FAILURE]"
+		#print "[FAILURE]"
+		return None, None
 	else:
-		print baseform + " " + pos
+		return baseform, pos
+		#print baseform + " " + pos
 	#print log
 
 k = KimmoRuleSet.load('japanese.yaml')
@@ -59,7 +64,17 @@ for line in recfile:
 	if line.startswith(';'):
 		print line
 		continue
-	recword(k, line)
-
+	word,base,pos = line.split(" ")
+	nbase,npos = recword(k, word)
+	if nbase == None or npos == None:
+		print word + " " + base + " " + pos + " [FAILURE]"
+	elif base != nbase and pos != npos:
+		print word + " " + base + "/" + nbase + " " + pos + "/" + npos + " [BPFAIL]"		
+	elif base != nbase:
+		print word + " " + base + "/" + nbase + " " + pos + " [BASEFAIL]"
+	elif pos != npos:
+		print word + " " + base + " " + pos + "/" + npos + " [POSFAIL]"
+	else:
+		print word + " " + base + " " + pos + " [SUCCESS]"
 recfile.close()
 

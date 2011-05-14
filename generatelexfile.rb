@@ -67,28 +67,31 @@ end
 
 def genentries(entrydict, categoryname, nextcategory, pos)
 	output = categoryname + ":\n" + entrydict.map{|k,v|
-		if k == ""
-			k = "''"
+		tl = k
+		if tl == ""
+			tl = "''"
 		end
-		"#{k} #{nextcategory} POS:#{pos};;BASE:#{k};;DEF:#{v}"
+		"#{tl} #{nextcategory} POS:#{pos};;BASE:#{k};;DEF:#{v}"
 	}.join("\n")
 end
 
 def genentriesCustom(entrydict, categoryname, nextcategory, pos, basegen)
 	output = categoryname + ":\n" + entrydict.map{|k,v|
-		if k == ""
-			k = "''"
+		tl = k
+		if tl == ""
+			tl = "''"
 		end
-		"#{k} #{nextcategory} POS:#{pos};;BASE:#{basegen.(k)};;DEF:#{v}"
+		"#{tl} #{nextcategory} POS:#{pos};;BASE:#{basegen.(k)};;DEF:#{v}"
 	}.join("\n")
 end
 
 def genentriesNobase(entrydict, categoryname, nextcategory, pos)
 	output = categoryname + ":\n" + entrydict.map{|k,v|
-		if k == ""
-			k = "''"
+		tl = k
+		if tl == ""
+			tl = "''"
 		end
-		"#{k} #{nextcategory} POS:#{pos};;DEF:#{v}"
+		"#{tl} #{nextcategory} POS:#{pos};;DEF:#{v}"
 	}.join("\n")
 end
 
@@ -301,11 +304,11 @@ end
 
 generateddocument = <<EOSSTRING
 #{
-genentries(numbers, "NUMBER", "NUMBER_SUFFIX", "Noun" )
+genentries(numbers, "NUMBER", "NUMBER_SUFFIX", "Number" )
 }
 
 #{
-genentries(counters, "COUNTER", "POSTCOUNTER", "Noun" )
+genentries(counters, "COUNTER", "POSTCOUNTER", "Number" )
 }
 
 #{
