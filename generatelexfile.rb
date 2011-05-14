@@ -61,12 +61,43 @@ def extractparenthesis(sen)
     return [output.join(""), tags]
 end
 
-def genentries(entrydict, categoryname, nextcategory, descfn)
+def identityfn(ar)
+	return ar
+end
+
+def genentries(entrydict, categoryname, nextcategory, pos)
 	output = categoryname + ":\n" + entrydict.map{|k,v|
 		if k == ""
 			k = "''"
 		end
-		"#{k} #{nextcategory} #{descfn.(v)}"
+		"#{k} #{nextcategory} POS:#{pos} BASE:#{k} DEF:#{v.sub(" ", "_")}"
+	}.join("\n")
+end
+
+def genentriesCustom(entrydict, categoryname, nextcategory, pos, basegen)
+	output = categoryname + ":\n" + entrydict.map{|k,v|
+		if k == ""
+			k = "''"
+		end
+		"#{k} #{nextcategory} POS:#{pos} BASE:#{basegen.(k)} DEF:#{v.sub(" ", "_")}"
+	}.join("\n")
+end
+
+def genentriesNobase(entrydict, categoryname, nextcategory, pos)
+	output = categoryname + ":\n" + entrydict.map{|k,v|
+		if k == ""
+			k = "''"
+		end
+		"#{k} #{nextcategory} POS:#{pos} DEF:#{v.sub(" ", "_")}"
+	}.join("\n")
+end
+
+def genentriesManual(entrydict, categoryname, nextcategory, descfn)
+	output = categoryname + ":\n" + entrydict.map{|k,v|
+		if k == ""
+			k = "''"
+		end
+		"#{k} #{nextcategory} #{descfn.(v.sub(" ", "_"))}"
 	}.join("\n")
 end
 
@@ -105,7 +136,7 @@ def outputcategories(entries, categoryname, nextcategory, descfn)
 			if k == ""
 				k = "''"
 			end
-			childentries.push("#{k} #{nextcategory} #{descfn.(v)}")
+			childentries.push("#{k} #{nextcategory} #{descfn.(v.sub(" ", "_"))}")
 		else
 			ncategory = outputcategories(v, categoryname+k, nextcategory, descfn)
 			othercategories.push(ncategory)
@@ -250,6 +281,7 @@ File.open(dictfile, "r") { |f|
         end
         if tags.include?("adj-i")
         	readings.each { |x|
+        	    x = x[0..x.length-2]
                 iadjs[x] = english
             }
         end
@@ -269,155 +301,155 @@ end
 
 generateddocument = <<EOSSTRING
 #{
-genentries(numbers, "NUMBER", "NUMBER_SUFFIX", -> v { v } )
+genentries(numbers, "NUMBER", "NUMBER_SUFFIX", "Noun" )
 }
 
 #{
-genentries(counters, "COUNTER", "POSTCOUNTER", -> v { v } )
+genentries(counters, "COUNTER", "POSTCOUNTER", "Noun" )
 }
 
 #{
-genentries(nouns, "NOUN_ROOT", "NOUN_SUFFIX", -> v { "Noun(#{v})" } )
+genentries(nouns, "NOUN_ROOT", "NOUN_SUFFIX", "Noun")
 }
 
 #{
-genentries(particles, "PARTICLE_ROOT", "End", -> v { "Particle(#{v})" } )
+genentries(particles, "PARTICLE_ROOT", "End", "Particle")
 }
 
 #{
-genentries(auxiliary, "AUXILIARY_ROOT", "End", -> v { "Auxiliary(#{v})" } )
+genentries(auxiliary, "AUXILIARY_ROOT", "End", "Auxiliary")
 }
 
 #{
-genentries(adverbs, "ADVERB_ROOT", "End", -> v { "Adverb(#{v})" } )
+genentries(adverbs, "ADVERB_ROOT", "End", "Adverb" )
 }
 
 #{
-genentries(prenounadjectival, "PRENOUNADJECTIVAL_ROOT", "PRENOUNADJECTIVAL_SUFFIX", -> v { "PreNounAdjectival(#{v})" } )
+genentries(prenounadjectival, "PRENOUNADJECTIVAL_ROOT", "PRENOUNADJECTIVAL_SUFFIX", "PreNounAdjectival" )
 }
 
 YOI_ADJ_ROOT:
-'' YOI_ADJ Verb(good)
+'' YOI_ADJ POS:Verb DEF:good
 
 YOI_ADJ:
-いい I_ADJ_SHORTFORM
-よ YOI_ADJ_SUFFIX
-良 YOI_ADJ_SUFFIX
+いい I_ADJ_SHORTFORM BASE:いい
+よ YOI_ADJ_SUFFIX BASE:よい
+良 YOI_ADJ_SUFFIX BASE:良い
 
 #{
-genentries(iadjs, "I_ADJ_ROOT", "I_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
+genentriesCustom(iadjs, "I_ADJ_ROOT", "I_ADJ_SUFFIX", "IAdjective", -> v { v+"い" } )
 }
 
 #{
-genentries(naadjs, "NA_ADJ_ROOT", "NA_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
+genentriesCustom(naadjs, "NA_ADJ_ROOT", "NA_ADJ_SUFFIX", "NaAdjective", -> v { v+"だ" } )
 }
 
 #{
-genentries(taruadjs, "I_ADJ_ROOT", "TARU_ADJ_SUFFIX", -> v { "Adj(#{v})" } )
+genentriesCustom(taruadjs, "TARU_ADJ_ROOT", "TARU_ADJ_SUFFIX", "TaruAdjective", -> v { v+"たる" } )
 }
 
 #{
-genentries(ichidanverbs, "ICHIDAN_V_ROOT", "ICHIDAN_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(ichidanverbs, "ICHIDAN_V_ROOT", "ICHIDAN_V_SUFFIX", "Verb", -> v { v+"る" } )
 }
 
 #{
-genentries(ichidanverbs, "ICHIDAN_V_ROOT_HONORIFIC", "ICHIDAN_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(ichidanverbs, "ICHIDAN_V_ROOT_HONORIFIC", "ICHIDAN_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"る" } )
 }
 
 #{
-genentries(suruverbs, "SURU_V_ROOT", "SURU_V_INTERM", -> v { "Verb(#{v})" } )
+genentriesCustom(suruverbs, "SURU_V_ROOT", "SURU_V_INTERM", "Verb", -> v { v+"する" } )
 }
 
 #{
-genentries(suruverbs, "SURU_V_ROOT_HONORIFIC", "POST_HONORIFIC_SURU_VERB", -> v { "Verb(#{v})" } )
+genentriesCustom(suruverbs, "SURU_V_ROOT_HONORIFIC", "POST_HONORIFIC_SURU_VERB", "Verb", -> v { v+"する" } )
 }
 
 #{
-genentries(kuruverbs, "KURU_V_ROOT", "KURU_V_INTERM", -> v { "Verb(#{v})" } )
+genentriesNobase(kuruverbs, "KURU_V_ROOT", "KURU_V_INTERM", "Verb")
 }
 
 #{
-genentries(aruverbs, "ARU_V_ROOT", "ARU_V_INTERM", -> v { "Verb(#{v})" } )
+genentriesNobase(aruverbs, "ARU_V_ROOT", "ARU_V_INTERM", "Verb" )
 }
 
 #{
-genentries(ikuverbs, "IKU_V_ROOT", "IKU_V_INTERM", -> v { "Verb(#{v})" } )
+genentriesNobase(ikuverbs, "IKU_V_ROOT", "IKU_V_INTERM", "Verb" )
 }
 
 #{
-genentries(kuverbs, "KU_V_ROOT", "KU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(kuverbs, "KU_V_ROOT", "KU_V_SUFFIX", "Verb", -> v { v+"く" } )
 }
 
 #{
-genentries(kuverbs, "KU_V_ROOT_HONORIFIC", "KU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(kuverbs, "KU_V_ROOT_HONORIFIC", "KU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"く" } )
 }
 
 #{
-genentries(suverbs, "SU_V_ROOT", "SU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(suverbs, "SU_V_ROOT", "SU_V_SUFFIX", "Verb", -> v { v+"す" } )
 }
 
 #{
-genentries(suverbs, "SU_V_ROOT_HONORIFIC", "SU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(suverbs, "SU_V_ROOT_HONORIFIC", "SU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"す" } )
 }
 
 #{
-genentries(uverbs, "U_V_ROOT", "U_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(uverbs, "U_V_ROOT", "U_V_SUFFIX", "Verb", -> v { v+"う" } )
 }
 
 #{
-genentries(uverbs, "U_V_ROOT_HONORIFIC", "U_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(uverbs, "U_V_ROOT_HONORIFIC", "U_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"う" } )
 }
 
 #{
-genentries(guverbs, "GU_V_ROOT", "GU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(guverbs, "GU_V_ROOT", "GU_V_SUFFIX", "Verb", -> v { v+"ぐ" } )
 }
 
 #{
-genentries(guverbs, "GU_V_ROOT_HONORIFIC", "GU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(guverbs, "GU_V_ROOT_HONORIFIC", "GU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"ぐ" } )
 }
 
 #{
-genentries(buverbs, "BU_V_ROOT", "BU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(buverbs, "BU_V_ROOT", "BU_V_SUFFIX", "Verb", -> v { v+"ぶ" } )
 }
 
 #{
-genentries(buverbs, "BU_V_ROOT_HONORIFIC", "BU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(buverbs, "BU_V_ROOT_HONORIFIC", "BU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"ぶ" } )
 }
 
 #{
-genentries(tsuverbs, "TSU_V_ROOT", "TSU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(tsuverbs, "TSU_V_ROOT", "TSU_V_SUFFIX", "Verb", -> v { v+"つ" } )
 }
 
 #{
-genentries(tsuverbs, "TSU_V_ROOT_HONORIFIC", "TSU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(tsuverbs, "TSU_V_ROOT_HONORIFIC", "TSU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"つ" } )
 }
 
 #{
-genentries(muverbs, "MU_V_ROOT", "MU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(muverbs, "MU_V_ROOT", "MU_V_SUFFIX", "Verb", -> v { v+"む" } )
 }
 
 #{
-genentries(muverbs, "MU_V_ROOT_HONORIFIC", "MU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(muverbs, "MU_V_ROOT_HONORIFIC", "MU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"む" } )
 }
 
 #{
-genentries(nuverbs, "NU_V_ROOT", "NU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(nuverbs, "NU_V_ROOT", "NU_V_SUFFIX", "Verb", -> v { v+"ぬ" } )
 }
 
 #{
-genentries(nuverbs, "NU_V_ROOT_HONORIFIC", "NU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(nuverbs, "NU_V_ROOT_HONORIFIC", "NU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"ぬ" } )
 }
 
 #{
-genentries(ruverbs, "RU_V_ROOT", "RU_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(ruverbs, "RU_V_ROOT", "RU_V_SUFFIX", "Verb", -> v { v+"る" } )
 }
 
 #{
-genentries(ruverbs, "RU_V_ROOT_HONORIFIC", "RU_V_SUFFIX_HONORIFIC", -> v { "Verb(#{v})" } )
+genentriesCustom(ruverbs, "RU_V_ROOT_HONORIFIC", "RU_V_SUFFIX_HONORIFIC", "Verb", -> v { v+"る" } )
 }
 
 #{
-genentries(honverbs, "HON_V_ROOT", "HON_V_SUFFIX", -> v { "Verb(#{v})" } )
+genentriesCustom(honverbs, "HON_V_ROOT", "HON_V_SUFFIX", "Verb", -> v { v+"る" } )
 }
 EOSSTRING
 
