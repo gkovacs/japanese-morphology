@@ -200,6 +200,11 @@ File.open("edict2-utf8", "r") { |f|
                 aruverbs[x] = english
             }
         end
+        if tags.include?("n")
+        	readings.each { |x|
+                nouns[x] = english
+            }
+        end
     end
 }
 end

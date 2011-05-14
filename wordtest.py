@@ -7,9 +7,14 @@ sys.setdefaultencoding('utf-8')
 import codecs
 from kimmo import *
 
+sargs = sys.argv[:]
+wordcorpusfn = 'japanese-words.txt'
+if "corpus" in sargs:
+	sargs.remove("corpus")
+	wordcorpusfn = 'corpus/corpus-allwords.txt'
 passedword = ""
-if len(sys.argv) > 1:
-	passedword = sys.argv[1].decode("utf-8")
+if len(sargs) > 1:
+	passedword = sargs[1].decode("utf-8")
 
 def listtostr(l):
 	if type(l) == type([]):
@@ -41,7 +46,7 @@ if passedword != "":
 	recword(k, passedword)
 	exit(0)
 
-recfile = codecs.open('japanese-words.txt', encoding='utf-8')
+recfile = codecs.open(wordcorpusfn, encoding='utf-8')
 for line in recfile:
 	line = line.strip()
 	if not line: continue

@@ -92,7 +92,7 @@ class KimmoRuleSet(yaml.YAMLObject):
         else: return char
     
     def _generate(self, pairs, state_list, morphology_state=None, word='',
-    lexical=None, surface=None, features='', log=None):
+    lexical=None, surface=None, features='', log=None, origsurface=None):
         feat = None
         if morphology_state:
             morph = self._morphology
@@ -104,7 +104,7 @@ class KimmoRuleSet(yaml.YAMLObject):
                 else:
                     newfeat = features
                     #log.clearFeatures()
-                for result in self._generate(pairs, state_list, state, '', lexical, surface, newfeat, log):
+                for result in self._generate(pairs, state_list, state, '', lexical, surface, newfeat, log, origsurface):
                     #log.clearFeatures()
                     log.addFeature(feat)
                     yield result
@@ -114,7 +114,7 @@ class KimmoRuleSet(yaml.YAMLObject):
                 #log.clearFeatures()
                 return
             lexical_chars = list(morph.valid_lexical(morphology_state,
-            word, self._pair_alphabet)) + list(self._null)
+            word, self._pair_alphabet.union(set([KimmoPair.make(x) for x in origsurface])))) + list(self._null)
         else:
             #log.clearFeatures()
             lexical_chars = None
@@ -136,7 +136,9 @@ class KimmoRuleSet(yaml.YAMLObject):
                 #log.clearFeatures()
                 return
             
-        next_pairs = [p for p in self._pair_alphabet if
+        #print len(lexical_chars)
+        npa = self._pair_alphabet.union(set([KimmoPair.make(x) for x in origsurface]))
+        next_pairs = [p for p in npa if
           (lexical is None or startswith(lexical, self._pairtext(p.input()))) and
           (surface is None or startswith(surface, self._pairtext(p.output())))]
         for pair in next_pairs:
@@ -171,9 +173,9 @@ class KimmoRuleSet(yaml.YAMLObject):
             newlex, newsurf = lexical, surface
             if lexical: newlex = lexical[len(self._pairtext(pair.input())):]
             if surface: newsurf = surface[len(self._pairtext(pair.output())):]
-            for result in self._generate(pairs+[pair], new_states,
-            morphology_state, newword, newlex, newsurf, features, log):
+            for result in self._generate(pairs+[pair], new_states, morphology_state, newword, newlex, newsurf, features, log, origsurface):
                 yield result
+                return # only first result needed
         
     def generate(self, lexical, log=None):
         """
@@ -207,7 +209,7 @@ class KimmoRuleSet(yaml.YAMLObject):
         if not surface.endswith(self._boundary):
             surface += self._boundary
         got = self._generate([], [rule.fsa().start() for rule in
-        self._rules], morphology_state='Begin', surface=surface, log=log)
+        self._rules], morphology_state='Begin', surface=surface, log=log, origsurface=surface[:])
         results = []
         for (pairs, features) in got:
             results.append((''.join(self._pairtext(pair.input()).strip(self._boundary) for pair in pairs), features))
@@ -371,25 +373,17 @@ class KimmoRuleSet(yaml.YAMLObject):
         lexicon = map.get('lexicon')
         if lexicon:
             lexicon = KimmoMorphology.load(lexicon)
-        subsets = map['subsets']
-        for key, value in subsets.items():
-            if isinstance(value, basestring):
-                subsets[key] = value.split()
+        subsets = {}
+        if 'subsets' in map:
+            map['subsets']
+            for key, value in subsets.items():
+                if isinstance(value, basestring):
+                    subsets[key] = value.split()
         defaults = map['defaults']
         if isinstance(defaults, basestring):
             defaults = defaults.split()
         defaults = [KimmoPair.make(text) for text in defaults]
-        ruledic = map['rules']
         rules = []
-        for (name, rule) in ruledic.items():
-            if isinstance(rule, dict):
-                rules.append(KimmoFSARule.from_dfa_dict(name, rule, subsets))
-            elif isinstance(rule, basestring):
-                if rule.strip().startswith('FSA'):
-                    rules.append(KimmoFSARule.parse_table(name, rule, subsets))
-                else: rules.append(KimmoArrowRule(name, rule, subsets))
-            else:
-                raise ValueError, "Can't recognize the data structure in '%s' as a rule: %s" % (name, rule)
         return cls(subsets, defaults, rules, lexicon)
     
     def gui(self, startTk=True):

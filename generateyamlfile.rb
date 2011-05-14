@@ -34,11 +34,9 @@ generateddocument = <<EOSSTRING
 # this is a comment at the top of my spanish.yaml file
 boundary: '#'
 lexicon: japanese.lex
-defaults: "#{all.join(" ")} +:0 #"
+defaults: "#{all.join(" ")} #"
 subsets:
- "ARABNUM": 0 1 2 3 4 5 6 7 8 9
- "HIRAGANA": #{hiragana.join(" ")}
- "@": "#{all.join(" ")} + # 0"
+ "@": "#{all.join(" ")} #"
 rules:
   norules:
    start:
