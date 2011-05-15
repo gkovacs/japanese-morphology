@@ -59,10 +59,10 @@ muverbs = {"読" => "read", "飲" => "drink"}
 nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take", "降" => "fall", "閉ま" => "close"}
 honverbs = {"下さ" => "give to me", "くださ" => "give to me", "いらっしゃ" => "go come or be", "ござ" => "exist", "なさ" => "do", "為さ" => "do", "おっしゃ" => "say", "仰" => "say", "仰有" => "say", "仰しゃ" => "say"}
-particles = {"だけ" => "just", "なら" => "just"}
+particles = {"だけ" => "just", "なら" => "just", "なあ" => "hey", "じゃ" => "well then", "やあ" => "well then", "べ" => "speculation", "かつ" => "scolding"}
 auxiliary = {}
 prenounadjectival = {}
-adverbs = {}
+adverbs = {"また" => "again"}
 conjunction = {}
 interjection = {}
 
@@ -350,8 +350,8 @@ File.open(dictfile, "r") { |f|
 }
 end
 
-particlesExclude = ["して", "なり"]
-particlesExclude.each { |x| particles.delete(x) }
+["して", "なり"].each { |x| particles.delete(x) }
+["また"].each { |x| conjunction.delete(x) }
 
 generateddocument = <<EOSSTRING
 #{
