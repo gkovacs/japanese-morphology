@@ -54,7 +54,8 @@ def recword(k, word):
 
 k = KimmoRuleSet.load('japanese.yaml')
 if passedword != "":
-	recword(k, passedword)
+	nbase,npos = recword(k, passedword)
+	print passedword + " " + nbase + " " + npos
 	exit(0)
 
 recfile = codecs.open(wordcorpusfn, encoding='utf-8')
@@ -64,7 +65,10 @@ for line in recfile:
 	if line.startswith(';'):
 		print line
 		continue
-	word,base,pos = line.split(" ")
+	spl = line.split(" ")
+	word = spl[0]
+	base = spl[1]
+	pos = spl[2]
 	nbase,npos = recword(k, word)
 	if nbase == None or npos == None:
 		print word + " " + base + " " + pos + " [FAILURE]"

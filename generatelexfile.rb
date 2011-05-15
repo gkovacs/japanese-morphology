@@ -13,6 +13,9 @@ if $reduced
 		baseform = spl[1]
 		$corpuswords[conjform] = true
 		$corpuswords[baseform] = true
+		if baseform[baseform.length-1] == "だ"
+			$corpuswords[baseform[0..baseform.length-2]] = true
+		end
 	}
 end
 if ARGV.include?("allwords")
