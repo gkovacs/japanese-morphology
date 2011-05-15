@@ -20,7 +20,7 @@ def printAndClear()
 end
 
 conjsuffix = Set.new ["ない", "ます", "しまう", "いる", "みる", "うる", "える", "なる", "れる", "おく", "たい", "ほしい", "られる", "せる", "そうだ", "くれる", "あげる", "もらう", "すぎる", "やすい", "にくい", "ある", "る", "する", "たち"]
-changepos = {}
+changepos = {"的だ" => "NaAdjective"}
 
 ARGF.each { |line|
 	if line.include?("===WORDS")
@@ -45,9 +45,6 @@ ARGF.each { |line|
 		$pBaseform += baseform
 		next
 	elsif pos == "Suffix" && $pPos != "Particle" && conjsuffix.include?(baseform)
-		$pConjugated += conjugated
-		next
-	elsif pos == "Suffix" && $pPos == "Noun" && baseform == "的だ"
 		$pConjugated += conjugated
 		next
 	elsif pos == "Suffix" && changepos.include?(baseform)

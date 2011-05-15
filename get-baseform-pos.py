@@ -47,9 +47,9 @@ def recword_real(k, word):
 			success = True
 			feat.remove("SUCCESS")
 			for z in feat:
-				if z[:5] == "BASE:" and baseform == "":
+				if z[:5] == "BASE:":
 					baseform = z[5:]
-				if z[:4] == "POS:" and pos == "":
+				if z[:4] == "POS:":
 					pos = z[4:]
 	if pos == "Number":
 		baseform = word

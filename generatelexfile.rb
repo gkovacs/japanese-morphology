@@ -38,9 +38,9 @@ end
 
 numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "０" => "0", "１" => "1", "２" => "2", "３" => "3", "４" => "4", "５" => "5", "６" => "6", "７" => "7", "８" => "8", "９" => "9", "〇" => "0", "零" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
 counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "番" => "number place", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "キロ" => "kilos", "メートル" => "meters", "セント" => "cents", "歳" => "years of age", "回" => "times", "倍" => "fold", "割" => "rate", "回生" => "college year", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second", "" => "number"}
-prefixes = {"お" => "honorable", "ご" => "honorable", "御" => "honorable", "み" => "honorable", "オ" => "honorable", "オオ" => "honorable", "ひと" => "first", "各" => "each", "旧" => "former", "元" => "original", "現" => "current", "後" => "final", "高" => "highest", "今" => "current", "最" => "most", "準" => "level", "初" => "first", "小" => "small", "新" => "new", "全" => "complete", "他" => "other", "大" => "big", "第" => "th", "超" => "super", "長" => "chief", "同" => "same", "非" => "mistaken", "不" => "un", "無" => "non", "猛" => "extreme", "約" => "promised", "翌" => "next", "来" => "coming"}
+prefixes = {"お" => "honorable", "ご" => "honorable", "御" => "honorable"}
 demonstrative = {"あちら" => "there", "あの" => "that", "あれ" => "there", "あんな" => "that", "こーいう" => "this", "こう" => "this", "こういう" => "this", "こういった" => "this", "こうした" => "this", "こうして" => "this", "ここ" => "here", "こちら" => "this way", "こっち" => "this way", "この" => "this", "このような" => "this sort", "このように" => "this sort", "これ" => "here", "こん" => "this", "こんな" => "this sort", "こんなに" => "this sort", "そう" => "there", "そういう" => "that", "そういった" => "that", "そうした" => "that", "そうして" => "that", "そこ" => "there", "そちら" => "that way", "そっ" => "that way", "そっち" => "that way", "その" => "that", "そのような" => "that sort", "そのように" => "that sort", "そりゃ" => "that", "それ" => "that", "そん" => "that", "そんな" => "that sort", "そんなに" => "that sort", "どう" => "which", "どういう" => "which", "どうした" => "which", "どうして" => "which", "どお" => "which", "どこ" => "where", "どちら" => "which way", "どっち" => "which way", "どの" => "which", "どのような" => "which sort", "どのように" => "which sort", "どれ" => "where", "どん" => "which", "どんな" => "which", "どんなに" => "which"}
-nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation", "東京" => "Tokyo", "魚" => "fish", "医者" => "doctor", "おじゃん" => "nothing", "合理" => "rational"}
+nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation", "東京" => "Tokyo", "魚" => "fish", "医者" => "doctor", "おじゃん" => "nothing", "合理" => "rational", "前後" => "around", "ひととき" => "moment", "駅前" => "station front", "建前" => "official stance", "午後" => "afternoon", "午前" => "morning", "今後" => "hereafter", "今朝" => "this morning", "今日" => "today", "事前" => "prior", "持ち前" => "characteristic", "直後" => "immediately following", "名前" => "name", "目的" => "purpose", "高橋" => "Takahashi", "小倉" => "Ogura", "新島" => "Arashima", "大丸" => "Oomaru", "大橋" => "Ohashi", "大倉" => "Oogura"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind", "色々" => "various", "いろいろ" => "various", "普通" => "ordinary", "最大" => "biggest", "最強" => "strongest", "最初" => "first", "最後" => "last", "最高" => "tallest", "最良" => "best"}
 taruadjs = {"漫然" => "rambling", "堂々" => "magnificent", "愕然" => "astonishing", "唖然" => "dumbfounded", "颯爽" => "gallant", "黙々" => "silent", "依然" => "still"}
@@ -60,7 +60,6 @@ nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take", "降" => "fall", "閉ま" => "close"}
 honverbs = {"下さ" => "give to me", "くださ" => "give to me", "いらっしゃ" => "go come or be", "ござ" => "exist", "なさ" => "do", "為さ" => "do", "おっしゃ" => "say", "仰" => "say", "仰有" => "say", "仰しゃ" => "say"}
 particles = {"だけ" => "just", "なら" => "just", "なあ" => "hey", "じゃ" => "well then", "やあ" => "well then", "べ" => "speculation", "かつ" => "scolding"}
-auxiliary = {}
 prenounadjectival = {}
 adverbs = {"また" => "again"}
 conjunction = {}
@@ -300,11 +299,6 @@ File.open(dictfile, "r") { |f|
                 particles[x] = english
             }
         end
-        if tags.include?("aux") || tags.include?("aux-v")
-        	readings.each { |x|
-                auxiliary[x] = english
-            }
-        end
         if tags.include?("adj-pn")
         	readings.each { |x|
         		prenounadjectival[x] = english
@@ -352,6 +346,9 @@ end
 
 ["して", "なり"].each { |x| particles.delete(x) }
 ["また"].each { |x| conjunction.delete(x) }
+["あ", "行"].each { |x| uverbs.delete(x)}
+["さ"].each { |x| ruverbs.delete(x) }
+["させ"].each { |x| ichidanverbs.delete(x) }
 
 generateddocument = <<EOSSTRING
 #{
@@ -373,10 +370,6 @@ genentries(nouns, "NOUN_ROOT", "NOUN_SUFFIX", "Noun")
 
 #{
 genentries(particles, "PARTICLE_ROOT", "End", "Particle")
-}
-
-#{
-genentries(auxiliary, "AUXILIARY_ROOT", "End", "Auxiliary")
 }
 
 #{

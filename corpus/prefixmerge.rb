@@ -15,7 +15,7 @@ def printAndClear()
 	$pPrefix = ""
 end
 
-prefixes = Set.new ["お", "ご", "ひと", "み", "オ", "各", "旧", "元", "現", "後", "御", "高", "今", "最", "準", "初", "小", "新", "全", "他", "大", "第", "超", "長", "同", "非", "不", "無", "猛", "約", "翌", "来"]
+prefixes = Set.new ["お", "ご", "御"]
 
 ARGF.each { |line|
 	if line.include?("===WORDS")

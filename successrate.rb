@@ -5,6 +5,7 @@ def printSuccessRate(inputLines)
 	success = 0
 	failure = 0
 	posfail = 0
+	basefail = 0
 	bpfail = 0
 	inputLines.each { |line|
 		if line.include?("[SUCCESS]")
@@ -13,11 +14,13 @@ def printSuccessRate(inputLines)
 			posfail += 1
 		elsif line.include?("[BPFAIL]")
 			bpfail += 1
+		elsif line.include?("[BASEFAIL]")
+			basefail += 1
 		elsif line.include?("[FAILURE]")
 			failure += 1
 		end
 	}
-	total = success+failure+posfail+bpfail
+	total = success+failure+posfail+basefail+bpfail
 	printme = -> v {
 		if total == 0
 			"0 (0%)"
@@ -29,6 +32,7 @@ def printSuccessRate(inputLines)
 	puts "success: #{printme.(success)}"
 	puts "failure: #{printme.(failure)}"
 	puts "posfail: #{printme.(posfail)}"
+	puts "basefail:#{printme.(basefail)}"
 	puts "bpfail:  #{printme.(bpfail)}"
 end
 

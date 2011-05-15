@@ -24,7 +24,7 @@ if !noregen
 		system("./generatelexfile.rb > japanese-dictionary.lex")
 	end
 end
-system("cat japanese-rules.lex japanese-dictionary.lex > japanese.lex")
+system("cat japanese-rules.lex japanese-dictionary.lex japanese-auxiliary.lex > japanese.lex")
 #system("./generateyamlfile.rb > japanese.yaml")
 if corpus
 	system("./wordtest.py corpus")
