@@ -38,6 +38,7 @@ STEM_HONORIFIC:
 
 NUMBER_SUFFIX:
 '' NUMBER
+'．' NUMBER
 '' COUNTER
 
 POSTCOUNTER:
@@ -52,6 +53,9 @@ OPTIONALHALF:
 MANYFEW:
 も End many
 しか End few
+前 End before
+後 End after
+
 '' End
 
 YOI_ADJ_SUFFIX:
@@ -88,6 +92,12 @@ TARU_ADJ_SUFFIX:
 と SURU_V_INTERM make it
 
 NOUN_SUFFIX:
+'' NOUN_SUFFIX_MAIN
+たち NOUN_SUFFIX_MAIN and others
+後 NOUN_SUFFIX_MAIN after
+前 NOUN_SUFFIX_MAIN before
+
+NOUN_SUFFIX_MAIN:
 '' End
 '' MITAI
 に NARU
