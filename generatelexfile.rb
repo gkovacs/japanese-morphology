@@ -18,7 +18,7 @@ if $reduced
 		end
 	}
 end
-if ARGV.include?("allwords")
+if $reduced || ARGV.include?("allwords")
 	dictfile = "edict2-utf8"
 end
 

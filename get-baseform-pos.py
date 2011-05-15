@@ -68,7 +68,11 @@ for line in recfile:
 	spl = line.split(" ")
 	word = spl[0]
 	base = spl[1]
+	if "/" in base:
+		base = base.split("/")[0]
 	pos = spl[2]
+	if "/" in pos:
+		pos = pos.split("/")[0]
 	nbase,npos = recword(k, word)
 	if nbase == None or npos == None:
 		print word + " " + base + " " + pos + " [FAILURE]"

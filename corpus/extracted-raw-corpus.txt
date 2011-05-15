@@ -3670,7 +3670,7 @@
 しまい しまう Suffix
 ます ます Suffix
 ===SENTENCE:KN007_Keitai_1-1-6-01
-しかし、海外ではケータイを持っていると逆にイヤだなぁ。
+しかし、海外ではケータイを持っていると逆にイヤだなあ。
 ===WORDS:KN007_Keitai_1-1-6-01
 しかし しかし Conjunction
 海外 海外 Noun
@@ -3683,7 +3683,7 @@
 と と Particle
 逆に 逆だ NaAdjective
 イヤだ イヤだ NaAdjective
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN007_Keitai_1-1-7-01
 せっかく非日常を味わいに行っているのにもかかわらず、日本からの他愛もないメールが届いたら少し気持ちが萎えてしまう気がする・・・
 ===WORDS:KN007_Keitai_1-1-7-01
@@ -5288,9 +5288,9 @@
 して する Suffix
 しまう しまう Suffix
 ===SENTENCE:KN011_Keitai_1-1-5-02
-まぁどのへんが貴重なのかはわからないけど
+まあどのへんが貴重なのかはわからないけど
 ===WORDS:KN011_Keitai_1-1-5-02
-まぁ まぁ Adverb
+まあ まあ Adverb
 どの どの Demonstrative
 へん へん Noun
 が が Particle
@@ -5900,12 +5900,12 @@
 か か Particle
 ね ね Particle
 ===SENTENCE:KN012_Gourmet_3-1-12-01
-うーん、グルメですねぇ。
+うーん、グルメですねえ。
 ===WORDS:KN012_Gourmet_3-1-12-01
 うーん うーん Interjection
 グルメ グルメ Noun
 です だ Decision
-ねぇ ねぇ Particle
+ねえ ねえ Particle
 ===SENTENCE:KN012_Gourmet_3-1-2-01
 ほんのちょこっとなんだけど、贅沢したいときに何をしますか？
 ===WORDS:KN012_Gourmet_3-1-2-01
@@ -6918,11 +6918,11 @@
 少ない 少ない IAdjective
 くらい くらい Noun
 ===SENTENCE:KN012_Gourmet_8-1-16-01
-味は・・・・まぁまぁだけど量は猫のご飯か！？ってくらいの量しかない。
+味は・・・・まあまぁだけど量は猫のご飯か！？ってくらいの量しかない。
 ===WORDS:KN012_Gourmet_8-1-16-01
 味 味 Noun
 は は Particle
-まぁまぁ まぁまぁ Adverb
+まあまぁ まあまぁ Adverb
 だ だ Decision
 けど けど Particle
 量 量 Noun
@@ -11162,10 +11162,10 @@
 思って 思う Verb
 しまう しまう Suffix
 ===SENTENCE:KN012_Sports_1-1-108-01
-もったいないなぁ・・・。
+もったいないなあ・・・。
 ===WORDS:KN012_Sports_1-1-108-01
 もったいない もったいない IAdjective
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN012_Sports_1-1-109-01
 確かにレースを経験して勝たないと本当の気持ちよさはわからないかも知れないけど。
 ===WORDS:KN012_Sports_1-1-109-01
@@ -11652,9 +11652,9 @@
 アテンション アテンション Noun
 ゴゥッ ゴゥッ Noun
 ===SENTENCE:KN012_Sports_1-1-45-01
-さぁ！！
+さあ！！
 ===WORDS:KN012_Sports_1-1-45-01
-さぁ さぁ Interjection
+さあ さあ Interjection
 ===SENTENCE:KN012_Sports_1-1-46-01
 スタートだ！！
 ===WORDS:KN012_Sports_1-1-46-01
@@ -13394,9 +13394,9 @@
 です だ Decision
 か か Particle
 ===SENTENCE:KN015_Keitai_1-1-16-01
-ねぇ。
+ねえ。
 ===WORDS:KN015_Keitai_1-1-16-01
-ねぇ ねぇ Interjection
+ねえ ねえ Interjection
 ===SENTENCE:KN015_Keitai_1-1-18-01
 それがすっかりこの体たらく。
 ===WORDS:KN015_Keitai_1-1-18-01
@@ -13676,7 +13676,7 @@
 違い 違う Verb
 ます ます Suffix
 ===SENTENCE:KN015_Kyoto_1-1-14-01
-多分その後ミナミかキタに出てファッションビルや複合型レジャー施設を満喫し、夜景を眺めながらディナーと洒落込み、そして帰りの電車に乗るべく駅のホームに向かう中でエスカレーターの左側が空いている光景を見て「あぁ、ここはやっぱり大阪なんだなぁ」と実感するのです。
+多分その後ミナミかキタに出てファッションビルや複合型レジャー施設を満喫し、夜景を眺めながらディナーと洒落込み、そして帰りの電車に乗るべく駅のホームに向かう中でエスカレーターの左側が空いている光景を見て「ああ、ここはやっぱり大阪なんだなあ」と実感するのです。
 ===WORDS:KN015_Kyoto_1-1-14-01
 多分 多分 Adverb
 その後 その後 Noun
@@ -13727,14 +13727,14 @@
 光景 光景 Noun
 を を Particle
 見て 見る Verb
-あぁ あぁ Interjection
+ああ ああ Interjection
 ここ ここ Demonstrative
 は は Particle
 やっぱり やっぱり Adverb
 大阪 大阪 Noun
 な だ Decision
 んだ んだ AuxillaryVerb
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 実感 実感 Noun
 する する Verb
@@ -14150,10 +14150,10 @@
 楽しめ 楽しめる Verb
 ます ます Suffix
 ===SENTENCE:KN015_Kyoto_1-1-43-01
-とまぁこんな感じなのですがどうでしょうか。
+とまあこんな感じなのですがどうでしょうか。
 ===WORDS:KN015_Kyoto_1-1-43-01
 と と Particle
-まぁ まぁ Interjection
+まあ まあ Interjection
 こんな こんな Demonstrative
 感じ 感じ Noun
 な だ Decision
@@ -16910,9 +16910,9 @@
 番号 番号 Noun
 ポータビリティ ポータビリティ Noun
 ===SENTENCE:KN019_Keitai_1-1-10-01
-まぁ、当たり前のことではありますが、年割のようなサービスは消えます。
+まあ、当たり前のことではありますが、年割のようなサービスは消えます。
 ===WORDS:KN019_Keitai_1-1-10-01
-まぁ まぁ Interjection
+まあ まあ Interjection
 当たり前の 当たり前だ NaAdjective
 こと こと Noun
 で だ Decision
@@ -17013,10 +17013,10 @@
 で で Particle
 は は Particle
 ===SENTENCE:KN019_Keitai_1-1-16-01
-と、まぁ、私個人としては、今の段階ではそれほど意味のある制度ではないなぁ、と。
+と、まあ、私個人としては、今の段階ではそれほど意味のある制度ではないなあ、と。
 ===WORDS:KN019_Keitai_1-1-16-01
 と と Particle
-まぁ まぁ Interjection
+まあ まあ Interjection
 私 私 Noun
 個人 個人 Noun
 と と Particle
@@ -17035,7 +17035,7 @@
 で だ Decision
 は は Particle
 ない ない Suffix
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 ===SENTENCE:KN019_Keitai_1-1-17-01
 せめてメールアドレスもそのままで変更できればいいのですが。
@@ -17860,11 +17860,11 @@
 が が Particle
 多い 多い IAdjective
 ===SENTENCE:KN021_Keitai_1-1-5-01
-なんでだろうなぁ、欲望が多くなったってこと？
+なんでだろうなあ、欲望が多くなったってこと？
 ===WORDS:KN021_Keitai_1-1-5-01
 なんで なんで Adverb
 だろう だ Decision
-なぁ なぁ Particle
+なあ なあ Particle
 欲望 欲望 Noun
 が が Particle
 多く 多い IAdjective
@@ -21014,7 +21014,7 @@
 お お Prefix
 すすめ すすめる Verb
 ===SENTENCE:KN026_Kyoto_1-1-10-01
-それと、外国人の方もよくみかけるなぁ・・・
+それと、外国人の方もよくみかけるなあ・・・
 ===WORDS:KN026_Kyoto_1-1-10-01
 それ それ Demonstrative
 と と Particle
@@ -21025,7 +21025,7 @@
 も も Particle
 よく よい IAdjective
 みかける みかける Verb
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN026_Kyoto_1-1-11-01
 以前、友達が外国人の方に道を聞かれて困ってました（＾□＾；）
 ===WORDS:KN026_Kyoto_1-1-11-01
@@ -21109,7 +21109,7 @@
 いう いう Verb
 んです んだ AuxillaryVerb
 ===SENTENCE:KN026_Kyoto_1-1-15-01
-（そういえば、おばあちゃんはいろんなものに「〜さん」づけしてたなぁ・・・京都弁なのかな？）
+（そういえば、おばあちゃんはいろんなものに「〜さん」づけしてたなあ・・・京都弁なのかな？）
 ===WORDS:KN026_Kyoto_1-1-15-01
 そう そう Demonstrative
 いえば いう Verb
@@ -21123,7 +21123,7 @@
 づけ づけ Noun
 して する Verb
 た る Suffix
-なぁ なぁ Particle
+なあ なあ Particle
 京都 京都 Noun
 弁 弁 Noun
 な だ Decision
@@ -21195,10 +21195,10 @@
 ===WORDS:KN026_Kyoto_1-1-18-01
 ごめんなさい ごめんなさい Interjection
 ===SENTENCE:KN026_Kyoto_1-1-19-01
-でもまぁ、楽しいですよ〜気軽に祭り気分が味わえますし。。。
+でもまあ、楽しいですよ〜気軽に祭り気分が味わえますし。。。
 ===WORDS:KN026_Kyoto_1-1-19-01
 でも でも Conjunction
-まぁ まぁ Adverb
+まあ まあ Adverb
 楽しい 楽しい IAdjective
 です です AuxillaryVerb
 よ〜 よ〜 Particle
@@ -21376,9 +21376,9 @@
 だった だ Decision
 ような ようだ AuxillaryVerb
 ===SENTENCE:KN026_Kyoto_1-1-6-01
-まぁ観光スポット多いですもんね〜京都は。
+まあ観光スポット多いですもんね〜京都は。
 ===WORDS:KN026_Kyoto_1-1-6-01
-まぁ まぁ Adverb
+まあ まあ Adverb
 観光 観光 Noun
 スポット スポット Noun
 多い 多い IAdjective
@@ -21646,19 +21646,19 @@
 ディスプレイ ディスプレイ Noun
 覗いたり 覗く Verb
 ===SENTENCE:KN027_Keitai_1-1-22-01
-あぁ〜〜あかん女やわ！笑
+ああ〜〜あかん女やわ！笑
 ===WORDS:KN027_Keitai_1-1-22-01
-あぁ〜〜 あぁ〜〜 Interjection
+ああ〜〜 ああ〜〜 Interjection
 あかん あかん Interjection
 女 女 Noun
 や だ Decision
 わ わ Particle
 笑 笑 Special
 ===SENTENCE:KN027_Keitai_1-1-23-01
-とゆぅわけで、今からメール返します♪
+とゆうわけで、今からメール返します♪
 ===WORDS:KN027_Keitai_1-1-23-01
 と と Particle
-ゆぅ ゆう Verb
+ゆう ゆう Verb
 わけ わけ Noun
 で で Particle
 今 今 Noun
@@ -21946,9 +21946,9 @@
 か か Particle
 笑 笑 Special
 ===SENTENCE:KN027_Kyoto_1-1-18-01
-さぁ、そろそろ授業やから準備しよ〜◎
+さあ、そろそろ授業やから準備しよ〜◎
 ===WORDS:KN027_Kyoto_1-1-18-01
-さぁ さぁ Interjection
+さあ さあ Interjection
 そろそろ そろそろ Adverb
 授業 授業 Noun
 や だ Decision
@@ -22010,9 +22010,9 @@
 よ よ Particle
 ねー ねー Particle
 ===SENTENCE:KN027_Kyoto_1-1-5-01
-まぁ、下宿も年数が限られた生活やと考えれば、ある意味観光なんかもと思ったり。
+まあ、下宿も年数が限られた生活やと考えれば、ある意味観光なんかもと思ったり。
 ===WORDS:KN027_Kyoto_1-1-5-01
-まぁ まぁ Adverb
+まあ まあ Adverb
 下宿 下宿 Noun
 も も Particle
 年数 年数 Noun
@@ -23015,11 +23015,11 @@
 いい いい IAdjective
 です です AuxillaryVerb
 ===SENTENCE:KN030_Keitai_1-1-1-01
-着信アリ、うぎゃぁぁぁ
+着信アリ、うぎゃあぁぁ
 ===WORDS:KN030_Keitai_1-1-1-01
 着信 着信 Noun
 アリ アリ Noun
-うぎゃぁぁぁ うぎゃぁぁぁ Interjection
+うぎゃあぁぁ うぎゃあぁぁ Interjection
 ===SENTENCE:KN030_Keitai_1-1-10-01
 おっしゃるとおり、大の苦手なんです。
 ===WORDS:KN030_Keitai_1-1-10-01
@@ -23300,14 +23300,14 @@
 観覧 観覧 Noun
 爆 爆 Special
 ===SENTENCE:KN030_Kyoto_1-1-19-01
-いや〜、さすが、見晴らしがいいなぁ〜。
+いや〜、さすが、見晴らしがいいなあ〜。
 ===WORDS:KN030_Kyoto_1-1-19-01
 いや〜 いや〜 Interjection
 さすが さすが Adverb
 見晴らし 見晴らし Noun
 が が Particle
 いい いい IAdjective
-なぁ〜 なぁ〜 Particle
+なあ〜 なあ〜 Particle
 ===SENTENCE:KN030_Kyoto_1-1-2-01
 ２２日の時代祭、行ってきましたよ〜。
 ===WORDS:KN030_Kyoto_1-1-2-01
@@ -23369,13 +23369,13 @@
 まいり まいる Verb
 ました〜 ます〜 Suffix
 ===SENTENCE:KN030_Kyoto_1-1-4-01
-やっぱりこの目でちぇっくせなあきまへんよ。
+やっぱりこの目でちえっくせなあきまへんよ。
 ===WORDS:KN030_Kyoto_1-1-4-01
 やっぱり やっぱり Adverb
 この この Demonstrative
 目 目 Noun
 で で Particle
-ちぇっく ちぇっく Noun
+ちえっく ちえっく Noun
 せ する Verb
 な ない Suffix
 あき あく Verb
@@ -25593,10 +25593,10 @@
 を を Particle
 煩わす 煩わす Verb
 ===SENTENCE:KN038_Keitai_1-1-8-01
-と、まぁこのくらいで、つかみのネタとしては充分である。
+と、まあこのくらいで、つかみのネタとしては充分である。
 ===WORDS:KN038_Keitai_1-1-8-01
 と と Particle
-まぁ まぁ Adverb
+まあ まあ Adverb
 この この Demonstrative
 くらい くらい Noun
 で で Particle
@@ -26176,12 +26176,12 @@
 たく たい Suffix
 なる なる Suffix
 ===SENTENCE:KN039_Kyoto_1-1-14-01
-最後にマイカーは、ねぇ。
+最後にマイカーは、ねえ。
 ===WORDS:KN039_Kyoto_1-1-14-01
 最後に 最後だ NaAdjective
 マイカー マイカー Noun
 は は Particle
-ねぇ ねぇ Interjection
+ねえ ねえ Interjection
 ===SENTENCE:KN039_Kyoto_1-1-15-01
 最近駐車禁止の取り締まりも厳しくなってきたし、あえて渋滞に巻き込まれようという奇特な人には強くお勧めだけど。
 ===WORDS:KN039_Kyoto_1-1-15-01
@@ -26230,9 +26230,9 @@
 いい いい Noun
 や や Particle
 ===SENTENCE:KN039_Kyoto_1-1-17-01
-じゃぁ、何がいいのか？
+じゃあ、何がいいのか？
 ===WORDS:KN039_Kyoto_1-1-17-01
-じゃぁ じゃぁ Conjunction
+じゃあ じゃあ Conjunction
 何 何 Noun
 が が Particle
 いい いい IAdjective
@@ -26991,11 +26991,11 @@
 が が Particle
 よかった よい IAdjective
 ===SENTENCE:KN041_Keitai_1-1-1-01
-振り回されるよぉ！
+振り回されるよお！
 ===WORDS:KN041_Keitai_1-1-1-01
 振り回さ 振り回す Verb
 れる れる Suffix
-よぉ よぉ Particle
+よお よお Particle
 ===SENTENCE:KN041_Keitai_1-1-10-01
 文字から相手の気分を判断するのは大変である。
 ===WORDS:KN041_Keitai_1-1-10-01
@@ -28314,7 +28314,7 @@
 食べ 食べる Verb
 ました ます Suffix
 ===SENTENCE:KN203_Gourmet_1-1-3-01
-京都のお店はちいさいけど、その分すごくあったかくて、店員さんとの距離がちかいのが素敵だなぁと思います。
+京都のお店はちいさいけど、その分すごくあったかくて、店員さんとの距離がちかいのが素敵だなあと思います。
 ===WORDS:KN203_Gourmet_1-1-3-01
 京都 京都 Noun
 の の Particle
@@ -28336,7 +28336,7 @@
 の の Noun
 が が Particle
 素敵だ 素敵だ NaAdjective
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 思い 思う Verb
 ます ます Suffix
@@ -28357,7 +28357,7 @@
 やさしい やさしい IAdjective
 値段 値段 Noun
 ===SENTENCE:KN203_Gourmet_1-1-5-01
-ほんとに京都は学生にやさしい町だなぁと思います！！
+ほんとに京都は学生にやさしい町だなあと思います！！
 ===WORDS:KN203_Gourmet_1-1-5-01
 ほんとに ほんとだ NaAdjective
 京都 京都 Noun
@@ -28367,7 +28367,7 @@
 やさしい やさしい IAdjective
 町 町 Noun
 だ だ Decision
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 思い 思う Verb
 ます ます Suffix
@@ -28427,7 +28427,7 @@
 はまって はまる Verb
 ます ます Suffix
 ===SENTENCE:KN203_Kyoto_1-1-3-01
-鴨川沿いを歩くのはほんとに気持ちよくて、京都はいいところだなぁとしみじみ感じています。
+鴨川沿いを歩くのはほんとに気持ちよくて、京都はいいところだなあとしみじみ感じています。
 ===WORDS:KN203_Kyoto_1-1-3-01
 鴨川 鴨川 Noun
 沿い 沿い Noun
@@ -28442,7 +28442,7 @@
 いい いい IAdjective
 ところ ところ Noun
 だ だ Decision
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 しみじみ しみじみ Adverb
 感じて 感じる Verb
@@ -29937,7 +29937,7 @@
 返って 返る Verb
 くる くる Suffix
 ===SENTENCE:KN207_Keitai_2-1-13-01
-３分だとメールに集中しすぎて他のことができないし、１０分だと返信遅いなぁって思ってしまう
+３分だとメールに集中しすぎて他のことができないし、１０分だと返信遅いなあって思ってしまう
 ===WORDS:KN207_Keitai_2-1-13-01
 ３ ３ Noun
 分 分 Suffix
@@ -29960,7 +29960,7 @@
 と と Particle
 返信 返信 Noun
 遅い 遅い IAdjective
-なぁ なぁ Particle
+なあ なあ Particle
 って って Particle
 思って 思う Verb
 しまう しまう Suffix
@@ -32249,7 +32249,7 @@
 断じて 断ずる Verb
 ない ない Suffix
 ===SENTENCE:KN210_Gourmet_1-1-23-01
-しかし、四万円ってことは一人一万三千円だもんなぁ…
+しかし、四万円ってことは一人一万三千円だもんなあ…
 ===WORDS:KN210_Gourmet_1-1-23-01
 しかし しかし Conjunction
 四万 四万 Noun
@@ -32263,7 +32263,7 @@
 円 円 Suffix
 だ だ Decision
 もん もん Particle
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN210_Gourmet_1-1-24-01
 自分の金で行けるようになるのはかなり先かもね。
 ===WORDS:KN210_Gourmet_1-1-24-01
@@ -32636,7 +32636,7 @@
 こと こと Noun
 だ だ Decision
 ===SENTENCE:KN210_Kyoto_1-1-18-01
-昼前からお酒を飲んでいると、何となく「ざまぁみろ」的な感じになってとても気持ちが良い。
+昼前からお酒を飲んでいると、何となく「ざまあみろ」的な感じになってとても気持ちが良い。
 ===WORDS:KN210_Kyoto_1-1-18-01
 昼 昼 Noun
 前 前 Suffix
@@ -32648,7 +32648,7 @@
 いる いる Suffix
 と と Particle
 何となく 何となく Adverb
-ざまぁ ざまぁ Noun
+ざまあ ざまあ Noun
 みろ みる Verb
 的な 的だ Suffix
 感じ 感じ Noun
@@ -32659,12 +32659,12 @@
 が が Particle
 良い 良い IAdjective
 ===SENTENCE:KN210_Kyoto_1-1-19-01
-誰に対して「ざまぁみろ」と思っているのかは定かではないが。
+誰に対して「ざまあみろ」と思っているのかは定かではないが。
 ===WORDS:KN210_Kyoto_1-1-19-01
 誰 誰 Noun
 に に Particle
 対して 対する Verb
-ざまぁ ざまぁ Noun
+ざまあ ざまあ Noun
 みろ みる Verb
 と と Particle
 思って 思う Verb
@@ -33498,7 +33498,7 @@
 見え 見える Verb
 なかった ない Suffix
 ===SENTENCE:KN210_Sports_2-1-12-01
-ぼくが彼と話していると、ふと彼は疲れた表情を浮かべながら「リーグは引きたくないなぁ。」と言った。
+ぼくが彼と話していると、ふと彼は疲れた表情を浮かべながら「リーグは引きたくないなあ。」と言った。
 ===WORDS:KN210_Sports_2-1-12-01
 ぼく ぼく Noun
 が が Particle
@@ -33520,7 +33520,7 @@
 引き 引く Verb
 たく たい Suffix
 ない ない Suffix
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 言った 言う Verb
 ===SENTENCE:KN210_Sports_2-1-13-01
@@ -37686,7 +37686,7 @@
 ん ぬ AuxillaryVerb
 でした だ Decision
 ===SENTENCE:KN215_Kyoto_1-1-17-01
-木の根道で足をとられて、「牛若丸がここで修行したらしいけど、たしかに修行になるよなぁ」と思ったりしました。
+木の根道で足をとられて、「牛若丸がここで修行したらしいけど、たしかに修行になるよなあ」と思ったりしました。
 ===WORDS:KN215_Kyoto_1-1-17-01
 木 木 Noun
 の の Particle
@@ -37710,7 +37710,7 @@
 に に Particle
 なる なる Verb
 よ よ Particle
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 思ったり 思う Verb
 し する Suffix
@@ -38500,9 +38500,9 @@
 れて れる Suffix
 いる いる Suffix
 ===SENTENCE:KN216_Keitai_1-1-4-01
-まぁ、郵便という手段もあるにはあるが、緊急時に役に立つのはやはり携帯なのだ。
+まあ、郵便という手段もあるにはあるが、緊急時に役に立つのはやはり携帯なのだ。
 ===WORDS:KN216_Keitai_1-1-4-01
-まぁ まぁ Interjection
+まあ まあ Interjection
 郵便 郵便 Noun
 と と Particle
 いう いう Verb
@@ -41768,9 +41768,9 @@
 ずばり ずばり Adverb
 ダーツ ダーツ Noun
 ===SENTENCE:KN218_Sports_1-1-3-01
-まぁみんな知ってると思うが、的を狙ってダーツを投げる。
+まあみんな知ってると思うが、的を狙ってダーツを投げる。
 ===WORDS:KN218_Sports_1-1-3-01
-まぁ まぁ Adverb
+まあ まあ Adverb
 みんな みんな Noun
 知って 知る Verb
 る る Suffix
@@ -43731,12 +43731,12 @@
 ===WORDS:KN220_Gourmet_2-1-33-01
 にゅ にゅ Undefined
 ===SENTENCE:KN220_Gourmet_2-1-34-01
-牛乳ねぇぇぇー！
+牛乳ねえぇぇー！
 ===WORDS:KN220_Gourmet_2-1-34-01
 牛乳 牛乳 Noun
-ねぇぇぇー ねぇぇぇー UnknownAdjective
+ねえぇぇー ねえぇぇー UnknownAdjective
 ===SENTENCE:KN220_Gourmet_2-1-35-01
-料理をし始めて２行目にして材料ねぇぇぇー！
+料理をし始めて２行目にして材料ねえぇぇー！
 ===WORDS:KN220_Gourmet_2-1-35-01
 料理 料理 Noun
 を を Particle
@@ -43748,7 +43748,7 @@
 に に Particle
 して する Verb
 材料 材料 Noun
-ねぇぇぇー ねぇぇぇー UnknownAdjective
+ねえぇぇー ねえぇぇー UnknownAdjective
 ===SENTENCE:KN220_Gourmet_2-1-36-01
 ええ、水入れてやりましたよ。
 ===WORDS:KN220_Gourmet_2-1-36-01
@@ -43806,14 +43806,14 @@
 です です AuxillaryVerb
 か か Particle
 ===SENTENCE:KN220_Gourmet_2-1-40-01
-話がそれましたが、まぁ美味しかったですよ。
+話がそれましたが、まあ美味しかったですよ。
 ===WORDS:KN220_Gourmet_2-1-40-01
 話 話 Noun
 が が Particle
 それ それる Verb
 ました ます Suffix
 が が Particle
-まぁ まぁ Adverb
+まあ まあ Adverb
 美味しかった 美味しい IAdjective
 です です AuxillaryVerb
 よ よ Particle
@@ -49779,9 +49779,9 @@
 白い 白い IAdjective
 ごはん ごはん Noun
 ===SENTENCE:KN232_Gourmet_1-1-12-01
-…あぁおなかすいた…
+…ああおなかすいた…
 ===WORDS:KN232_Gourmet_1-1-12-01
-あぁ あぁ Interjection
+ああ ああ Interjection
 おなか おなか Noun
 すいた すく Verb
 ===SENTENCE:KN232_Gourmet_1-1-13-01
@@ -49986,7 +49986,7 @@
 好きな 好きだ NaAdjective
 食べもの 食べもの Noun
 ===SENTENCE:KN232_Gourmet_2-1-10-01
-しょっぱいものも好きだしあっさりしたものだって好きだなぁ。
+しょっぱいものも好きだしあっさりしたものだって好きだなあ。
 ===WORDS:KN232_Gourmet_2-1-10-01
 しょっぱい しょっぱい IAdjective
 もの もの Noun
@@ -49998,7 +49998,7 @@
 もの もの Noun
 だって だって Particle
 好きだ 好きだ NaAdjective
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN232_Gourmet_2-1-11-01
 …つくづく幸せな人間である。
 ===WORDS:KN232_Gourmet_2-1-11-01
@@ -50541,7 +50541,7 @@
 も も Particle
 あった ある Verb
 ===SENTENCE:KN232_Kyoto_2-1-9-01
-「心のふるさと」なんて表現はあまりに手垢まみれだと思うけど、まぁそうとでも呼ぶべき、根源的なノスタルジーをこの街は持っているのかもしれない。
+「心のふるさと」なんて表現はあまりに手垢まみれだと思うけど、まあそうとでも呼ぶべき、根源的なノスタルジーをこの街は持っているのかもしれない。
 ===WORDS:KN232_Kyoto_2-1-9-01
 心 心 Noun
 の の Particle
@@ -50556,7 +50556,7 @@
 と と Particle
 思う 思う Verb
 けど けど Particle
-まぁ まぁ Interjection
+まあ まあ Interjection
 そう そう Demonstrative
 と と Particle
 でも でも Particle
@@ -50969,7 +50969,7 @@
 に に Particle
 乗り換えた 乗り換える Verb
 ===SENTENCE:KN235_Keitai_1-1-3-01
-さすがに技術の進歩は目覚しく、「うぇー、こんなことまでできるのかよ」といった機能が満載であった。
+さすがに技術の進歩は目覚しく、「うえー、こんなことまでできるのかよ」といった機能が満載であった。
 ===WORDS:KN235_Keitai_1-1-3-01
 さすが さすが Adverb
 に に Particle
@@ -50978,7 +50978,7 @@
 進歩 進歩 Noun
 は は Particle
 目覚しく 目覚しい IAdjective
-うぇー うぇー Interjection
+うえー うえー Interjection
 こんな こんな Demonstrative
 こと こと Noun
 まで まで Particle
@@ -51475,7 +51475,7 @@
 から から Particle
 です だ Decision
 ===SENTENCE:KN236_Keitai_1-1-4-01
-もし２０年早く生まれてたら、家に電話かけてたんだろうと思うと、便利やなぁっておもいます。
+もし２０年早く生まれてたら、家に電話かけてたんだろうと思うと、便利やなあっておもいます。
 ===WORDS:KN236_Keitai_1-1-4-01
 もし もし Adverb
 ２０ ２０ Noun
@@ -51493,7 +51493,7 @@
 思う 思う Verb
 と と Particle
 便利や 便利だ NaAdjective
-なぁ なぁ Particle
+なあ なあ Particle
 って って Particle
 おもい おもう Verb
 ます ます Suffix
@@ -51682,7 +51682,7 @@
 は は Particle
 楽しい 楽しい IAdjective
 ===SENTENCE:KN236_Kyoto_1-1-7-01
-そっからはおみくじ引いたり、縁結びの神様地主神社にお参りしたり、やっぱし寺っていいなぁと清水を満喫＾＾
+そっからはおみくじ引いたり、縁結びの神様地主神社にお参りしたり、やっぱし寺っていいなあと清水を満喫＾＾
 ===WORDS:KN236_Kyoto_1-1-7-01
 そっ そっ Demonstrative
 から から Particle
@@ -51702,7 +51702,7 @@
 寺 寺 Noun
 って って Particle
 いい いい IAdjective
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 清水 清水 Noun
 を を Particle
@@ -51949,7 +51949,7 @@
 ===WORDS:KN237_Keitai_1-1-7-01
 でも でも Conjunction
 ===SENTENCE:KN237_Keitai_1-1-8-01
-新しいケータイちゃんには、しーっかり付いてますよぉ★
+新しいケータイちゃんには、しーっかり付いてますよお★
 ===WORDS:KN237_Keitai_1-1-8-01
 新しい 新しい IAdjective
 ケータイ ケータイ Noun
@@ -51959,7 +51959,7 @@
 しーっかり しーっかり Adverb
 付いて 付く Verb
 ます ます Suffix
-よぉ よぉ Particle
+よお よお Particle
 ===SENTENCE:KN237_Keitai_1-1-9-01
 重宝してます！
 ===WORDS:KN237_Keitai_1-1-9-01
@@ -52406,7 +52406,7 @@
 ます ます Suffix
 え〜 え〜 Particle
 ===SENTENCE:KN237_Kyoto_2-1-2-01
-京都生まれの私には、「京都」ブランドってなぁんかしっくりこねぇんだなーξ
+京都生まれの私には、「京都」ブランドってなあんかしっくりこねえんだなーξ
 ===WORDS:KN237_Kyoto_2-1-2-01
 京都 京都 Noun
 生まれ 生まれ Noun
@@ -52417,10 +52417,10 @@
 京都 京都 Noun
 ブランド ブランド Noun
 って って Particle
-なぁんか なぁんか Adverb
+なあんか なあんか Adverb
 しっくり しっくり Adverb
 こ くる Verb
-ねぇ ねぇ Suffix
+ねえ ねえ Suffix
 ん ん Noun
 だ だ Decision
 なー なー Particle
@@ -52441,9 +52441,8 @@
 んー んー Interjection
 分から 分かる Verb
 ん ぬ AuxillaryVerb
-！！！！！！！！！！！！ ！！！！！！！！！！！！ Special
 ===SENTENCE:KN237_Kyoto_2-1-5-01
-でもね、こないだ改めて“京都ってやっぱすげぇな”って思ったことがあったんです。
+でもね、こないだ改めて“京都ってやっぱすげえな”って思ったことがあったんです。
 ===WORDS:KN237_Kyoto_2-1-5-01
 でも でも Conjunction
 ね ね Particle
@@ -52452,7 +52451,7 @@
 京都 京都 Noun
 って って Particle
 やっぱ やっぱ Adverb
-すげぇ すげぇ UnknownAdjective
+すげえ すげえ UnknownAdjective
 な な Particle
 って って Particle
 思った 思う Verb
@@ -52461,7 +52460,7 @@
 あった ある Verb
 んです んだ AuxillaryVerb
 ===SENTENCE:KN237_Kyoto_2-1-7-01
-地方出身の友達が誘ってくれて、まぁ一回ぐらいは行っとこかーって気になったんです。
+地方出身の友達が誘ってくれて、まあ一回ぐらいは行っとこかーって気になったんです。
 ===WORDS:KN237_Kyoto_2-1-7-01
 地方 地方 Noun
 出身 出身 Noun
@@ -52470,7 +52469,7 @@
 が が Particle
 誘って 誘う Verb
 くれて くれる Suffix
-まぁ まぁ Interjection
+まあ まあ Interjection
 一 一 Noun
 回 回 Suffix
 ぐらい ぐらい Particle
@@ -52508,7 +52507,6 @@
 ===WORDS:KN237_Kyoto_2-1-9-01
 バリ バリ Adverb
 うま うまい IAdjective
-！！！！！！ ！！！！！！ Special
 ===SENTENCE:KN238_Gourmet_1-1-1-01
 餃子
 ===WORDS:KN238_Gourmet_1-1-1-01
@@ -54799,15 +54797,15 @@
 した する Verb
 よ よ Particle
 ===SENTENCE:KN240_Keitai_1-1-4-01
-はぁ。
+はあ。
 ===WORDS:KN240_Keitai_1-1-4-01
-はぁ はぁ Interjection
+はあ はあ Interjection
 ===SENTENCE:KN240_Keitai_1-1-5-01
-まあ元気っつやぁ元気だで心配しんでいい。
+まあ元気っつやあ元気だで心配しんでいい。
 ===WORDS:KN240_Keitai_1-1-5-01
 まあ まあ Adverb
 元気 元気だ NaAdjective
-っつやぁ っつゆう Verb
+っつやあ っつゆう Verb
 元気 元気だ NaAdjective
 だ だ Decision
 で で Particle
@@ -54816,11 +54814,11 @@
 んで んで AuxillaryVerb
 いい いい IAdjective
 ===SENTENCE:KN240_Keitai_1-1-6-01
-それよりさぁ、お米ン無いで今度送って欲しいやー。
+それよりさあ、お米ン無いで今度送って欲しいやー。
 ===WORDS:KN240_Keitai_1-1-6-01
 それ それ Demonstrative
 より より Particle
-さぁ さぁ Particle
+さあ さあ Particle
 お お Prefix
 米 米 Noun
 ン ン Undefined
@@ -56214,9 +56212,9 @@
 あ あ Interjection
 あれ あれ Demonstrative
 ===SENTENCE:KN243_Gourmet_1-1-2-01
-あぁ〜。
+ああ〜。
 ===WORDS:KN243_Gourmet_1-1-2-01
-あぁ〜 あぁ〜 Interjection
+ああ〜 ああ〜 Interjection
 ===SENTENCE:KN243_Gourmet_1-1-20-01
 オマケ
 ===WORDS:KN243_Gourmet_1-1-20-01
@@ -56342,9 +56340,9 @@
 ど根性 ど根性 Noun
 ラーメン ラーメン Noun
 ===SENTENCE:KN243_Gourmet_1-1-8-01
-まぁこういう「大食い」系の紹介記事とかっていくら『とりぁぇえず、デカいよぅ！！すごぃよぅ（はぁと）』とか『この量、この味、ぜひお店で食べてみてください！！』って書いてもあんまり意味無いので今回はボクが撮影してきた画像をお見せいたしましょう。
+まあこういう「大食い」系の紹介記事とかっていくら『とりあええず、デカいよう！！すごいよう（はあと）』とか『この量、この味、ぜひお店で食べてみてください！！』って書いてもあんまり意味無いので今回はボクが撮影してきた画像をお見せいたしましょう。
 ===WORDS:KN243_Gourmet_1-1-8-01
-まぁ まぁ Adverb
+まあ まあ Adverb
 こういう こういう Demonstrative
 大 大 Prefix
 食い 食う Verb
@@ -56356,12 +56354,12 @@
 か か Particle
 って って Particle
 いくら いくら Adverb
-とりぁぇえず とりぁぇえず Adverb
+とりあええず とりあええず Adverb
 デカい デカい IAdjective
-よぅ よぅ Particle
-すごぃ すごぃ UnknownAdjective
-よぅ よぅ Particle
-はぁと はぁと Noun
+よう よう Particle
+すごい すごい IAdjective
+よう よう Particle
+はあと はあと Noun
 と と Particle
 か か Particle
 この この Demonstrative
@@ -56664,11 +56662,11 @@
 んです んだ AuxillaryVerb
 ね ね Particle
 ===SENTENCE:KN243_Keitai_1-1-19-01
-それをまぁこうやって理論武装して書いておくのもハッタリとしては有効かなぁと。
+それをまあこうやって理論武装して書いておくのもハッタリとしては有効かなあと。
 ===WORDS:KN243_Keitai_1-1-19-01
 それ それ Demonstrative
 を を Particle
-まぁ まぁ Adverb
+まあ まあ Adverb
 こう こう Demonstrative
 やって やる Verb
 理論 理論 Noun
@@ -56684,7 +56682,7 @@
 は は Particle
 有効 有効だ NaAdjective
 か か Particle
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 ===SENTENCE:KN243_Keitai_1-1-2-01
 なんでこんな朝っぱらからブログ書いてるんだろうかわたしゃ。
@@ -56700,7 +56698,7 @@
 か か Particle
 わたしゃ わたしゃ Noun
 ===SENTENCE:KN243_Keitai_1-1-20-01
-大体『携帯を振って遊べるんです！！』と声高に言われてもあんなので遊んでる人いるんですかねぇ。
+大体『携帯を振って遊べるんです！！』と声高に言われてもあんなので遊んでる人いるんですかねえ。
 ===WORDS:KN243_Keitai_1-1-20-01
 大体 大体 Adverb
 携帯 携帯 Noun
@@ -56722,7 +56720,7 @@
 いる いる Verb
 んです んだ AuxillaryVerb
 か か Particle
-ねぇ ねぇ Particle
+ねえ ねえ Particle
 ===SENTENCE:KN243_Keitai_1-1-21-01
 あんなの駅のホームでやったら邪魔でしょうがないですよ。
 ===WORDS:KN243_Keitai_1-1-21-01
@@ -56800,12 +56798,12 @@
 ファイト ファイト Interjection
 ミー ミー Noun
 ===SENTENCE:KN243_Keitai_1-1-4-01
-携帯電話ですかぁ…。
+携帯電話ですかあ…。
 ===WORDS:KN243_Keitai_1-1-4-01
 携帯 携帯 Noun
 電話 電話 Noun
 です だ Decision
-かぁ かぁ Particle
+かあ かあ Particle
 ===SENTENCE:KN243_Keitai_1-1-5-01
 ボクが買ったのって大学入ってからなんですよね。
 ===WORDS:KN243_Keitai_1-1-5-01
@@ -56894,13 +56892,13 @@
 なかった ない Suffix
 んです んだ AuxillaryVerb
 ===SENTENCE:KN243_Kyoto_1-1-1-01
-って言われてもなぁ
+って言われてもなあ
 ===WORDS:KN243_Kyoto_1-1-1-01
 って って Particle
 言わ 言う Verb
 れて れる Suffix
 も も Particle
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN243_Kyoto_1-1-10-01
 「沖縄県民は電車に乗ったことがない」
 ===WORDS:KN243_Kyoto_1-1-10-01
@@ -56935,7 +56933,7 @@
 ない ない Suffix
 のである のだ AuxillaryVerb
 ===SENTENCE:KN243_Kyoto_1-1-12-01
-いや確かに中学校の頃などに一度は連れて来られるんですけどそんなちぃちぃぱっぱの時期に清水寺とか見ても何の感慨も浮かばないってなもんですよダンナ。
+いや確かに中学校の頃などに一度は連れて来られるんですけどそんなちいちぃぱっぱの時期に清水寺とか見ても何の感慨も浮かばないってなもんですよダンナ。
 ===WORDS:KN243_Kyoto_1-1-12-01
 いや いや Interjection
 確かに 確かだ NaAdjective
@@ -56953,7 +56951,7 @@
 んです んだ AuxillaryVerb
 けど けど Particle
 そんな そんな Demonstrative
-ちぃちぃぱっぱ ちぃちぃぱっぱ Adverb
+ちいちぃぱっぱ ちいちぃぱっぱ Adverb
 の の Particle
 時期 時期 Noun
 に に Particle
@@ -56975,10 +56973,10 @@
 よ よ Particle
 ダンナ ダンナ Noun
 ===SENTENCE:KN243_Kyoto_1-1-13-01
-いやまぁボクだけかもしれませんが。
+いやまあボクだけかもしれませんが。
 ===WORDS:KN243_Kyoto_1-1-13-01
 いや いや Interjection
-まぁ まぁ Adverb
+まあ まあ Adverb
 ボク ボク Noun
 だけ だけ Particle
 かも かも Particle
@@ -57194,11 +57192,11 @@
 テーマ テーマ Noun
 である だ Decision
 ===SENTENCE:KN243_Kyoto_1-1-6-01
-しかし困ったねぇ。
+しかし困ったねえ。
 ===WORDS:KN243_Kyoto_1-1-6-01
 しかし しかし Conjunction
 困った 困る Verb
-ねぇ ねぇ Particle
+ねえ ねえ Particle
 ===SENTENCE:KN243_Kyoto_1-1-7-01
 よく言うじゃないですか。
 ===WORDS:KN243_Kyoto_1-1-7-01
@@ -57312,10 +57310,10 @@
 この この Demonstrative
 返答 返答 Noun
 ===SENTENCE:KN243_Sports_1-1-14-01
-『あぁー……。まぁ買う人もいるんですけどねー……（笑）…ぁ、チョクチョクいるんですよ（笑）ホントに（笑）ウフフ』
+『ああー……。まあ買う人もいるんですけどねー……（笑）…あ、チョクチョクいるんですよ（笑）ホントに（笑）ウフフ』
 ===WORDS:KN243_Sports_1-1-14-01
-あぁー あぁー Interjection
-まぁ まぁ Adverb
+ああー ああー Interjection
+まあ まあ Adverb
 買う 買う Verb
 人 人 Noun
 も も Particle
@@ -57324,7 +57322,7 @@
 けど けど Particle
 ねー ねー Particle
 笑 笑 Special
-ぁ ぁ Interjection
+あ あ Interjection
 チョクチョク チョクチョク Adverb
 いる いる Verb
 んです んだ AuxillaryVerb
@@ -57349,13 +57347,13 @@
 ました ます Suffix
 よ よ Particle
 ===SENTENCE:KN243_Sports_1-1-17-01
-世間は冷たいんだなぁと。
+世間は冷たいんだなあと。
 ===WORDS:KN243_Sports_1-1-17-01
 世間 世間 Noun
 は は Particle
 冷たい 冷たい IAdjective
 んだ んだ AuxillaryVerb
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 ===SENTENCE:KN243_Sports_1-1-18-01
 というか人気なさ過ぎやろ！
@@ -57583,9 +57581,9 @@
 ……。
 ===WORDS:KN243_Sports_1-1-6-01
 ===SENTENCE:KN243_Sports_1-1-7-01
-クケぇー！
+クケえー！
 ===WORDS:KN243_Sports_1-1-7-01
-クケぇー クケぇー Interjection
+クケえー クケえー Interjection
 ===SENTENCE:KN243_Sports_1-1-8-01
 京都唯一のプロスポーツにもうちょっとこう興味を抱こうよインテリゲンチャ！！
 ===WORDS:KN243_Sports_1-1-8-01
@@ -57604,9 +57602,9 @@
 よ よ Particle
 インテリゲンチャ インテリゲンチャ Noun
 ===SENTENCE:KN243_Sports_1-1-9-01
-まぁ確かに人気無いのは知ってましたよ。
+まあ確かに人気無いのは知ってましたよ。
 ===WORDS:KN243_Sports_1-1-9-01
-まぁ まぁ Adverb
+まあ まあ Adverb
 確か 確か Adverb
 に に Particle
 人気 人気 Noun
@@ -62605,9 +62603,9 @@
 食べ 食べ Noun
 放題 放題 Suffix
 ===SENTENCE:KN257_Gourmet_1-1-10-01
-ぁれで１８９０円は大満足。
+あれで１８９０円は大満足。
 ===WORDS:KN257_Gourmet_1-1-10-01
-ぁれ ぁれ Demonstrative
+あれ あれ Demonstrative
 で で Particle
 １８９０ １８９０ Noun
 円 円 Suffix
@@ -62615,14 +62613,14 @@
 大 大 Prefix
 満足 満足 Noun
 ===SENTENCE:KN257_Gourmet_1-1-11-01
-ぜひぜひおためしぁれ★
+ぜひぜひおためしあれ★
 ===WORDS:KN257_Gourmet_1-1-11-01
 ぜひぜひ ぜひぜひ Adverb
 お お Prefix
 ためし ためし Noun
-ぁれ ぁる Verb
+あれ ある Verb
 ===SENTENCE:KN257_Gourmet_1-1-3-01
-種類は豊富だし、なんと言ってもあっさり系が多ぃ！！！
+種類は豊富だし、なんと言ってもあっさり系が多い！！！
 ===WORDS:KN257_Gourmet_1-1-3-01
 種類 種類 Noun
 は は Particle
@@ -62632,9 +62630,9 @@
 あっさり あっさり Adverb
 系 系 Noun
 が が Particle
-多ぃ 多ぃ UnknownAdjective
+多い 多い IAdjective
 ===SENTENCE:KN257_Gourmet_1-1-4-01
-無農薬有機野菜を使ってて、きんぴらとかひじきとか煮物とかマリネサラダとか健康に優しぃ料理たちばっかりでつぃつぃ食べ過ぎちゃったーーー笑
+無農薬有機野菜を使ってて、きんぴらとかひじきとか煮物とかマリネサラダとか健康に優しい料理たちばっかりでついつぃ食べ過ぎちゃったーーー笑
 ===WORDS:KN257_Gourmet_1-1-4-01
 無 無 Prefix
 農薬 農薬 Noun
@@ -62658,18 +62656,18 @@
 か か Particle
 健康 健康だ NaAdjective
 に に Particle
-優しぃ 優しぃ UnknownAdjective
+優しい 優しい IAdjective
 料理 料理 Noun
 たち たち Suffix
 ばっかり ばっかり Particle
 で で Particle
-つぃつぃ つぃつぃ Adverb
+ついつぃ ついつぃ Adverb
 食べ 食べる Verb
 過ぎちゃ 過ぎる Suffix
 ったーーー ったーーー Suffix
 笑 笑 Special
 ===SENTENCE:KN257_Gourmet_1-1-5-01
-デザートもわらびもちとかかぼちゃぷりん、チョコケーキとかいっっっっぱぃ！！！！
+デザートもわらびもちとかかぼちゃぷりん、チョコケーキとかいっっっっぱい！！！！
 ===WORDS:KN257_Gourmet_1-1-5-01
 デザート デザート Noun
 も も Particle
@@ -62683,7 +62681,7 @@
 ケーキ ケーキ Noun
 と と Particle
 か か Particle
-いっっっっぱぃ いっっっっぱぃだ NaAdjective
+いっっっっぱい いっっっっぱいだ NaAdjective
 ===SENTENCE:KN257_Gourmet_1-1-6-01
 全部食べちゃった！！笑
 ===WORDS:KN257_Gourmet_1-1-6-01
@@ -62700,14 +62698,14 @@
 太って 太る Verb
 しまった しまう Suffix
 ===SENTENCE:KN257_Gourmet_1-1-8-01
-どぉする！？
+どおする！？
 ===WORDS:KN257_Gourmet_1-1-8-01
-どぉ どぉ Demonstrative
+どお どお Demonstrative
 する する Verb
 ===SENTENCE:KN257_Gourmet_1-1-9-01
-どぉするワタシ！？笑
+どおするワタシ！？笑
 ===WORDS:KN257_Gourmet_1-1-9-01
-どぉ どぉ Demonstrative
+どお どお Demonstrative
 する する Verb
 ワタシ ワタシ Noun
 笑 笑 Special
@@ -62717,13 +62715,13 @@
 結婚 結婚 Noun
 式 式 Noun
 ===SENTENCE:KN257_Gourmet_2-1-11-01
-二人がずっと幸せでぁりますょうに♪
+二人がずっと幸せでありますょうに♪
 ===WORDS:KN257_Gourmet_2-1-11-01
 二 二 Noun
 人 人 Suffix
 が が Particle
 ずっと ずっと Adverb
-幸せでぁり 幸せでぁり UnknownAdjective
+幸せであり 幸せであり UnknownAdjective
 ます ます Suffix
 ょうに ょうだ AuxillaryVerb
 ===SENTENCE:KN257_Gourmet_2-1-2-01
@@ -62832,35 +62830,35 @@
 と と Particle
 ねー ねー Particle
 ===SENTENCE:KN257_Keitai_1-1-1-01
-どこの会社がぃぃの？？
+どこの会社がいぃの？？
 ===WORDS:KN257_Keitai_1-1-1-01
 どこ どこ Demonstrative
 の の Particle
 会社 会社 Noun
 が が Particle
-ぃぃ ぃぃ UnknownAdjective
+いぃ いぃ UnknownAdjective
 の の Particle
 ===SENTENCE:KN257_Keitai_1-1-5-01
-このブログ読んでるぁなたはケータイ会社ドコですかぁ？？
+このブログ読んでるあなたはケータイ会社ドコですかあ？？
 ===WORDS:KN257_Keitai_1-1-5-01
 この この Demonstrative
 ブログ ブログ Noun
 読んで 読む Verb
 る る Suffix
-ぁなた ぁなた Noun
+あなた あなた Noun
 は は Particle
 ケータイ ケータイ Noun
 会社 会社 Noun
 ドコ ドコ Demonstrative
 です だ Decision
-かぁ かぁ Particle
+かあ かあ Particle
 ===SENTENCE:KN257_Keitai_1-1-6-01
-教えてくださぃ！！！
+教えてください！！！
 ===WORDS:KN257_Keitai_1-1-6-01
 教えて 教える Verb
-くださぃ くださぃ Suffix
+ください ください Suffix
 ===SENTENCE:KN257_Keitai_1-1-7-01
-誰でも割りが始まってしまったから、料金の比較もぁんまり頼りにならなくて。
+誰でも割りが始まってしまったから、料金の比較もあんまり頼りにならなくて。
 ===WORDS:KN257_Keitai_1-1-7-01
 誰 誰 Noun
 でも でも Particle
@@ -62873,23 +62871,23 @@
 の の Particle
 比較 比較 Noun
 も も Particle
-ぁんまり ぁんまり Adverb
+あんまり あんまり Adverb
 頼り 頼り Noun
 に に Particle
 なら なる Verb
 なくて ない Suffix
 ===SENTENCE:KN257_Keitai_1-1-8-01
-各会社のぃぃとこも教えてもらえたら嬉しぃです♪
+各会社のいぃとこも教えてもらえたら嬉しいです♪
 ===WORDS:KN257_Keitai_1-1-8-01
 各 各 Prefix
 会社 会社 Noun
 の の Particle
-ぃぃ ぃぃ UnknownAdjective
+いぃ いぃ UnknownAdjective
 とこ とこ Noun
 も も Particle
 教えて 教える Verb
 もらえたら もらえる Verb
-嬉しぃ 嬉しぃ UnknownAdjective
+嬉しい 嬉しい IAdjective
 です です AuxillaryVerb
 ===SENTENCE:KN257_Kyoto_1-1-1-01
 どこがオススメ！？
@@ -62899,11 +62897,11 @@
 オ オ Prefix
 ススメ ススメ Noun
 ===SENTENCE:KN257_Kyoto_1-1-10-01
-すごぃ楽しぃよぉ！！！
+すごい楽しいよお！！！
 ===WORDS:KN257_Kyoto_1-1-10-01
-すごぃ すごぃ UnknownAdjective
-楽しぃ 楽しぃ UnknownAdjective
-よぉ よぉ Particle
+すごい すごい IAdjective
+楽しい 楽しい IAdjective
+よお よお Particle
 ===SENTENCE:KN257_Kyoto_1-1-11-01
 カバに水かけられたけど。
 ===WORDS:KN257_Kyoto_1-1-11-01
@@ -62914,20 +62912,20 @@
 られた られる Suffix
 けど けど Particle
 ===SENTENCE:KN257_Kyoto_1-1-12-01
-いっぱぃ動物がぃて♪
+いっぱい動物がいて♪
 ===WORDS:KN257_Kyoto_1-1-12-01
-いっぱぃ いっぱぃ Adverb
+いっぱい いっぱい Adverb
 動物 動物 Noun
 が が Particle
-ぃて ぃる Verb
+いて いる Verb
 ===SENTENCE:KN257_Kyoto_1-1-13-01
-カップルがいっぱぃ♪
+カップルがいっぱい♪
 ===WORDS:KN257_Kyoto_1-1-13-01
 カップル カップル Noun
 が が Particle
-いっぱぃ いっぱぃだ NaAdjective
+いっぱい いっぱいだ NaAdjective
 ===SENTENCE:KN257_Kyoto_1-1-14-01
-今度はふれあい動物園に入れたらぃぃなぁーーー
+今度はふれあい動物園に入れたらいぃなあーーー
 ===WORDS:KN257_Kyoto_1-1-14-01
 今度 今度 Noun
 は は Particle
@@ -62936,8 +62934,8 @@
 園 園 Noun
 に に Particle
 入れたら 入れる Verb
-ぃぃ ぃぃ UnknownAdjective
-なぁーーー なぁーーー Particle
+いぃ いぃ UnknownAdjective
+なあーーー なあーーー Particle
 ===SENTENCE:KN257_Kyoto_1-1-2-01
 京大に来てはや１年半。
 ===WORDS:KN257_Kyoto_1-1-2-01
@@ -62954,17 +62952,17 @@
 京都 京都 Noun
 観光 観光 Noun
 ===SENTENCE:KN257_Kyoto_1-1-4-01
-ぁぁ、、、、してなぃ。
+あぁ、、、、してない。
 ===WORDS:KN257_Kyoto_1-1-4-01
-ぁぁ ぁぁ Interjection
+あぁ あぁ Interjection
 して する Verb
-なぃ なぃ Suffix
+ない ない Suffix
 ===SENTENCE:KN257_Kyoto_1-1-5-01
-行ったことぁるのは銀閣寺、南禅寺、動物園。
+行ったことあるのは銀閣寺、南禅寺、動物園。
 ===WORDS:KN257_Kyoto_1-1-5-01
 行った 行く Verb
 こと こと Noun
-ぁる ぁる Verb
+ある ある Verb
 の の Noun
 は は Particle
 銀閣寺 銀閣寺 Noun
@@ -62977,18 +62975,18 @@
 それ それ Demonstrative
 だけ だけ Particle
 ===SENTENCE:KN257_Kyoto_1-1-7-01
-ぃやはゃ、このまま卒業しそうな勢ぃだわ。
+いやはゃ、このまま卒業しそうな勢いだわ。
 ===WORDS:KN257_Kyoto_1-1-7-01
-ぃやはゃ ぃやはゃ Interjection
+いやはゃ いやはゃ Interjection
 このまま このまま Adverb
 卒業 卒業 Noun
 し する Verb
 そうな そうだ Suffix
-勢ぃ 勢ぃ Noun
+勢い 勢い Noun
 だ だ Decision
 わ わ Particle
 ===SENTENCE:KN257_Kyoto_1-1-8-01
-誰かココは行っとけってトコ教えてくださぃ★
+誰かココは行っとけってトコ教えてください★
 ===WORDS:KN257_Kyoto_1-1-8-01
 誰 誰 Noun
 か か Particle
@@ -62999,7 +62997,7 @@
 って って Particle
 トコ トコ Noun
 教えて 教える Verb
-くださぃ くださぃ Suffix
+ください ください Suffix
 ===SENTENCE:KN257_Kyoto_1-1-9-01
 ワタシ的には動物園が超オススメ！！！！！！！！
 ===WORDS:KN257_Kyoto_1-1-9-01
@@ -63080,7 +63078,7 @@
 ような ようだ AuxillaryVerb
 店構え 店構え Noun
 ===SENTENCE:KN258_Gourmet_1-1-6-01
-中には、ボーっとしていたら通り過ぎてしまうよぅなお店もあったなぁ。
+中には、ボーっとしていたら通り過ぎてしまうようなお店もあったなあ。
 ===WORDS:KN258_Gourmet_1-1-6-01
 中 中 Noun
 に に Particle
@@ -63090,12 +63088,12 @@
 いたら いる Suffix
 通り過ぎて 通り過ぎる Verb
 しまう しまう Suffix
-よぅな よぅだ AuxillaryVerb
+ような ようだ AuxillaryVerb
 お お Prefix
 店 店 Noun
 も も Particle
 あった ある Verb
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN258_Gourmet_1-1-7-01
 ケーキやさんと言えば、イートインが当たり前だとおもっていたのだけれども、この間行った、コムトゥダジュールは、テイクアウトのみのお店でとてもびっくりしました☆
 ===WORDS:KN258_Gourmet_1-1-7-01
@@ -63342,7 +63340,7 @@
 が が Particle
 多い 多い IAdjective
 ===SENTENCE:KN258_Keitai_1-1-5-01
-以前、年上の知り合いに、「携帯を片時も離さず、現代っ子やなぁ」と言われた。
+以前、年上の知り合いに、「携帯を片時も離さず、現代っ子やなあ」と言われた。
 ===WORDS:KN258_Keitai_1-1-5-01
 以前 以前 Noun
 年上 年上 Noun
@@ -63358,7 +63356,7 @@
 現代 現代 Noun
 っ子 っ子 Suffix
 や や Decision
-なぁ なぁ Particle
+なあ なあ Particle
 と と Particle
 言わ 言う Verb
 れた れる Suffix
@@ -63554,7 +63552,7 @@
 迷い 迷う Verb
 ます ます Suffix
 ===SENTENCE:KN258_Kyoto_1-1-12-01
-晩ごはんだけではなくて、ラーメンや、ケーキやさんなど、もっと京都に詳しくなりたいなぁ、って思います。
+晩ごはんだけではなくて、ラーメンや、ケーキやさんなど、もっと京都に詳しくなりたいなあ、って思います。
 ===WORDS:KN258_Kyoto_1-1-12-01
 晩 晩 Noun
 ごはん ごはん Noun
@@ -63574,7 +63572,7 @@
 詳しく 詳しい IAdjective
 なり なる Suffix
 たい たい Suffix
-なぁ なぁ Particle
+なあ なあ Particle
 って って Particle
 思い 思う Verb
 ます ます Suffix
@@ -63587,7 +63585,7 @@
 そのうち そのうち Adverb
 笑 笑 Special
 ===SENTENCE:KN258_Kyoto_1-1-2-01
-京都観光といえば、寺めぐり！といぅイメージがうちにはあります。
+京都観光といえば、寺めぐり！というイメージがうちにはあります。
 ===WORDS:KN258_Kyoto_1-1-2-01
 京都 京都 Noun
 観光 観光 Noun
@@ -63596,7 +63594,7 @@
 寺 寺 Noun
 めぐり めぐり Noun
 と と Particle
-いぅ いぅ Verb
+いう いう Verb
 イメージ イメージ Noun
 が が Particle
 うち うち Noun
@@ -63760,7 +63758,7 @@
 見る 見る Verb
 か か Particle
 ===SENTENCE:KN258_Sports_1-1-10-01
-これからは、がんばって奇声を黄色いエールにかえていきたぃです☆
+これからは、がんばって奇声を黄色いエールにかえていきたいです☆
 ===WORDS:KN258_Sports_1-1-10-01
 これ これ Demonstrative
 から から Particle
@@ -63773,7 +63771,7 @@
 に に Particle
 かえて かえる Verb
 いき いく Suffix
-たぃ たぃ Suffix
+たい たい Suffix
 です だ Decision
 ===SENTENCE:KN258_Sports_1-1-2-01
 スポーツはする派ですか？
@@ -63852,7 +63850,7 @@
 が が Particle
 すきです すきだ NaAdjective
 ===SENTENCE:KN258_Sports_1-1-7-01
-でも、友達がやっているのを見ていると体中がムズムズしてきて、あー！とかひゃー！といった奇声を発してしまぅので、知らぬ間に周りの友だちは一歩引いています。
+でも、友達がやっているのを見ていると体中がムズムズしてきて、あー！とかひゃー！といった奇声を発してしまうので、知らぬ間に周りの友だちは一歩引いています。
 ===WORDS:KN258_Sports_1-1-7-01
 でも でも Conjunction
 友達 友達 Noun
@@ -63879,7 +63877,7 @@
 奇声 奇声 Noun
 を を Particle
 発して 発す Verb
-しまぅ しまぅ Suffix
+しまう しまう Suffix
 ので のだ AuxillaryVerb
 知ら 知る Verb
 ぬ ぬ AuxillaryVerb
@@ -63895,7 +63893,7 @@
 い いる Suffix
 ます ます Suffix
 ===SENTENCE:KN258_Sports_1-1-8-01
-自分でやっているときなら、ちょっとくらぃ声を出しても「がんばってるやん」の一言で済むので、良いんやけどなぁ。
+自分でやっているときなら、ちょっとくらい声を出しても「がんばってるやん」の一言で済むので、良いんやけどなあ。
 ===WORDS:KN258_Sports_1-1-8-01
 自分 自分 Noun
 で で Particle
@@ -63904,7 +63902,7 @@
 とき とき Noun
 なら なら Particle
 ちょっと ちょっと Adverb
-くらぃ くらぃ Particle
+くらい くらい Particle
 声 声 Noun
 を を Particle
 出して 出す Verb
@@ -63920,9 +63918,9 @@
 良い 良い IAdjective
 んや んや AuxillaryVerb
 けど けど Particle
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN258_Sports_1-1-9-01
-けれども、この間膝の靭帯を痛めてしまってから、私のスポーツ人生は”応援派”に変わってしまぃました。
+けれども、この間膝の靭帯を痛めてしまってから、私のスポーツ人生は”応援派”に変わってしまいました。
 ===WORDS:KN258_Sports_1-1-9-01
 けれども けれども Conjunction
 この この Demonstrative
@@ -63943,7 +63941,7 @@
 派 派 Noun
 に に Particle
 変わって 変わる Verb
-しまぃ しまぃ Suffix
+しまい しまい Suffix
 ました ます Suffix
 ===SENTENCE:KN259_Gourmet_1-1-2-01
 食べるのは大好き！！
@@ -64252,7 +64250,7 @@
 って って Particle
 感じ 感じ Noun
 ===SENTENCE:KN259_Kyoto_1-1-6-01
-そのときはまだ暑かったから、せみが鳴いていたなぁ。
+そのときはまだ暑かったから、せみが鳴いていたなあ。
 ===WORDS:KN259_Kyoto_1-1-6-01
 その その Demonstrative
 とき とき Noun
@@ -64264,7 +64262,7 @@
 が が Particle
 鳴いて 鳴く Verb
 いた いる Suffix
-なぁ なぁ Particle
+なあ なあ Particle
 ===SENTENCE:KN259_Kyoto_1-1-7-01
 その神官さんの言葉が印象的でした。
 ===WORDS:KN259_Kyoto_1-1-7-01
@@ -64310,9 +64308,9 @@
 は は Particle
 ある ある Verb
 ===SENTENCE:KN259_Sports_1-1-10-01
-まぁ。。。
+まあ。。。
 ===WORDS:KN259_Sports_1-1-10-01
-まぁ まぁ Interjection
+まあ まあ Interjection
 ===SENTENCE:KN259_Sports_1-1-11-01
 女はいろいろ強いし、怖いけどね笑
 ===WORDS:KN259_Sports_1-1-11-01
@@ -64349,7 +64347,7 @@
 ある ある Verb
 つもり つもり Noun
 ===SENTENCE:KN259_Sports_1-1-4-01
-でもやっぱりスポーツをしていてしみじみ痛感するのは、男と女の体は根本的に違うなぁってこと。
+でもやっぱりスポーツをしていてしみじみ痛感するのは、男と女の体は根本的に違うなあってこと。
 ===WORDS:KN259_Sports_1-1-4-01
 でも でも Conjunction
 やっぱり やっぱり Adverb
@@ -64371,7 +64369,7 @@
 根本 根本 Noun
 的に 的だ Suffix
 違う 違う Verb
-なぁ なぁ Particle
+なあ なあ Particle
 って って Particle
 こと こと Noun
 ===SENTENCE:KN259_Sports_1-1-5-01
@@ -64409,7 +64407,7 @@
 神様 神様 Noun
 不公平 不公平だ NaAdjective
 ===SENTENCE:KN259_Sports_1-1-9-01
-男性諸君、このこと忘れないでやぁ（＞◆＜）
+男性諸君、このこと忘れないでやあ（＞◆＜）
 ===WORDS:KN259_Sports_1-1-9-01
 男性 男性 Noun
 諸君 諸君 Noun
@@ -64417,7 +64415,7 @@
 こと こと Noun
 忘れ 忘れる Verb
 ないで ぬ AuxillaryVerb
-やぁ やぁ Particle
+やあ やあ Particle
 ===SENTENCE:KN260_Keitai_1-1-1-01
 使い方色々
 ===WORDS:KN260_Keitai_1-1-1-01
