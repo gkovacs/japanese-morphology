@@ -6615,7 +6615,6 @@
 ===SENTENCE:KN012_Gourmet_6-1-30-01
 ＊これはすごーく個人的な評価なので・・・
 ===WORDS:KN012_Gourmet_6-1-30-01
-＊ ＊ Special
 これ これ Demonstrative
 は は Particle
 すごーく すごーい IAdjective
@@ -9484,7 +9483,6 @@
 京都 京都 Noun
 大阪 大阪 Noun
 に に Particle
-○ ○ Special
 分 分 Suffix
 で で Particle
 行ける 行ける Verb
@@ -43410,7 +43408,6 @@
 イメージ イメージ Noun
 で で Particle
 野菜 野菜 Noun
-≒ ≒ Noun
 レタス レタス Noun
 と と Particle
 いう いう Verb
@@ -43870,7 +43867,6 @@
 （×和尚○お百姓）
 ===WORDS:KN220_Gourmet_2-1-5-01
 和尚 和尚 Noun
-○ ○ Special
 お お Prefix
 百姓 百姓 Noun
 ===SENTENCE:KN220_Gourmet_2-1-6-01

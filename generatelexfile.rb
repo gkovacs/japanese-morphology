@@ -7,7 +7,7 @@ $reduced = ARGV.include?("reduced")
 dictfile = "edict2-common-utf8"
 $corpuswords = {}
 if $reduced
-	File.open("corpus/corpus-allwords-base-pos.txt").each { |line|
+	File.open("corpus/corpus-lexicon.txt").each { |line|
 		spl = line.split(" ")
 		conjform = spl[0]
 		baseform = spl[1]
