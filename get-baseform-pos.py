@@ -24,7 +24,17 @@ def listtostr(l):
 	else:
 		return l
 
+resmemo = {}
+
 def recword(k, word):
+	global resmomo
+	if word in resmemo:
+		return resmemo[word]
+	tmpres = recword_real(k, word)
+	resmemo[word] = tmpres
+	return tmpres
+
+def recword_real(k, word):
 	featurelog = TextTrace(0)
 	#print listtostr(k.recognize(word, featurelog)), '<=', word
 	k.recognize(word, featurelog)
