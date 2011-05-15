@@ -59,7 +59,7 @@ muverbs = {"読" => "read", "飲" => "drink"}
 nuverbs = {"死" => "die"}
 ruverbs = {"取" => "take", "降" => "fall", "閉ま" => "close"}
 honverbs = {"下さ" => "give to me", "くださ" => "give to me", "いらっしゃ" => "go come or be", "ござ" => "exist", "なさ" => "do", "為さ" => "do", "おっしゃ" => "say", "仰" => "say", "仰有" => "say", "仰しゃ" => "say"}
-particles = {}
+particles = {"だけ" => "just", "なら" => "just"}
 auxiliary = {}
 prenounadjectival = {}
 adverbs = {}
@@ -350,6 +350,9 @@ File.open(dictfile, "r") { |f|
 }
 end
 
+particlesExclude = ["して", "なり"]
+particlesExclude.each { |x| particles.delete(x) }
+
 generateddocument = <<EOSSTRING
 #{
 genentries(numbers, "NUMBER", "NUMBER_SUFFIX", "Number" )
@@ -397,7 +400,7 @@ genentries(interjection, "INTERJECTION_ROOT", "End", "Interjection" )
 }
 
 YOI_ADJ_ROOT:
-'' YOI_ADJ POS:Verb DEF:good
+'' YOI_ADJ POS:IAdjective DEF:good
 
 YOI_ADJ:
 いい I_ADJ_SHORTFORM BASE:いい
