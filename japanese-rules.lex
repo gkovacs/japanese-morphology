@@ -385,6 +385,8 @@ STEM:
 ながら End while
 '' DIFFICULTY
 なさい End command from superior
+う ICHIDAN_V_SUFFIX can
+え ICHIDAN_V_SUFFIX can
 
 SOU:
 そう NA_ADJ_SUFFIX seeming

@@ -3,6 +3,7 @@
 
 $LOAD_PATH << File.join(File.expand_path(File.dirname(__FILE__)), '..')
 require 'typelists.rb'
+require 'set'
 
 fileName = ARGV[0]
 baseFileName = fileName
@@ -22,6 +23,8 @@ def printAndClear()
 	$pBaseform = ""
 	$pPos = ""
 end
+
+conjsuffix = Set.new ["ない", "ます", "しまう", "いる", "みる", "うる", "える", "なる", "れる"]
 
 File.open(fileName).each { |line|
 	if line.include?("===WORDS")
@@ -45,10 +48,7 @@ File.open(fileName).each { |line|
 		$pConjugated += conjugated
 		$pBaseform += baseform
 		next
-	elsif pos == "Suffix" && baseform == "ない"
-		$pConjugated += conjugated
-		next
-	elsif pos == "Suffix" && baseform == "ます"
+	elsif pos == "Suffix" && conjsuffix.include?(baseform)
 		$pConjugated += conjugated
 		next
 	else
