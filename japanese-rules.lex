@@ -441,8 +441,8 @@ VOLITIONAL:
 う End volitional
 
 NEG:
-無 NEG_NAI negative BASE:無い
-な NEG_NAI negative BASE:ない
+無 NEG_NAI negative;;BASE:無い
+な NEG_NAI negative;;BASE:ない
 ないで End without
 ないで KUDASAI don't
 
