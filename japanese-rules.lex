@@ -77,9 +77,11 @@ NA_ADJ_SUFFIX:
 '' End
 '' SOU
 に NA_ADJ_NI_SHORTFORM
+で End by
 
 TARU_ADJ_SUFFIX:
 と End adverbial
+と SURU_V_INTERM make it
 
 NOUN_SUFFIX:
 '' End
@@ -91,6 +93,7 @@ NOUN_SUFFIX:
 だ SHORTFORM
 '' NOUN_DESU
 の NOUN_NO_SHORTFORM
+的 NA_ADJ_SUFFIX like typical
 
 SURU_V_INTERM:
 す SURU_SU_V_SUFFIX
@@ -101,6 +104,9 @@ SURU_V_INTERM:
 
 KURU_V_INTERM:
 来 ICHIDAN_V_SUFFIX BASE:来る
+'' KURU_V_GRAMMATICAL
+
+KURU_V_GRAMMATICAL:
 く KURU_KU_V_SUFFIX BASE:くる
 こ KURU_KO_V_SUFFIX BASE:くる
 き KURU_KI_V_SUFFIX BASE:くる
@@ -328,10 +334,14 @@ VERBTE:
 '' APOLOGY
 '' HOSHI
 '' ARU_V_INTERM has been made
+い IKU_V_SUFFIX going
+'' KURU_V_GRAMMATICAL coming
+'' SURU_V_INTERM do
 
 IRU:
 い ICHIDAN_V_SUFFIX ongoing action or state
 おりま SU_V_SUFFIX ongoing action or state humble
+'' ICHIDAN_V_SUFFIX ongoing action or state
 
 NASARU:
 なさ HON_V_SUFFIX do honorific
@@ -358,6 +368,7 @@ KURERU:
 VERBTA:
 '' VERBSHORTFORM past
 り End listing actions
+り SURU_V_INTERM listing actions
 ら TARA
 '' BETTERDO
 

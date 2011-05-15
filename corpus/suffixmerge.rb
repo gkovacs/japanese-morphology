@@ -24,7 +24,8 @@ def printAndClear()
 	$pPos = ""
 end
 
-conjsuffix = Set.new ["ない", "ます", "しまう", "いる", "みる", "うる", "える", "なる", "れる"]
+conjsuffix = Set.new ["ない", "ます", "しまう", "いる", "みる", "うる", "える", "なる", "れる", "おく", "たい", "ほしい", "られる", "せる", "そうだ", "くれる", "あげる", "もらう", "すぎる", "やすい", "にくい", "ある", "る", "する", "的だ"]
+changepos = {}
 
 File.open(fileName).each { |line|
 	if line.include?("===WORDS")
@@ -48,9 +49,14 @@ File.open(fileName).each { |line|
 		$pConjugated += conjugated
 		$pBaseform += baseform
 		next
-	elsif pos == "Suffix" && conjsuffix.include?(baseform)
+	elsif pos == "Suffix" && $pPos != "Particle" && conjsuffix.include?(baseform)
 		$pConjugated += conjugated
 		next
+	elsif pos == "Suffix" && changepos.include?(baseform)
+		printAndClear()
+		$pConjugated = conjugated
+		$pBaseform = baseform
+		$pPos = changepos[baseform]
 	else
 		printAndClear()
 		$pConjugated = conjugated
