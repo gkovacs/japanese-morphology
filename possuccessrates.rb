@@ -8,7 +8,7 @@ require 'successrate.rb'
 def printPerPOSSuccessRate(inputLines)
 	partsOfSpeech.each { |pos|
 		puts "==="+pos
-		printSuccessRate(inputLines.select {|x| x.include?(pos) } )
+		printSuccessRate(inputLines.select {|x| x.include?(pos) && !x.include?("/"+pos) } )
 		puts ""
 	}
 end
