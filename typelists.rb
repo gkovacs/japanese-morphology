@@ -20,6 +20,10 @@ $Lkatakana = Set.new ["ア", "ァ", "カ", "ヵ", "ガ", "サ", "ザ", "タ", "�
 $LposMapping = {"名詞" => "Noun", "動詞" => "Verb", "形容詞" => "Adjective", "指示詞" => "Demonstrative", "助動詞" => "Auxiliary", "連体詞" => "PreNounAdjectival", "接尾辞" => "Suffix", "副詞" => "Adverb", "助詞" => "Particle", "判定詞" => "Decision", "接続詞" => "Conjunction", "特殊" => "Special", "接頭辞" => "Prefix", "感動詞" => "Interjection", "未定義語" => "Undefined"}
 
 $LpartsOfSpeech = $LposMapping.values
+$LpartsOfSpeech.delete("Adjective")
+$LpartsOfSpeech.push("IAdjective")
+$LpartsOfSpeech.push("NaAdjective")
+$LpartsOfSpeech.push("TaruAdjective")
 
 def posMapping
 	return $LposMapping

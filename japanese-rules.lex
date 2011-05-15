@@ -64,10 +64,12 @@ YOI_ADJ_SUFFIX:
 I_ADJ_SUFFIX:
 '' SOU
 '' I_ADJ_INTERM
+すぎ ICHIDAN_V_SUFFIX excessive
 
 I_ADJ_INTERM:
 い I_ADJ_SHORTFORM
 かった I_ADJ_SHORTFORM past
+かったら End if
 く I_ADJ_KU_SHORTFORM
 
 NEG_NAI:
@@ -85,6 +87,10 @@ NA_ADJ_SUFFIX:
 '' SOU
 に NA_ADJ_NI_SHORTFORM
 で End by
+すぎ ICHIDAN_V_SUFFIX excessive
+の End of
+じゃ End
+やん End
 
 TARU_ADJ_SUFFIX:
 と End adverbial
@@ -488,6 +494,7 @@ I_ADJ_KU_SHORTFORM:
 '' NEG
 '' MAKEADJ
 '' End
+て End
 
 NOUN_NO_SHORTFORM:
 '' EXPECTATION
