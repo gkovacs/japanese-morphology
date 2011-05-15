@@ -21,6 +21,5 @@ File.open("extracted-raw-corpus.txt", "w") {|f|
 File.open("extracted-raw-corpus-banned.txt", "w") {|f|
 	f.puts(banned.join(""))
 }
-#system("./extractwordsonly.rb extracted-raw-corpus.txt | sort | uniq > corpus-lexicon.txt")
-#system("./suffixmerge.rb extracted-raw-corpus.txt > extracted-corpus-suffixmerged.txt")
 
+#system("./corpus-setup.sh")
