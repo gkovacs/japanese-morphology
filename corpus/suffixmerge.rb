@@ -5,11 +5,6 @@ $LOAD_PATH << File.join(File.expand_path(File.dirname(__FILE__)), '..')
 require 'typelists.rb'
 require 'set'
 
-fileName = ARGV[0]
-baseFileName = fileName
-if baseFileName.include?("/")
-	baseFileName = baseFileName[baseFileName.rindex("/")+1..baseFileName.length]
-end
 repverbatim = true
 $pConjugated = ""
 $pBaseform = ""
@@ -27,7 +22,7 @@ end
 conjsuffix = Set.new ["ない", "ます", "しまう", "いる", "みる", "うる", "える", "なる", "れる", "おく", "たい", "ほしい", "られる", "せる", "そうだ", "くれる", "あげる", "もらう", "すぎる", "やすい", "にくい", "ある", "る", "する", "たち"]
 changepos = {}
 
-File.open(fileName).each { |line|
+ARGF.each { |line|
 	if line.include?("===WORDS")
 		printAndClear()
 		puts line
