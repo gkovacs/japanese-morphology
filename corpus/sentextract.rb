@@ -13,7 +13,7 @@ skip = false
 skippedchars = ["*", "+", "#", "’", "　"]
 replacement = {"ぁ" => "あ", "ぃ" => "い", "ぇ" => "え", "ぅ" => "う", "ぉ" => "お"}
 words = []
-posMapping = {"名詞" => "Noun", "動詞" => "Verb", "形容詞" => "Adjective", "指示詞" => "Demonstrative", "助動詞" => "AuxillaryVerb", "連体詞" => "PreNounAdjectival", "接尾辞" => "Suffix", "副詞" => "Adverb", "助詞" => "Particle", "判定詞" => "Decision", "接続詞" => "Conjunction", "特殊" => "Special", "接頭辞" => "Prefix", "感動詞" => "Interjection", "未定義語" => "Undefined"}
+posMapping = {"名詞" => "Noun", "動詞" => "Verb", "形容詞" => "Adjective", "指示詞" => "Demonstrative", "助動詞" => "Auxiliary", "連体詞" => "PreNounAdjectival", "接尾辞" => "Suffix", "副詞" => "Adverb", "助詞" => "Particle", "判定詞" => "Decision", "接続詞" => "Conjunction", "特殊" => "Special", "接頭辞" => "Prefix", "感動詞" => "Interjection", "未定義語" => "Undefined"}
 bannedchars = romaji + ["д", "∀"]
 File.open(fileName).each { |line|
 	if line[0] == "［"

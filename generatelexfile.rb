@@ -37,8 +37,9 @@ def wordincluded(w)
 end
 
 numbers = {"0" => "0", "1" => "1", "2" => "2", "3" => "3", "4" => "4", "5" => "5", "6" => "6", "7" => "7", "8" => "8", "9" => "9", "０" => "0", "１" => "1", "２" => "2", "３" => "3", "４" => "4", "５" => "5", "６" => "6", "７" => "7", "８" => "8", "９" => "9", "〇" => "0", "零" => "0", "一" => "1", "二" => "2", "三" => "3", "四" => "4", "五" => "5", "六" => "6", "七" => "7", "八" => "8", "九" => "9", "十" => "10", "百" => "100", "千" => "1000", "万" => "10000"}
-counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "キロ" => "kilos", "メートル" => "meters", "セント" => "cents", "歳" => "years of age", "回" => "times", "回生" => "college year", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second", "" => "number"}
+counters = {"つ" => "generic objects", "個" => "small objects", "人" => "people", "匹" => "small animals", "台" => "machines", "冊" => "books", "本" => "long objects", "枚" => "flat objects",  "足" => "shoes", "杯" => "cups", "頁" => "page", "ページ" => "page", "丁目" => "address", "円" => "yen", "ドル" => "dollars", "キロ" => "kilos", "メートル" => "meters", "セント" => "cents", "歳" => "years of age", "回" => "times", "倍" => "fold", "割" => "rate", "回生" => "college year", "度" => "degrees", "年" => "year", "月" => "month number", "ヶ月" => "months", "日" => "day", "時" => "hour", "分" => "minute", "秒" => "second", "" => "number"}
 prefixes = {"お" => "honorable", "ご" => "honorable", "御" => "honorable", "み" => "honorable", "オ" => "honorable", "オオ" => "honorable", "ひと" => "first", "各" => "each", "旧" => "former", "元" => "original", "現" => "current", "後" => "final", "高" => "highest", "今" => "current", "最" => "most", "準" => "level", "初" => "first", "小" => "small", "新" => "new", "全" => "complete", "他" => "other", "大" => "big", "第" => "th", "超" => "super", "長" => "chief", "同" => "same", "非" => "mistaken", "不" => "un", "無" => "non", "猛" => "extreme", "約" => "promised", "翌" => "next", "来" => "coming"}
+demonstrative = {"あちら" => "there", "あの" => "that", "あれ" => "there", "あんな" => "that", "こーいう" => "this", "こう" => "this", "こういう" => "this", "こういった" => "this", "こうした" => "this", "こうして" => "this", "ここ" => "here", "こちら" => "this way", "こっち" => "this way", "この" => "this", "このような" => "this sort", "このように" => "this sort", "これ" => "here", "こん" => "this", "こんな" => "this sort", "こんなに" => "this sort", "そう" => "there", "そういう" => "that", "そういった" => "that", "そうした" => "that", "そうして" => "that", "そこ" => "there", "そちら" => "that way", "そっ" => "that way", "そっち" => "that way", "その" => "that", "そのような" => "that sort", "そのように" => "that sort", "そりゃ" => "that", "それ" => "that", "そん" => "that", "そんな" => "that sort", "そんなに" => "that sort", "どう" => "which", "どういう" => "which", "どうした" => "which", "どうして" => "which", "どお" => "which", "どこ" => "where", "どちら" => "which way", "どっち" => "which way", "どの" => "which", "どのような" => "which sort", "どのように" => "which sort", "どれ" => "where", "どん" => "which", "どんな" => "which", "どんなに" => "which"}
 nouns = {"漢字" => "kanji", "結婚式" => "wedding ceremony", "日本人" => "Japanese person", "日本語" => "Japanese language", "学生" => "student", "先生" => "teacher", "夏" => "summer", "予約" => "reservation", "東京" => "Tokyo", "魚" => "fish", "医者" => "doctor", "おじゃん" => "nothing", "合理" => "rational"}
 iadjs = {"恥ずかし" => "embarrasing", "広" => "spacious", "面白" => "interesting", "強" => "strong", "寒" => "cold", "難し" => "difficult", "楽し" => "fun"}
 naadjs = {"簡単" => "simple", "きれい" => "clean", "好き" => "like", "元気" => "lively", "親切" => "kind"}
@@ -62,6 +63,8 @@ particles = {}
 auxiliary = {}
 prenounadjectival = {}
 adverbs = {}
+conjunction = {}
+interjection = {}
 
 def extractparenthesis(sen)
     haveparen = false
@@ -202,12 +205,14 @@ File.open(dictfile, "r") { |f|
         kanji.split(";").each { |x|
             readings.push(x.strip())
         }
-        if tags.include?("uk") || tags.include?("ek")
+        suppreadings = []
+        if tags.include?("uk") || tags.include?("ek") || (!tags.include?("n") && !tags.include?("adj-na"))
             kana.split(";").each { |x|
-                readings.push(x.strip())
+                suppreadings.push(x.strip())
             }
         end
         readings.delete("")
+        suppreadings.delete("")
         if readings.length == 0
             next
         end
@@ -217,6 +222,7 @@ File.open(dictfile, "r") { |f|
         if !readings.map { |x| wordincluded(x) }.include?(true)
         	next
         end
+        readings += suppreadings
         if tags.include?("v1")
             readings.each { |x|
                 x = x[0..x.length-2]
@@ -294,7 +300,7 @@ File.open(dictfile, "r") { |f|
                 particles[x] = english
             }
         end
-        if tags.include?("aux")
+        if tags.include?("aux") || tags.include?("aux-v")
         	readings.each { |x|
                 auxiliary[x] = english
             }
@@ -304,7 +310,7 @@ File.open(dictfile, "r") { |f|
         		prenounadjectival[x] = english
         	}
         end
-        if tags.include?("adv")
+        if tags.include?("adv") || tags.include?("adv-n")
         	readings.each { |x|
         		adverbs[x] = english
         	}
@@ -323,6 +329,16 @@ File.open(dictfile, "r") { |f|
         if tags.include?("adj-na")
         	readings.each { |x|
                 naadjs[x] = english
+            }
+        end
+        if tags.include?("conj")
+        	readings.each { |x|
+                conjunction[x] = english
+            }
+        end
+        if tags.include?("int")
+        	readings.each { |x|
+                interjection[x] = english
             }
         end
         if tags.include?("n") || tags.include?("pn") || tags.include?("n-adv")
@@ -365,7 +381,19 @@ genentries(adverbs, "ADVERB_ROOT", "End", "Adverb" )
 }
 
 #{
-genentries(prenounadjectival, "PRENOUNADJECTIVAL_ROOT", "PRENOUNADJECTIVAL_SUFFIX", "PreNounAdjectival" )
+genentries(prenounadjectival, "PRENOUNADJECTIVAL_ROOT", "End", "PreNounAdjectival" )
+}
+
+#{
+genentries(conjunction, "CONJUNCTION_ROOT", "End", "Conjunction" )
+}
+
+#{
+genentries(demonstrative, "DEMONSTRATIVE_ROOT", "End", "Demonstrative" )
+}
+
+#{
+genentries(interjection, "INTERJECTION_ROOT", "End", "Interjection" )
 }
 
 YOI_ADJ_ROOT:
