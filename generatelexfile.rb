@@ -346,10 +346,6 @@ end
 
 ["して", "なり"].each { |x| particles.delete(x) }
 ["また"].each { |x| conjunction.delete(x) }
-["あ", "行"].each { |x| uverbs.delete(x)}
-["さ"].each { |x| ruverbs.delete(x) }
-["さ"].each { |x| suverbs.delete(x) }
-["させ"].each { |x| ichidanverbs.delete(x) }
 
 generateddocument = <<EOSSTRING
 #{

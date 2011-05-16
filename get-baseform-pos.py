@@ -42,15 +42,23 @@ def recword_real(k, word):
 	success = False
 	baseform = ""
 	pos = ""
+	newbaseform = False
+	newpos = False
 	for feat in featurelog.features:
 		if "SUCCESS" in feat:
 			success = True
 			feat.remove("SUCCESS")
 			for z in feat:
-				if z[:5] == "BASE:":
+				if z[:5] == "BASE:" and not newbaseform:
 					baseform = z[5:]
-				if z[:4] == "POS:":
+				elif z[:4] == "POS:" and not newpos:
 					pos = z[4:]
+				elif z[:8] == "NEWBASE:" and not newbaseform:
+					baseform = z[8:]
+					newbaseform = True
+				elif z[:7] == "NEWPOS:" and not newpos:
+					pos = z[:7]
+					newpos = True
 	if pos == "Number":
 		baseform = word
 		pos = "Noun"
