@@ -131,3 +131,45 @@ def get_words_in_sentence_fragments(k, fragments):
 def get_words_in_sentence(k, sentence):
 	return get_words_in_sentence_fragments(k, splitbypunctuation(sentence))
 
+def wordboundaries(wordslist, sentence):
+	iwl = 0
+	boundaries = set()
+	for i in range(len(sentence)):
+		if iwl >= len(wordslist):
+			boundaries.add(len(sentence))
+			break
+		else:
+			curword = wordslist[iwl]
+			if sentence[i:i+len(curword)] == curword:
+				boundaries.add(i)
+				boundaries.add(i+len(curword))
+				i += len(curword)
+				iwl += 1
+	return boundaries
+
+def sentences_and_words(lines):
+	sentw = []
+	curwords = []
+	cursentence = None
+	expectsentence = False
+	for line in lines:
+		line = line.strip()
+		if "===SENTENCE" in line:
+			if cursentence == None:
+				curwords = []
+			else:
+				sentw.append((cursentence, curwords))
+				curwords = []
+				cursentence = None
+			expectsentence = True
+		elif "===WORDS" in line:
+			assert (not expectsentence)
+		elif expectsentence:
+			cursentence = line
+			expectsentence = False
+		else:
+			conjform,baseform,pos = line.split(" ")
+			curwords.append(conjform)
+	if cursentence != None:
+		sentw.append((cursentence, curwords))
+	return sentw
