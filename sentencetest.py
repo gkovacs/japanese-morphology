@@ -7,6 +7,7 @@ sys.setdefaultencoding('utf-8')
 import codecs
 from kimmo import *
 import itertools
+from wordglossing import *
 
 punctuation = ["。", "？", "、", "「", "」", "・"]
 
@@ -17,14 +18,6 @@ def splitbypunctuation(sen):
 	if "" in presplit:
 		presplit.remove("")
 	return presplit
-
-def listtostr(l):
-	if type(l) == type([]):
-		return "[" + (",".join([listtostr(x) for x in l])) + "]"
-	elif type(l) == type((3,2)):
-		return "(" + ",".join([listtostr(x) for x in l]) + ")"
-	else:
-		return l
 
 def covering(sen, covering):
 	covered = [False for x in sen]
@@ -44,27 +37,18 @@ def allsubsets(x):
 	return [[y for j, y in enumerate(x) if (i >> j) & 1] for i in range(2**lx)]
 
 def getgloss(k, word):
-	featurelog = TextTrace(0)
-	#print listtostr(k.recognize(line, featurelog)), '<=', line
-	k.recognize(word, featurelog)
-	success = False
-	for feat in featurelog.features:
-		if "SUCCESS" in feat:
-			success = True
-			feat.remove("SUCCESS")
-			return " ".join(feat[::-1])
+	baseform,pos,otherfeatures = get_base_pos_gloss_memoized(k, word)
+	if baseform == None or pos == None or otherfeatures == None:
+		return
+	return "BASE:" + baseform + " POS:" + pos + " " + " ".join(otherfeatures)
 
-def segmentsentence(sentence):
+def segmentsentence(k, sentence):
 	possiblewords = []
-	k = KimmoRuleSet.load('japanese.yaml')
 	for length in range(1, min(len(sentence)+1, 10)):
 		for offset in range(0, len(sentence)-length+1):
 			fragment = sentence[offset:offset+length]
-			featurelog = TextTrace(0)
-			result = k.recognize(fragment, featurelog)
-			if len(result) > 0:
+			if getgloss(k, fragment) != None:
 				possiblewords.append((offset, length))
-
 	possiblesubsets = allsubsets(possiblewords)
 	bestrange = None
 	bestcost = sys.maxint
@@ -74,7 +58,7 @@ def segmentsentence(sentence):
 		if cv == None:
 			continue
 		cost = coveringcost(sentence, cv)
-		if cost < bestcost or (cost == bestcost and len(cv) < len(bestcovering)):
+		if cost < bestcost or (cost == bestcost and len(x) < len(bestrange)):
 			bestcost = cost
 			bestrange = x
 			bestcovering = cv
@@ -82,6 +66,7 @@ def segmentsentence(sentence):
 		return
 	print bestcost
 	print bestrange
+	bestrange.sort()
 	curidx = 0
 	currangeidx = 0
 	glossed = []
@@ -97,11 +82,11 @@ def segmentsentence(sentence):
 		curidx += 1
 	return glossed,bestcost
 
-def analyzeSentence(sentence):
+def analyzeSentence(k, sentence):
 	print "===SENTENCE===" + sentence
 	totalcost = 0
 	for fragment in splitbypunctuation(sentence):
-		gloss,cost = segmentsentence(fragment)
+		gloss,cost = segmentsentence(k, fragment)
 		totalcost += cost
 		for x in gloss:
 			print listtostr(x)
@@ -109,15 +94,16 @@ def analyzeSentence(sentence):
 	return totalcost
 
 def main():
+	k = KimmoRuleSet.load('japanese.yaml')
 	if len(sys.argv) >= 2:
-		analyzeSentence(sys.argv[1].strip().decode("utf-8"))
+		analyzeSentence(k, sys.argv[1].strip().decode("utf-8"))
 	else:
 		senfile = codecs.open('japanese-sentences.txt', encoding='utf-8')
 		for line in senfile:
 			line = line.strip()
 			if line == "":
 				continue
-			analyzeSentence(line)
+			analyzeSentence(k, line)
 
 if __name__ == "__main__":
 	main()

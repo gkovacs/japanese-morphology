@@ -6,44 +6,27 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 import codecs
 from kimmo import *
+from wordglossing import *
 
 sargs = sys.argv[:]
 wordcorpusfn = 'japanese-words.txt'
 if "corpus" in sargs:
 	sargs.remove("corpus")
-	wordcorpusfn = 'corpus/corpus-allwords.txt'
+	wordcorpusfn = 'corpus/corpus-allwords-base-pos.txt'
 passedword = ""
 if len(sargs) > 1:
 	passedword = sargs[1].decode("utf-8")
 
-def listtostr(l):
-	if type(l) == type([]):
-		return "[" + (",".join([listtostr(x) for x in l])) + "]"
-	elif type(l) == type((3,2)):
-		return "(" + ",".join([listtostr(x) for x in l]) + ")"
+def printWordGloss(k, passedword):
+	baseform,pos,otherfeatures = get_base_pos_gloss(k, line)
+	if baseform == None or pos == None or otherfeatures == None:
+		print passedword + " [FAILURE]"
 	else:
-		return l
-
-def recword(k, word):
-	featurelog = TextTrace(0)
-	#print listtostr(k.recognize(word, featurelog)), '<=', word
-	k.recognize(word, featurelog)
-	print word,
-	success = False
-	for feat in featurelog.features:
-		if "SUCCESS" in feat:
-			success = True
-			feat.remove("SUCCESS")
-			print " ".join(feat[::-1]),
-	if not success:
-		print "[FAILURE]"
-	else:
-		print ""
-	#print log
+		print passedword + " BASE:" + baseform + " POS:" + pos + " " + " ".join(otherfeatures)
 
 k = KimmoRuleSet.load('japanese.yaml')
 if passedword != "":
-	recword(k, passedword)
+	printWordGloss(k, passedword)
 	exit(0)
 
 recfile = codecs.open(wordcorpusfn, encoding='utf-8')
@@ -53,7 +36,9 @@ for line in recfile:
 	if line.startswith(';'):
 		print line
 		continue
-	recword(k, line)
+	if " " in line:
+		line = line.split(" ")[0]
+	printWordGloss(k, line)
 
 recfile.close()
 
