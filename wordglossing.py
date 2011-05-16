@@ -60,11 +60,4 @@ def get_base_pos_gloss_memoized(k, word):
 	resmemo2[word] = tmpres
 	return tmpres
 
-def listtostr(l):
-	if type(l) == type([]):
-		return "[" + (",".join([listtostr(x) for x in l])) + "]"
-	elif type(l) == type((3,2)):
-		return "(" + ",".join([listtostr(x) for x in l]) + ")"
-	else:
-		return l
 
