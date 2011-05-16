@@ -25,7 +25,7 @@ def printSuccessRate(inputLines)
 		if total == 0
 			"0 (0%)"
 		else
-			"#{v} (#{(v*100/total)}%)"
+			"#{v} (#{(v*100.0/total).round}%)"
 		end
 	}
 	puts "total w: #{total}"

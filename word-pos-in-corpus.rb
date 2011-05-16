@@ -7,23 +7,27 @@ require 'typelists.rb'
 word = ARGV[0]
 
 posCounts = {}
-partsOfSpeech.each { |pos| posCounts[pos] = 0 }
+partsOfSpeech.each { |pos| posCounts[pos] = {} }
 File.open("corpus/corpus-allwords-base-pos.txt").each { |line|
 	spl = line.split(" ")
-	baseform = spl[1]
-	if baseform != word
+	conjform = spl[0]
+	if conjform != word
 		next
 	end
+	baseform = spl[1]
 	pos = spl[2]
-	posCounts[pos] += 1
-}
-maxcount = 0
-bestpos = ""
-posCounts.each { |pos,count|
-	if count > maxcount
-		bestpos = pos
-		maxcount = count
+	if !posCounts[pos].include?(baseform)
+		posCounts[pos][baseform] = 0
 	end
+	posCounts[pos][baseform] += 1
 }
-puts bestpos
-
+counts = []
+posCounts.each { |pos,bfcount|
+	bfcount.each { |baseform,count|
+		counts.push([count, baseform, pos])
+	}
+}
+counts.sort! {|a,b| b[0] <=> a[0] }
+counts.each { |count, baseform, pos|
+	puts baseform + " " + pos + " " + count.to_s
+}
