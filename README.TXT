@@ -138,9 +138,9 @@ The output of this script for each sentence will be of the form:
 """
 OriginalSentence
 ReferenceWordList
-ExtractedWordList
+GeneratedWordList
 ReferenceWordBoundaries
-ExtractedWordBoundaries
+GeneratedWordBoundaries
 ===STAT SentenceNumber ReferenceNumBoundariesInSentence MissedBoundariesInSentence SuperfluousBoundariesInSentence ~COMPL~
 SentenceNumber of TotalNumberSentences total TotalReferenceNumBoundariesThusFar mis TotalMissedBoundariesThusFar supf TotalSuperfluousBoundariesThusFar
 """
