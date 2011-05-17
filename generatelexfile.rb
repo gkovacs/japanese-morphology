@@ -4,7 +4,7 @@
 $LOAD_PATH << File.join(File.expand_path(File.dirname(__FILE__)), '.')
 require 'typelists.rb'
 
-usedictionary = ARGV.include?("usedictionary")
+usedictionary = ARGV.include?("usedictionary") || ARGV.include?("allwords")
 $reduced = ARGV.include?("reduced")
 
 dictfile = "edict2-common-utf8"

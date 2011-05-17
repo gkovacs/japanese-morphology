@@ -18,7 +18,7 @@ if len(sargs) > 1:
 	passedword = sargs[1].decode("utf-8")
 
 def printWordGloss(k, passedword):
-	baseform,pos,otherfeatures = get_base_pos_gloss(k, line)
+	baseform,pos,otherfeatures = get_base_pos_gloss(k, passedword)
 	if baseform == None or pos == None or otherfeatures == None:
 		print passedword + " [FAILURE]"
 	else:

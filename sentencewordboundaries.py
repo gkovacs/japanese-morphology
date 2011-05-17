@@ -17,7 +17,7 @@ def main():
 		print listtostr(words)
 		print sorted(list(wordboundaries(words, passedsen)))
 	else:
-		senfile = codecs.open('corpus/extracted-raw-corpus.txt', encoding='utf-8')
+		senfile = codecs.open('corpus/extracted-corpus-prefixsuffixmerged.txt', encoding='utf-8')
 		sentw = sentences_and_words(senfile.readlines())
 		totalB = 0
 		superfluousB = 0
@@ -41,7 +41,7 @@ def main():
 			for x in myboundaries:
 				if x not in refboundaries:
 					superfluousL += 1
-			print "===STAT", i, totalL, missingL, superfluousL
+			print "===STAT", str(i).rjust(4, "0"), totalL, missingL, superfluousL, "~COMPL~"
 			totalB += totalL
 			missingB += missingL
 			superfluousB += superfluousL
