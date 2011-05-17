@@ -47,15 +47,15 @@ For a list of words that exhibit the various conjugation forms and morphological
 
 == Using sentencetest.py ==
 
-Pass a sentence (ex: 昨日はすごく寒かったので、私たちは学校へ行けなかった。) as the argument to sentencetest.py, and the list of words and morphological information for each word will be output. To assist in your understanding of the gloss, the "potential" feature shown here indicates one's ability to perform an action - thus 行けなかった means "was unable to go". Also note that adjectives can be conjugated in Japanese - in this case 寒かった is the past tense form of the i adjective 寒い (it is classified as an IAdjective because there is another class, the na-adjective, as well as a rather rare class called the taru-adjective which are used and conjugate differently). Therefore, this sentence means "Because it was terribly cold yesterday, we were unable to go to school". The "COST" line on the bottom indicates the number of non-punctuation characters which couldn't be covered by words - in this case, all non-puncutation characters were accounted for, so the cost is 0.
+Pass a sentence (ex: 昨日はとても寒かったので、私たちは学校へ行けなかった。) as the argument to sentencetest.py, and the list of words and morphological information for each word will be output. To assist in your understanding of the gloss, the "potential" feature shown here indicates one's ability to perform an action - thus 行けなかった means "was unable to go". Also note that adjectives can be conjugated in Japanese - in this case 寒かった is the past tense form of the i adjective 寒い (it is classified as an IAdjective because there is another class, the na-adjective, as well as a rather rare class called the taru-adjective which are used and conjugate differently). Therefore, this sentence means "Because it was very cold yesterday, we were unable to go to school". The "COST" line on the bottom indicates the number of non-punctuation characters which couldn't be covered by words - in this case, all non-puncutation characters were accounted for, so the cost is 0.
 
 '''
-./sentencetest.py 昨日はすごく寒かったので、私たちは学校へ行けなかった。
+昨日はとても寒かったので、私たちは学校へ行けなかった。
 [Output]
-===SENTENCE===昨日はすごく寒かったので、私たちは学校へ行けなかった。
+===SENTENCE===昨日はとても寒かったので、私たちは学校へ行けなかった。
 (昨日,BASE:昨日 POS:Noun DEF:yesterday)
 (は,BASE:は POS:Particle DEF:topic marker particle)
-(すごく,BASE:すごい POS:IAdjective DEF:terrible)
+(とても,BASE:とても POS:Adverb DEF:very)
 (寒かった,BASE:寒い POS:IAdjective DEF:cold past)
 (ので,BASE:ので POS:Particle DEF:that being the case)
 (私たち,BASE:私 POS:Noun DEF:I and others)
